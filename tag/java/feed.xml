@@ -2,10 +2,10 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom" >
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
-  <link href="https://jeongjinhooo.github.io/tag/jekyll/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="https://jeongjinhooo.github.io/tag/java/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://jeongjinhooo.github.io/" rel="alternate" type="text/html" />
-  <updated>2022-04-22T17:50:40+09:00</updated>
-  <id>https://jeongjinhooo.github.io/tag/jekyll/feed.xml</id>
+  <updated>2022-04-22T18:09:39+09:00</updated>
+  <id>https://jeongjinhooo.github.io/tag/java/feed.xml</id>
 
   
   
@@ -32,12 +32,12 @@
 
   
     <entry>
-      <title type="html">Jekyll 강좌(1) - jekyll 기본</title>
-      <link href="https://jeongjinhooo.github.io/jekyll-basic" rel="alternate" type="text/html" title="Jekyll 강좌(1) - jekyll 기본" />
+      <title type="html">JAVA 웹을 다루는 기술</title>
+      <link href="https://jeongjinhooo.github.io/jekyll-basic" rel="alternate" type="text/html" title="JAVA 웹을 다루는 기술" />
       <published>2022-04-22T01:40:00+09:00</published>
       <updated>2022-04-22T01:40:00+09:00</updated>
       <id>https://jeongjinhooo.github.io/jekyll-basic</id>
-      <content type="html" xml:base="https://jeongjinhooo.github.io/jekyll-basic">&lt;p&gt;이 글은 지킬폴더 테스트&lt;/p&gt;</content>
+      <content type="html" xml:base="https://jeongjinhooo.github.io/jekyll-basic">&lt;p&gt;이 글은 자바폴더 테스트&lt;/p&gt;</content>
 
       
       
@@ -54,11 +54,11 @@
       
 
       
-        <category term="jekyll" />
+        <category term="java" />
       
 
       
-        <summary type="html">이 글은 지킬폴더 테스트</summary>
+        <summary type="html">이 글은 자바폴더 테스트</summary>
       
 
       
