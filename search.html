@@ -11,7 +11,7 @@
 
 
 
-    <title>About</title>
+    <title>Search Result</title>
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Styles'n'Scripts -->
@@ -47,31 +47,28 @@
     <!-- This tag outputs SEO meta+structured data and other important settings -->
     <meta name="description" content="개발공부블로그" />
     <link rel="shortcut icon" href="https://Jeongjinhooo.github.io/assets/built/images/favicon.png" type="image/png" />
-    <link rel="canonical" href="https://Jeongjinhooo.github.io/about/" />
+    <link rel="canonical" href="https://Jeongjinhooo.github.io/search" />
     <meta name="referrer" content="no-referrer-when-downgrade" />
 
      <!--title below is coming from _includes/dynamic_title-->
     <meta property="og:site_name" content="Jinhonote" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="About" />
-    <meta property="og:description" content="테스트입니다요" />
-    <meta property="og:url" content="https://Jeongjinhooo.github.io/about/" />
+    <meta property="og:title" content="Search Result" />
+    <meta property="og:description" content="개발공부블로그" />
+    <meta property="og:url" content="https://Jeongjinhooo.github.io/search" />
     <meta property="og:image" content="https://Jeongjinhooo.github.io/assets/built/images/blog-cover1.jpg" />
     <meta property="article:publisher" content="https://www.facebook.com/" />
-    <meta property="article:author" content="https://www.facebook.com/" />
-    <meta property="article:published_time" content="" />
-    <meta property="article:modified_time" content="" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="About" />
-    <meta name="twitter:description" content="테스트입니다요" />
+    <meta name="twitter:title" content="Search Result" />
+    <meta name="twitter:description" content="개발공부블로그" />
     <meta name="twitter:url" content="https://Jeongjinhooo.github.io/" />
     <meta name="twitter:image" content="https://Jeongjinhooo.github.io/assets/built/images/blog-cover1.jpg" />
     <meta name="twitter:label1" content="Written by" />
     <meta name="twitter:data1" content="Jinhonote" />
     <meta name="twitter:site" content="@" />
     <meta name="twitter:creator" content="@" />
-    <meta property="og:image:width" content="1400" />
-    <meta property="og:image:height" content="933" />
+    <meta property="og:image:width" content="2000" />
+    <meta property="og:image:height" content="666" />
 
     <script type="application/ld+json">
 {
@@ -82,7 +79,7 @@
         "name": "Jinhonote",
         "logo": "https://Jeongjinhooo.github.io/"
     },
-    "url": "https://Jeongjinhooo.github.io/about/",
+    "url": "https://Jeongjinhooo.github.io/search",
     "image": {
         "@type": "ImageObject",
         "url": "https://Jeongjinhooo.github.io/assets/built/images/blog-cover1.jpg",
@@ -91,9 +88,9 @@
     },
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://Jeongjinhooo.github.io/about/"
+        "@id": "https://Jeongjinhooo.github.io/search"
     },
-    "description": "테스트입니다요"
+    "description": "개발공부블로그"
 }
     </script>
 
@@ -106,7 +103,7 @@
     </script> -->
 
     <meta name="generator" content="Jekyll 3.6.2" />
-    <link rel="alternate" type="application/rss+xml" title="About" href="/feed.xml" />
+    <link rel="alternate" type="application/rss+xml" title="Search Result" href="/feed.xml" />
 
 
 </head>
@@ -166,14 +163,62 @@ into the {body} of the default.hbs template -->
         <article class="post-full  post page no-image">
 
             <header class="post-full-header">
-                <h1 class="post-full-title">About</h1>
+                <h1 class="post-full-title">Search Result</h1>
             </header>
 
             
 
             <section class="post-full-content">
-                <p>테스트입니다요</p>
+                <form action="/search" method="get" hidden="hidden">
+    <label for="search-box"></label>
+    <input type="text" id="search-box" name="query">
+</form>
 
+<ul class="mylist" id="search-results"></ul>
+
+<script>
+    window.store = {
+    
+    "python-control-statement": {
+        "title": "Python 강좌(2) - Python 제어문",
+            "author": "Jinho1",
+            "category": "",
+            "content": "Python 강좌는 여러 절로 구성되어 있습니다.     Python 강좌(1) - Python 기본    Python 강좌(2) - Python 제어문두번째 테스트",
+        "url": "/python-control-statement"
+    }
+    ,
+    
+    "python-basic": {
+        "title": "Python 강좌(1) - Python 기본",
+            "author": "Jinho1",
+            "category": "",
+            "content": "Python 강좌는 여러 절로 구성되어 있습니다.     Python 강좌(1) - Python 기본    Python 강좌(2) - Python 제어문이 글은 파이썬폴더 테스트function syntaxHighlight(code) {   var foo = 'Hello World';   var bar = 100;}",
+        "url": "/python-basic"
+    }
+    ,
+    
+    "jekyll-basic": {
+        "title": "Jekyll 강좌(1) - jekyll 기본",
+            "author": "Jinho1",
+            "category": "",
+            "content": "이 글은 지킬폴더 테스트",
+        "url": "/jekyll-basic"
+    }
+    ,
+    
+    "gettysburg-address": {
+        "title": "Gettysburg Address",
+            "author": "abraham",
+            "category": "",
+            "content": "Fourscore and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.Now we are engaged in a great civil war, testing whether that nation, or any nation so conceived and so dedicated, can long endure. We are met on a great battle-field of that war. We have come to dedicate a portion of that field, as a final resting place for those who here gave their lives that that nation might live. It is altogether fitting and proper that we should do this.But, in a larger sense, we can not dedicate-we can not consecrate-we can not hallow-this ground. The brave men, living and dead, who struggled here, have consecrated it, far above our poor power to add or detract. The world will little note, nor long remember what we say here, but it can never forget what they did here. It is for us the living, rather, to be dedicated here to the unfinished work which they who fought here have thus far so nobly advanced. It is rather for us to be here dedicated to the great task remaining before us-that from these honored dead we take increased devotion to that cause for which they gave the last full measure of devotion-that we here highly resolve that these dead shall not have died in vain-that this nation, under God, shall have a new birth of freedom-and that government of the people, by the people, for the people shall not perish from the earth.",
+        "url": "/gettysburg-address"
+    }
+    
+    
+    };
+</script>
+<script src="assets/js/lunr.js"></script>
+<script src="assets/js/search.js"></script>
             </section>
 
         </article>
