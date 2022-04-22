@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
+  <link href="https://jeongjinhooo.github.io/tag/jekyll/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="https://jeongjinhooo.github.io/" rel="alternate" type="text/html" />
+  <updated>2022-04-22T16:50:23+09:00</updated>
+  <id>https://jeongjinhooo.github.io/tag/jekyll/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">Jinhonote | </title>
+  
+
+  
+    <subtitle>개발공부블로그</subtitle>
+  
+
+  
+
+  
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">Jekyll 강좌(1) - jekyll 기본</title>
+      <link href="https://jeongjinhooo.github.io/jekyll-basic" rel="alternate" type="text/html" title="Jekyll 강좌(1) - jekyll 기본" />
+      <published>2022-04-22T01:40:00+09:00</published>
+      <updated>2022-04-22T01:40:00+09:00</updated>
+      <id>https://jeongjinhooo.github.io/jekyll-basic</id>
+      <content type="html" xml:base="https://jeongjinhooo.github.io/jekyll-basic">&lt;p&gt;이 글은 지킬폴더 테스트&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Jinho1</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="jekyll" />
+      
+
+      
+        <summary type="html">이 글은 지킬폴더 테스트</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>

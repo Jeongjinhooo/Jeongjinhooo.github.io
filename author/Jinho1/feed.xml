@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
+  <link href="https://jeongjinhooo.github.io/author/Jinho1/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="https://jeongjinhooo.github.io/" rel="alternate" type="text/html" />
+  <updated>2022-04-22T16:50:23+09:00</updated>
+  <id>https://jeongjinhooo.github.io/author/Jinho1/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">Jinhonote | </title>
+  
+
+  
+    <subtitle>개발공부블로그</subtitle>
+  
+
+  
+
+  
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">Python 강좌(1) - Python 기본</title>
+      <link href="https://jeongjinhooo.github.io/python-basic" rel="alternate" type="text/html" title="Python 강좌(1) - Python 기본" />
+      <published>2022-04-22T01:40:00+09:00</published>
+      <updated>2022-04-22T01:40:00+09:00</updated>
+      <id>https://jeongjinhooo.github.io/python-basic</id>
+      <content type="html" xml:base="https://jeongjinhooo.github.io/python-basic">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python 강좌는 여러 절로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic&quot;&gt;Python 강좌(1) - Python 기본&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-control-statement&quot;&gt;Python 강좌(2) - Python 제어문&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;이 글은 파이썬폴더 테스트&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Jinho1</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="python" />
+      
+
+      
+        <summary type="html">Python 강좌는 여러 절로 구성되어 있습니다. Python 강좌(1) - Python 기본 Python 강좌(2) - Python 제어문</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Python 강좌(2) - Python 제어문</title>
+      <link href="https://jeongjinhooo.github.io/python-control-statement" rel="alternate" type="text/html" title="Python 강좌(2) - Python 제어문" />
+      <published>2022-04-22T01:40:00+09:00</published>
+      <updated>2022-04-22T01:40:00+09:00</updated>
+      <id>https://jeongjinhooo.github.io/python-control-statement</id>
+      <content type="html" xml:base="https://jeongjinhooo.github.io/python-control-statement">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python 강좌는 여러 절로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic&quot;&gt;Python 강좌(1) - Python 기본&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-control-statement&quot;&gt;Python 강좌(2) - Python 제어문&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;두번째 테스트&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Jinho1</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="python" />
+      
+
+      
+        <summary type="html">Python 강좌는 여러 절로 구성되어 있습니다. Python 강좌(1) - Python 기본 Python 강좌(2) - Python 제어문</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Jekyll 강좌(1) - jekyll 기본</title>
+      <link href="https://jeongjinhooo.github.io/jekyll-basic" rel="alternate" type="text/html" title="Jekyll 강좌(1) - jekyll 기본" />
+      <published>2022-04-22T01:40:00+09:00</published>
+      <updated>2022-04-22T01:40:00+09:00</updated>
+      <id>https://jeongjinhooo.github.io/jekyll-basic</id>
+      <content type="html" xml:base="https://jeongjinhooo.github.io/jekyll-basic">&lt;p&gt;이 글은 지킬폴더 테스트&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Jinho1</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="jekyll" />
+      
+
+      
+        <summary type="html">이 글은 지킬폴더 테스트</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>
