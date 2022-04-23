@@ -46,15 +46,16 @@
     
       
       <item>
-        <title>JAVA 웹을 다루는 기술</title>
+        <title>JAVA 웹을 다루는 기술 - 4장</title>
         
-          <description>&lt;p&gt;이 글은 자바폴더 테스트&lt;/p&gt;
+          <description>&lt;h4 id=&quot;웹-애플리케이션-정의&quot;&gt;웹 애플리케이션 정의&lt;/h4&gt;
+
 </description>
         
         <pubDate>Fri, 22 Apr 2022 01:40:00 +0900</pubDate>
         <link>
-        https://Jeongjinhooo.github.io/jekyll-basic</link>
-        <guid isPermaLink="true">https://Jeongjinhooo.github.io/jekyll-basic</guid>
+        https://Jeongjinhooo.github.io/java-basic</link>
+        <guid isPermaLink="true">https://Jeongjinhooo.github.io/java-basic</guid>
       </item>
       
     

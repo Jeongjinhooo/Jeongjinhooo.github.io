@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://jeongjinhooo.github.io/author/Jinho1/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://jeongjinhooo.github.io/" rel="alternate" type="text/html" />
-  <updated>2022-04-22T18:09:39+09:00</updated>
+  <updated>2022-04-24T00:25:40+09:00</updated>
   <id>https://jeongjinhooo.github.io/author/Jinho1/feed.xml</id>
 
   
@@ -117,12 +117,58 @@
     </entry>
   
     <entry>
-      <title type="html">JAVA 웹을 다루는 기술</title>
-      <link href="https://jeongjinhooo.github.io/jekyll-basic" rel="alternate" type="text/html" title="JAVA 웹을 다루는 기술" />
+      <title type="html">JAVA 웹을 다루는 기술 - 4장</title>
+      <link href="https://jeongjinhooo.github.io/java-basic" rel="alternate" type="text/html" title="JAVA 웹을 다루는 기술 - 4장" />
       <published>2022-04-22T01:40:00+09:00</published>
       <updated>2022-04-22T01:40:00+09:00</updated>
-      <id>https://jeongjinhooo.github.io/jekyll-basic</id>
-      <content type="html" xml:base="https://jeongjinhooo.github.io/jekyll-basic">&lt;p&gt;이 글은 자바폴더 테스트&lt;/p&gt;</content>
+      <id>https://jeongjinhooo.github.io/java-basic</id>
+      <content type="html" xml:base="https://jeongjinhooo.github.io/java-basic">&lt;h4 id=&quot;웹-애플리케이션-정의&quot;&gt;웹 애플리케이션 정의&lt;/h4&gt;
+
+&lt;p&gt;&lt;br /&gt;기존의 정적 웹 애플리케이션 기능을 그대로 사용하면서 서블릿, JSP, 자바 클래스들을 추가하여 사용자에게 동적인 서비스를 제공하는 프로그램&lt;/p&gt;
+
+&lt;h4 id=&quot;웹-애플리케이션-기본-구조&quot;&gt;웹 애플리케이션 기본 구조&lt;/h4&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;웹 애플리케이션 이름
+        │
+        └─────── WEB-INF
+                   │
+                   ├─────── classes
+                   │
+                   ├─────── lib 
+                   │
+                   └─────── web.xml
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h4 id=&quot;웹-애플리케이션-구성-요소의-기능&quot;&gt;웹 애플리케이션 구성 요소의 기능&lt;/h4&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h6 id=&quot;webshop&quot;&gt;webShop&lt;/h6&gt;
+&lt;ul&gt;
+  &lt;li&gt;웹 애플리케이션의 루트 디렉터리, 다른 웹 애플리케이션 이름과 중복 허용 X&lt;/li&gt;
+  &lt;li&gt;JSP HTML 파일이 저장된다&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id=&quot;web-inf&quot;&gt;WEB-INF&lt;/h6&gt;
+&lt;ul&gt;
+  &lt;li&gt;웹 애플리케이션에 관한 정보가 저장되는 곳. 이 디릭터리는 외부에서 접근할 수 없다&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id=&quot;classes&quot;&gt;classes&lt;/h6&gt;
+&lt;ul&gt;
+  &lt;li&gt;웹 애플리케이션이 수행하는 서블릿과 다른 일반 클래스들이 위치하는 곳&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id=&quot;lib&quot;&gt;lib&lt;/h6&gt;
+&lt;ul&gt;
+  &lt;li&gt;웹 애플리케이션에서 사용되는 여러 가지 라이브러리 압축파일(jar파일)이 저장되는 곳&lt;/li&gt;
+  &lt;li&gt;DB 연동 드라이버나 프레임워크 기능 관련 jar 파일이 여기에 저장&lt;/li&gt;
+  &lt;li&gt;lib 디렉터리의 jar는 클래스 패스가 자동으로 설정된다&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id=&quot;webxml&quot;&gt;web.xml&lt;/h6&gt;
+&lt;ul&gt;
+  &lt;li&gt;배치 지시자로서 일종의 환경 설정 파일&lt;/li&gt;
+  &lt;li&gt;웹 애플리케이션에 대한 여러 가지 설정을 할 때 사용&lt;/li&gt;
+&lt;/ul&gt;</content>
 
       
       
@@ -143,7 +189,7 @@
       
 
       
-        <summary type="html">이 글은 자바폴더 테스트</summary>
+        <summary type="html">웹 애플리케이션 정의</summary>
       
 
       
