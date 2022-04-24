@@ -8,6 +8,28 @@
     
       
       <item>
+        <title>JAVA 웹을 다루는 기술 - 5장</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb4&quot;&gt;JAVA 웹을 다루는 기술 - 4장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb5&quot;&gt;JAVA 웹을 다루는 기술 - 5장&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;p&gt;본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.&lt;/p&gt;
+&lt;hr /&gt;
+
+</description>
+        
+        <pubDate>Fri, 22 Apr 2022 02:00:00 +0900</pubDate>
+        <link>
+        https://Jeongjinhooo.github.io/javaweb5</link>
+        <guid isPermaLink="true">https://Jeongjinhooo.github.io/javaweb5</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>Python 강좌(2) - Python 제어문</title>
         
           <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python 강좌는 여러 절로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
@@ -48,14 +70,23 @@
       <item>
         <title>JAVA 웹을 다루는 기술 - 4장</title>
         
-          <description>&lt;h4 id=&quot;웹-애플리케이션-정의&quot;&gt;웹 애플리케이션 정의&lt;/h4&gt;
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb4&quot;&gt;JAVA 웹을 다루는 기술 - 4장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb5&quot;&gt;JAVA 웹을 다루는 기술 - 5장&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;p&gt;본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;웹-애플리케이션-정의&quot;&gt;웹 애플리케이션 정의&lt;/h4&gt;
 
 </description>
         
         <pubDate>Fri, 22 Apr 2022 01:40:00 +0900</pubDate>
         <link>
-        https://Jeongjinhooo.github.io/java-basic</link>
-        <guid isPermaLink="true">https://Jeongjinhooo.github.io/java-basic</guid>
+        https://Jeongjinhooo.github.io/javaweb4</link>
+        <guid isPermaLink="true">https://Jeongjinhooo.github.io/javaweb4</guid>
       </item>
       
     

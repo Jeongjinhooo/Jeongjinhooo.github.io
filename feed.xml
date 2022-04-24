@@ -1,21 +1,111 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://jeongjinhooo.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jeongjinhooo.github.io/" rel="alternate" type="text/html" /><updated>2022-04-24T14:57:00+09:00</updated><id>https://jeongjinhooo.github.io/feed.xml</id><title type="html">Jinhonote</title><subtitle>개발공부블로그</subtitle><entry><title type="html">Python 강좌(2) - Python 제어문</title><link href="https://jeongjinhooo.github.io/python-control-statement" rel="alternate" type="text/html" title="Python 강좌(2) - Python 제어문" /><published>2022-04-22T01:40:00+09:00</published><updated>2022-04-22T01:40:00+09:00</updated><id>https://jeongjinhooo.github.io/python-control-statement</id><content type="html" xml:base="https://jeongjinhooo.github.io/python-control-statement">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python 강좌는 여러 절로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://jeongjinhooo.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jeongjinhooo.github.io/" rel="alternate" type="text/html" /><updated>2022-04-24T18:34:30+09:00</updated><id>https://jeongjinhooo.github.io/feed.xml</id><title type="html">Jinhonote</title><subtitle>개발공부블로그</subtitle><entry><title type="html">JAVA 웹을 다루는 기술 - 5장</title><link href="https://jeongjinhooo.github.io/javaweb5" rel="alternate" type="text/html" title="JAVA 웹을 다루는 기술 - 5장" /><published>2022-04-22T02:00:00+09:00</published><updated>2022-04-22T02:00:00+09:00</updated><id>https://jeongjinhooo.github.io/javaweb5</id><content type="html" xml:base="https://jeongjinhooo.github.io/javaweb5">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb4&quot;&gt;JAVA 웹을 다루는 기술 - 4장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb5&quot;&gt;JAVA 웹을 다루는 기술 - 5장&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;p&gt;본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;서블릿이란&quot;&gt;서블릿이란?&lt;/h4&gt;
+&lt;p&gt;&lt;br /&gt;
+서버 쪽에서 실행되면서 클라이언트의 요청에 따라 동적으로 서비스를 제공하는 자바 클래스&lt;/p&gt;
+
+&lt;h4 id=&quot;서블릿-특징&quot;&gt;서블릿 특징&lt;/h4&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;서버쪽에서 실행되면서 기능을 수행&lt;/li&gt;
+  &lt;li&gt;기존의 정적인 웹 프로그램의 문제점을 보완하여 동적인 여러 가지 기능을 제공&lt;/li&gt;
+  &lt;li&gt;스레드 방식으로 실행&lt;/li&gt;
+  &lt;li&gt;자바로 만들어져 자바의 특징(객체 지향)을 가짐&lt;/li&gt;
+  &lt;li&gt;컨테이터에서 실행됨&lt;/li&gt;
+  &lt;li&gt;컨테이너 종류에 상관없이 실행됨(플랫폼 독립적)&lt;/li&gt;
+  &lt;li&gt;보안 기능을 적용하기 쉽다&lt;/li&gt;
+  &lt;li&gt;웹 브라우저에서 요청 시 기능을 수행함&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;서블릿-api-기능&quot;&gt;서블릿 API 기능&lt;/h4&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;서블릿 구성요소&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;기능&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Servlet 인터페이스&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;- javax.servlet 패키지에 선언되어 있다&lt;br /&gt;- Servlet 관련 추상 메서드를 선언한다&lt;br /&gt;- init(), service(), destroy(), getServletinfo(), getServletConfig()를 선언한다&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;ServletConfig 인터페이스&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;- javax.servlet 패키지에 선언되어 있다&lt;br /&gt;- Servlet 기능 관련 추상 메서드가 선언되어 있다&lt;br /&gt;- getinitParameter(), getinitParmeterNames(), getServletContext()&lt;br /&gt;,getServletName()이 선언되어 있다&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;GenericServlet 클래스&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;- javax.servlet 패키지에 선언되어 있다&lt;br /&gt;- 상위 두 인터페이스를 구현하여 일반적인 서블릿 기능을 구현한 클래스&lt;br /&gt;- GenericServlet을 상속받아 구현한 사용자 서블릿은 사용되는 프로토콜에 따라 &lt;br /&gt;각각 service()를 오버라이딩해서 구현한다&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;HttpServlet 클래스&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;- javax.servlethttp 패키지에 선언되어 있다&lt;br /&gt;- GenericServlet을 상속받아 HTTP 프로토콜을 사용하는 웹 브라우저에서&lt;br /&gt; 서블릿 기능을 수행한다&lt;br /&gt;- 웹 브라우저 기반 서비스를 제공하는 서블릿을 만들 때 상속받아 사용한다&lt;br /&gt;- 요청 시 service()가 호출되면서 요청 방식에 따라 doGet()이나 doPost()가 &lt;br /&gt;차례대로 호출된다&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h4 id=&quot;서블릿-생명주기live-cycle-메서드&quot;&gt;서블릿 생명주기(Live Cycle) 메서드&lt;/h4&gt;
+&lt;p&gt;&lt;br /&gt;
+서블릿 실행 단계마다 호출되어 기능을 수행하는 콜백 메서드&lt;/p&gt;
+
+&lt;h6 id=&quot;서블릿의-생명주기-메서드기능&quot;&gt;서블릿의 생명주기 메서드기능&lt;/h6&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;생명 주기 단계&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;호출 메서드&lt;/th&gt;
+      &lt;th&gt;기능&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;초기화&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;init&lt;/td&gt;
+      &lt;td&gt;- 서블릿 요청 시 맨 처음 한번만 호출된다&lt;br /&gt;- 서블릿 생성 시 초기화 작업을 주로 수행한다&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;작업 수행&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;doGet()&lt;br /&gt;doPost()&lt;/td&gt;
+      &lt;td&gt;- 서블릿 요청 시 매번 호출된다&lt;br /&gt;- 실제로 클라이언트가 요청하는 작업을 수행&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;종료&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;destory()&lt;/td&gt;
+      &lt;td&gt;- 서블릿이 기능을 수행하고 메모리에서 소멸될 때 호출된다&lt;br /&gt;- 서블릿의 마무리 작업을 주로 수행한다&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h4 id=&quot;서블릿-생성-과정&quot;&gt;서블릿 생성 과정&lt;/h4&gt;
+&lt;p&gt;&lt;br /&gt;
+사용자 정의 서블릿 클래스 만들기 -&amp;gt; 서블릿 생명주기 메서드 구현 -&amp;gt; 서블릿 매핑 작업&lt;br /&gt;-&amp;gt; 웹 브라우저에서 서블릿 매핑 이름으로 요청하기&lt;/p&gt;</content><author><name>Jinho1</name></author><category term="java" /><summary type="html">JAVA 웹을 다루는 기술 - 4장 JAVA 웹을 다루는 기술 - 5장 본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.</summary></entry><entry><title type="html">Python 강좌(2) - Python 제어문</title><link href="https://jeongjinhooo.github.io/python-control-statement" rel="alternate" type="text/html" title="Python 강좌(2) - Python 제어문" /><published>2022-04-22T01:40:00+09:00</published><updated>2022-04-22T01:40:00+09:00</updated><id>https://jeongjinhooo.github.io/python-control-statement</id><content type="html" xml:base="https://jeongjinhooo.github.io/python-control-statement">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python 강좌는 여러 절로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic&quot;&gt;Python 강좌(1) - Python 기본&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-control-statement&quot;&gt;Python 강좌(2) - Python 제어문&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;두번째 테스트&lt;/p&gt;</content><author><name>Jinho1</name></author><category term="python" /><summary type="html">Python 강좌는 여러 절로 구성되어 있습니다. Python 강좌(1) - Python 기본 Python 강좌(2) - Python 제어문</summary></entry><entry><title type="html">Python 강좌(1) - Python 기본</title><link href="https://jeongjinhooo.github.io/python-basic" rel="alternate" type="text/html" title="Python 강좌(1) - Python 기본" /><published>2022-04-22T01:40:00+09:00</published><updated>2022-04-22T01:40:00+09:00</updated><id>https://jeongjinhooo.github.io/python-basic</id><content type="html" xml:base="https://jeongjinhooo.github.io/python-basic">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python 강좌는 여러 절로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;두번째 테스트&lt;/p&gt;</content><author><name>Jinho1</name></author><category term="python" /><summary type="html">Python 강좌는 여러 절로 구성되어 있습니다. Python 강좌(1) - Python 기본 Python 강좌(2) - Python 제어문</summary></entry><entry><title type="html">JAVA 웹을 다루는 기술 - 4장</title><link href="https://jeongjinhooo.github.io/javaweb4" rel="alternate" type="text/html" title="JAVA 웹을 다루는 기술 - 4장" /><published>2022-04-22T01:40:00+09:00</published><updated>2022-04-22T01:40:00+09:00</updated><id>https://jeongjinhooo.github.io/javaweb4</id><content type="html" xml:base="https://jeongjinhooo.github.io/javaweb4">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic&quot;&gt;Python 강좌(1) - Python 기본&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-control-statement&quot;&gt;Python 강좌(2) - Python 제어문&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb4&quot;&gt;JAVA 웹을 다루는 기술 - 4장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb5&quot;&gt;JAVA 웹을 다루는 기술 - 5장&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;hr /&gt;
+&lt;p&gt;본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.&lt;/p&gt;
+&lt;hr /&gt;
 
-&lt;p&gt;이 글은 파이썬폴더 테스트&lt;/p&gt;
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;syntaxHighlight&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;code&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-   &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;foo&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;Hello World&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-   &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;bar&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Jinho1</name></author><category term="python" /><summary type="html">Python 강좌는 여러 절로 구성되어 있습니다. Python 강좌(1) - Python 기본 Python 강좌(2) - Python 제어문</summary></entry><entry><title type="html">JAVA 웹을 다루는 기술 - 4장</title><link href="https://jeongjinhooo.github.io/java-basic" rel="alternate" type="text/html" title="JAVA 웹을 다루는 기술 - 4장" /><published>2022-04-22T01:40:00+09:00</published><updated>2022-04-22T01:40:00+09:00</updated><id>https://jeongjinhooo.github.io/java-basic</id><content type="html" xml:base="https://jeongjinhooo.github.io/java-basic">&lt;h4 id=&quot;웹-애플리케이션-정의&quot;&gt;웹 애플리케이션 정의&lt;/h4&gt;
+&lt;h4 id=&quot;웹-애플리케이션-정의&quot;&gt;웹 애플리케이션 정의&lt;/h4&gt;
 
 &lt;p&gt;&lt;br /&gt;기존의 정적 웹 애플리케이션 기능을 그대로 사용하면서 서블릿, JSP, 자바 클래스들을 추가하여 사용자에게 동적인 서비스를 제공하는 프로그램&lt;/p&gt;
 
@@ -107,7 +197,18 @@
   &lt;li&gt;웹 애플리케이션의 의미를 가장 잘 나타낼 수 있는 명사형으로 지정&lt;/li&gt;
   &lt;li&gt;대소문자 구분&lt;/li&gt;
   &lt;li&gt;server.xml에 등록&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Jinho1</name></author><category term="java" /><summary type="html">웹 애플리케이션 정의</summary></entry><entry><title type="html">Gettysburg Address</title><link href="https://jeongjinhooo.github.io/gettysburg-address" rel="alternate" type="text/html" title="Gettysburg Address" /><published>1863-11-19T19:18:00+09:00</published><updated>1863-11-19T19:18:00+09:00</updated><id>https://jeongjinhooo.github.io/gettysburg-address</id><content type="html" xml:base="https://jeongjinhooo.github.io/gettysburg-address">&lt;p&gt;Fourscore and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.&lt;/p&gt;
+&lt;/ul&gt;</content><author><name>Jinho1</name></author><category term="java" /><summary type="html">JAVA 웹을 다루는 기술 - 4장 JAVA 웹을 다루는 기술 - 5장 본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다. 웹 애플리케이션 정의</summary></entry><entry><title type="html">Python 강좌(1) - Python 기본</title><link href="https://jeongjinhooo.github.io/python-basic" rel="alternate" type="text/html" title="Python 강좌(1) - Python 기본" /><published>2022-04-22T01:40:00+09:00</published><updated>2022-04-22T01:40:00+09:00</updated><id>https://jeongjinhooo.github.io/python-basic</id><content type="html" xml:base="https://jeongjinhooo.github.io/python-basic">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python 강좌는 여러 절로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-basic&quot;&gt;Python 강좌(1) - Python 기본&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./python-control-statement&quot;&gt;Python 강좌(2) - Python 제어문&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;이 글은 파이썬폴더 테스트&lt;/p&gt;
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;syntaxHighlight&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;code&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+   &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;foo&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;Hello World&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+   &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;bar&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Jinho1</name></author><category term="python" /><summary type="html">Python 강좌는 여러 절로 구성되어 있습니다. Python 강좌(1) - Python 기본 Python 강좌(2) - Python 제어문</summary></entry><entry><title type="html">Gettysburg Address</title><link href="https://jeongjinhooo.github.io/gettysburg-address" rel="alternate" type="text/html" title="Gettysburg Address" /><published>1863-11-19T19:18:00+09:00</published><updated>1863-11-19T19:18:00+09:00</updated><id>https://jeongjinhooo.github.io/gettysburg-address</id><content type="html" xml:base="https://jeongjinhooo.github.io/gettysburg-address">&lt;p&gt;Fourscore and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.&lt;/p&gt;
 
 &lt;p&gt;Now we are engaged in a great civil war, testing whether that nation, or any nation so conceived and so dedicated, can long endure. We are met on a great battle-field of that war. We have come to dedicate a portion of that field, as a final resting place for those who here gave their lives that that nation might live. It is altogether fitting and proper that we should do this.&lt;/p&gt;
 
