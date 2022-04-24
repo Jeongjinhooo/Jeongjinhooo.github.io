@@ -54,7 +54,7 @@
     <meta property="og:site_name" content="Jinhonote" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="JAVA 웹을 다루는 기술 - 4장" />
-    <meta property="og:description" content="웹 애플리케이션 정의 기존의 정적 웹 애플리케이션 기능을 그대로 사용하면서 서블릿, JSP, 자바 클래스들을 추가하여 사용자에게 동적인 서비스를 제공하는 프로그램 웹 애플리케이션 기본 구조 웹 애플리케이션 이름 │ └─────── WEB-INF │ ├─────── classes │ ├─────── lib │ └─────── web.xml 웹 애플리케이션 구성 요소의 기능 webShop 웹 애플리케이션의 루트 디렉터리, 다른" />
+    <meta property="og:description" content="웹 애플리케이션 정의 기존의 정적 웹 애플리케이션 기능을 그대로 사용하면서 서블릿, JSP, 자바 클래스들을 추가하여 사용자에게 동적인 서비스를 제공하는 프로그램 웹 애플리케이션 기본 구조 웹 애플리케이션 이름 │ └─────── WEB-INF │ ├─────── classes │ ├─────── lib │ └─────── web.xml 웹 애플리케이션 구성 요소의 기능 구성요소 기능 webShop - 웹 애플리케이션의" />
     <meta property="og:url" content="https://Jeongjinhooo.github.io/java-basic" />
     <meta property="og:image" content="https://Jeongjinhooo.github.io/assets/built/images/java-logo.jpg" />
     <meta property="article:publisher" content="https://www.facebook.com/" />
@@ -64,7 +64,7 @@
     <meta property="article:tag" content="Java" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="JAVA 웹을 다루는 기술 - 4장" />
-    <meta name="twitter:description" content="웹 애플리케이션 정의 기존의 정적 웹 애플리케이션 기능을 그대로 사용하면서 서블릿, JSP, 자바 클래스들을 추가하여 사용자에게 동적인 서비스를 제공하는 프로그램 웹 애플리케이션 기본 구조 웹 애플리케이션 이름 │ └─────── WEB-INF │ ├─────── classes │ ├─────── lib │ └─────── web.xml 웹 애플리케이션 구성 요소의 기능 webShop 웹 애플리케이션의 루트 디렉터리, 다른" />
+    <meta name="twitter:description" content="웹 애플리케이션 정의 기존의 정적 웹 애플리케이션 기능을 그대로 사용하면서 서블릿, JSP, 자바 클래스들을 추가하여 사용자에게 동적인 서비스를 제공하는 프로그램 웹 애플리케이션 기본 구조 웹 애플리케이션 이름 │ └─────── WEB-INF │ ├─────── classes │ ├─────── lib │ └─────── web.xml 웹 애플리케이션 구성 요소의 기능 구성요소 기능 webShop - 웹 애플리케이션의" />
     <meta name="twitter:url" content="https://Jeongjinhooo.github.io/" />
     <meta name="twitter:image" content="https://Jeongjinhooo.github.io/assets/built/images/java-logo.jpg" />
     <meta name="twitter:label1" content="Written by" />
@@ -96,7 +96,7 @@
         "@type": "WebPage",
         "@id": "https://Jeongjinhooo.github.io/java-basic"
     },
-    "description": "웹 애플리케이션 정의 기존의 정적 웹 애플리케이션 기능을 그대로 사용하면서 서블릿, JSP, 자바 클래스들을 추가하여 사용자에게 동적인 서비스를 제공하는 프로그램 웹 애플리케이션 기본 구조 웹 애플리케이션 이름 │ └─────── WEB-INF │ ├─────── classes │ ├─────── lib │ └─────── web.xml 웹 애플리케이션 구성 요소의 기능 webShop 웹 애플리케이션의 루트 디렉터리, 다른"
+    "description": "웹 애플리케이션 정의 기존의 정적 웹 애플리케이션 기능을 그대로 사용하면서 서블릿, JSP, 자바 클래스들을 추가하여 사용자에게 동적인 서비스를 제공하는 프로그램 웹 애플리케이션 기본 구조 웹 애플리케이션 이름 │ └─────── WEB-INF │ ├─────── classes │ ├─────── lib │ └─────── web.xml 웹 애플리케이션 구성 요소의 기능 구성요소 기능 webShop - 웹 애플리케이션의"
 }
     </script>
 
@@ -209,33 +209,79 @@ into the {body} of the default.hbs template -->
 <p><br /></p>
 <h4 id="웹-애플리케이션-구성-요소의-기능">웹 애플리케이션 구성 요소의 기능</h4>
 <p><br /></p>
-<h6 id="webshop">webShop</h6>
-<ul>
-  <li>웹 애플리케이션의 루트 디렉터리, 다른 웹 애플리케이션 이름과 중복 허용 X</li>
-  <li>JSP HTML 파일이 저장된다</li>
-</ul>
 
-<h6 id="web-inf">WEB-INF</h6>
-<ul>
-  <li>웹 애플리케이션에 관한 정보가 저장되는 곳. 이 디릭터리는 외부에서 접근할 수 없다</li>
-</ul>
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">구성요소</th>
+      <th style="text-align: left">기능</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">webShop</td>
+      <td style="text-align: left">- 웹 애플리케이션의 루트 디렉터리, 다른 웹 애플리케이션 이름과 중복 허용 X <br />- JSP HTML 파일이 저장된다</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">WEB-INF</td>
+      <td style="text-align: left">- 웹 애플리케이션에 관한 정보가 저장되는 곳. 이 디릭터리는 외부에서 접근할 수 없다</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">classes</td>
+      <td style="text-align: left">- 웹 애플리케이션이 수행하는 서블릿과 다른 일반 클래스들이 위치하는 곳</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">lib</td>
+      <td style="text-align: left">- 웹 애플리케이션에서 사용되는 여러 가지 라이브러리 압축파일(jar파일)이 저장되는 곳<br />- DB 연동 드라이버나 프레임워크 기능 관련 jar 파일이 여기에 저장<br />- lib 디렉터리의 jar는 클래스 패스가 자동으로 설정된다</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">web.xml</td>
+      <td style="text-align: left">- 배치 지시자로서 일종의 환경 설정 파일<br />- 웹 애플리케이션에 대한 여러 가지 설정을 할 때 사용</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">jsp/html</td>
+      <td style="text-align: left">- JSP 파일과 HTML 파일이 저장된 곳</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">css</td>
+      <td style="text-align: left">- 스타일시트 파일이 저장된 곳</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">image</td>
+      <td style="text-align: left">- 웹 애플리케이션에서 사용되는 이미지가 저장된 곳</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">js</td>
+      <td style="text-align: left">- 자바스크립트 파일이 저장된 곳</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">bin</td>
+      <td style="text-align: left">- 애플리케이션에서 사용되는 각종 실행 파일이 저장된 곳</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">conf</td>
+      <td style="text-align: left">- 프레임워크에서 사용하는 각종 설정 파일이 저장된 곳</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">src</td>
+      <td style="text-align: left">- 자바 소스 파일이 저장된 곳</td>
+    </tr>
+  </tbody>
+</table>
 
-<h6 id="classes">classes</h6>
-<ul>
-  <li>웹 애플리케이션이 수행하는 서블릿과 다른 일반 클래스들이 위치하는 곳</li>
-</ul>
+<h4 id="컨텍스트란">컨텍스트란?</h4>
+<p><br />
+톰캣의 server.xml에 등록하는 웹 애플리케이션</p>
 
-<h6 id="lib">lib</h6>
+<h4 id="컨텍스트-특징">컨텍스트 특징</h4>
+<p><br /></p>
 <ul>
-  <li>웹 애플리케이션에서 사용되는 여러 가지 라이브러리 압축파일(jar파일)이 저장되는 곳</li>
-  <li>DB 연동 드라이버나 프레임워크 기능 관련 jar 파일이 여기에 저장</li>
-  <li>lib 디렉터리의 jar는 클래스 패스가 자동으로 설정된다</li>
-</ul>
-
-<h6 id="webxml">web.xml</h6>
-<ul>
-  <li>배치 지시자로서 일종의 환경 설정 파일</li>
-  <li>웹 애플리케이션에 대한 여러 가지 설정을 할 때 사용</li>
+  <li>웹 애플리케이션당 하나의 컨텍스트가 등록</li>
+  <li>웹 애플리케이션 이름과 같을 수도 있고 다를 수도 있음</li>
+  <li>컨텍스트 이름은 중복되면 안됨</li>
+  <li>웹 애플리케이션의 의미를 가장 잘 나타낼 수 있는 명사형으로 지정</li>
+  <li>대소문자 구분</li>
+  <li>server.xml에 등록</li>
 </ul>
 
 
