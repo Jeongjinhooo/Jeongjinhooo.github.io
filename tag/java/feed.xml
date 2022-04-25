@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://jeongjinhooo.github.io/tag/java/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://jeongjinhooo.github.io/" rel="alternate" type="text/html" />
-  <updated>2022-04-25T17:34:37+09:00</updated>
+  <updated>2022-04-25T18:32:48+09:00</updated>
   <id>https://jeongjinhooo.github.io/tag/java/feed.xml</id>
 
   
@@ -92,6 +92,79 @@ rediret 방법&lt;/p&gt;
   &lt;li&gt;서블릿이 직접 요청하는 방법&lt;/li&gt;
   &lt;li&gt;RequestDispatcher 클래스의 forward() 메서드를 이용&lt;/li&gt;
   &lt;li&gt;형식 : RequestDispatcher dis=request.getRequestDispatcher(“포워드할 서블릿 또는 JSP”);&lt;br /&gt;dis.forward(request,response);&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;바인딩이란&quot;&gt;바인딩이란?&lt;/h4&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;웹 프로그램 실행 시 자원(데이터)를 서블릿 관련 객체에 저장하는 방법&lt;/li&gt;
+  &lt;li&gt;주로 HttpServletRequest, HttpSession, ServlegtContext 객체에서 사용&lt;/li&gt;
+  &lt;li&gt;저장된 자원은 프로그램 실행 시 서블릿이나 JSP에서 공유해서 사용&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id=&quot;서블릿-객체에서-사용되는-바인딩-관련-메서드&quot;&gt;서블릿 객체에서 사용되는 바인딩 관련 메서드&lt;/h6&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;관련 메서드&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;기능&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;setAttribute(String name,Object obj)&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;자원(데이터)을 각 객체에 바인딩한다&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;getAttributue(String name)&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;각 객체에 바인딩된 자원(데이터)을 name으로 가져온다&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;removeAttributue(String move)&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;각 객체에 바인딩된 자원(데이터)을 name으로 제거한다&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h4 id=&quot;servletcontext-클래스&quot;&gt;ServletContext 클래스&lt;/h4&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h6 id=&quot;servletcontext-특징&quot;&gt;ServletContext 특징&lt;/h6&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;javax.servlet.ServletContext로 정의&lt;/li&gt;
+  &lt;li&gt;서블릿과 컨테이너 간의 연동을 위해 사용&lt;/li&gt;
+  &lt;li&gt;컨텍스트(웹 애플리케인션)마다 하나의 ServletContext가 생성됨&lt;/li&gt;
+  &lt;li&gt;서블릿끼리 자원(데이터)을 공유하는 데 사용됨&lt;/li&gt;
+  &lt;li&gt;컨테이너 실행 시 생성되고 컨테이너 종료 시 소멸됨
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id=&quot;servletcontext가-제공하는-기능&quot;&gt;ServletContext가 제공하는 기능&lt;/h6&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;서블릿에서 파일 접근 기능&lt;/li&gt;
+  &lt;li&gt;자원 바인딩 기능&lt;/li&gt;
+  &lt;li&gt;로그 파일 기능&lt;/li&gt;
+  &lt;li&gt;컨텍스트에서 제공하는 설정 정보 제공기능&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;servletconfig&quot;&gt;ServletConfig&lt;/h4&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;ServletContext 객체를 얻는 기능&lt;/li&gt;
+  &lt;li&gt;서블릿에 대한 초기화 작업 기능&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;load-on-srartup-특징&quot;&gt;load-on-srartup 특징&lt;/h4&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;톰캣 컨테이너가 실행되면서 미리 서블릿을 실행함&lt;/li&gt;
+  &lt;li&gt;지정한 숫자가 0보다 크면 톰캣 컨테이너가 실행되면서 서블릿이 초기화함&lt;/li&gt;
+  &lt;li&gt;지정한 숫자는 우선순위를 의미하며 작은 숫자부터 먼저 초기화됨&lt;/li&gt;
+  &lt;li&gt;애너테이션으로 설정하는 방법과 web.xml에 설정하는 방법이 있음&lt;/li&gt;
 &lt;/ul&gt;</content>
 
       
