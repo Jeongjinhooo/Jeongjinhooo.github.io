@@ -254,6 +254,86 @@ into the {body} of the default.hbs template -->
 <p><br />
 미리 JSP를 컴파일함으로써 요청 시 바로 처리할 수 있다. 실제 서비스를 제공할 때 사용하면 좋은 기능</p>
 
+<h4 id="jsp-내장-객체">JSP 내장 객체</h4>
+<p><br /></p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">내장 객체</th>
+      <th style="text-align: left">서블릿 타입</th>
+      <th style="text-align: left">설명</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">request</td>
+      <td style="text-align: left">javax.servlet.http.HttpServletRequest</td>
+      <td style="text-align: left">클라이언트의 요청 정보 저장</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">response</td>
+      <td style="text-align: left">javax.servlet.http.HttpServletResponse</td>
+      <td style="text-align: left">응답 정보 저장</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">out</td>
+      <td style="text-align: left">javax.servlet.jsp.JspWriter</td>
+      <td style="text-align: left">JSP 페이지에서 결과 출력</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">session</td>
+      <td style="text-align: left">javax.servlet.http.HttpSession</td>
+      <td style="text-align: left">세션 정보 저장</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">application</td>
+      <td style="text-align: left">javax.servlet.ServletContext</td>
+      <td style="text-align: left">컨텍스트 정보 저장</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">pageContext</td>
+      <td style="text-align: left">javax.servlet.jsp.PageContext</td>
+      <td style="text-align: left">JSP 페이지에 대한 정보 저장</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">page</td>
+      <td style="text-align: left">java.lang.Object</td>
+      <td style="text-align: left">JSP 페이지의 서블릿 인스턴스 저장</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">config</td>
+      <td style="text-align: left">javax.servlet.ServletConfig</td>
+      <td style="text-align: left">JSP 페이지에 대한 설정 정보 저장</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">exception</td>
+      <td style="text-align: left">javax.lang.Exception</td>
+      <td style="text-align: left">예외 발생 시  예외 처리</td>
+    </tr>
+  </tbody>
+</table>
+
+<h6 id="request">request</h6>
+<ul>
+  <li>하나의 http 요청 정보</li>
+  <li>클라이언트로부터 오는 한번의 요청과 관련된 영역으로, 브라우저가 결과를 받으면 요청했던 request 요청했던 request객체는 사라짐</li>
+  <li>하나의 요청 처리하는데 모든 JSP를 포함한다</li>
+</ul>
+
+<h6 id="session">session</h6>
+<ul>
+  <li>하나의 브라우저</li>
+  <li>세션은 하나의 브라우저(Chorome,Internet,Micosoft Edge 등) 내에서만 정보/값 공유한다</li>
+  <li>주로 로그인 정보/상태를 유지할 때 사용</li>
+</ul>
+
+<h6 id="application">application</h6>
+<ul>
+  <li>하나의 웹 애플리케이션</li>
+  <li>애플리케이션은 모든 유저, 모든페이지, 페이지 요청, 세션에 공유될 수 있다</li>
+</ul>
+
                 </div>
             </section>
 
