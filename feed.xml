@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://jeongjinhooo.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jeongjinhooo.github.io/" rel="alternate" type="text/html" /><updated>2022-05-01T21:08:02+09:00</updated><id>https://jeongjinhooo.github.io/feed.xml</id><title type="html">Jinhonote</title><subtitle>개발공부블로그</subtitle><entry><title type="html">JAVA 웹을 다루는 기술 - 13,14장</title><link href="https://jeongjinhooo.github.io/javaweb13" rel="alternate" type="text/html" title="JAVA 웹을 다루는 기술 - 13,14장" /><published>2022-04-30T04:00:00+09:00</published><updated>2022-04-30T04:00:00+09:00</updated><id>https://jeongjinhooo.github.io/javaweb13</id><content type="html" xml:base="https://jeongjinhooo.github.io/javaweb13">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://jeongjinhooo.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jeongjinhooo.github.io/" rel="alternate" type="text/html" /><updated>2022-05-01T22:55:22+09:00</updated><id>https://jeongjinhooo.github.io/feed.xml</id><title type="html">Jinhonote</title><subtitle>개발공부블로그</subtitle><entry><title type="html">JAVA 웹을 다루는 기술 - 13,14장</title><link href="https://jeongjinhooo.github.io/javaweb13" rel="alternate" type="text/html" title="JAVA 웹을 다루는 기술 - 13,14장" /><published>2022-04-30T04:00:00+09:00</published><updated>2022-04-30T04:00:00+09:00</updated><id>https://jeongjinhooo.github.io/javaweb13</id><content type="html" xml:base="https://jeongjinhooo.github.io/javaweb13">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb4&quot;&gt;JAVA 웹을 다루는 기술 - 4장&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb5&quot;&gt;JAVA 웹을 다루는 기술 - 5장&lt;/a&gt;&lt;/li&gt;
@@ -8,6 +8,7 @@
     &lt;li&gt;&lt;a href=&quot;./javaweb10&quot;&gt;JAVA 웹을 다루는 기술 - 10장&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb10&quot;&gt;JAVA 웹을 다루는 기술 - 11,12장&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb10&quot;&gt;JAVA 웹을 다루는 기술 - 13,14장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb10&quot;&gt;JAVA 웹을 다루는 기술 - 17장&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
 &lt;p&gt;본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.&lt;/p&gt;
@@ -108,7 +109,7 @@
 &amp;lt;%@ taglib prefix=”c” uri=”http://java.sun.com/jsp/jstl/core” %&amp;gt;&lt;/p&gt;
 
 &lt;h4 id=&quot;포매팅-태그-라이브러리&quot;&gt;포매팅 태그 라이브러리&lt;/h4&gt;
-&lt;p&gt;JSP 페이지에서 가격, 날짜, 문자열을 원하는 형식으로 표시할 수 있음&lt;/p&gt;</content><author><name>Jinho1</name></author><category term="java" /><summary type="html">JAVA 웹을 다루는 기술 - 4장 JAVA 웹을 다루는 기술 - 5장 JAVA 웹을 다루는 기술 - 6,7장 JAVA 웹을 다루는 기술 - 8장 JAVA 웹을 다루는 기술 - 9장 JAVA 웹을 다루는 기술 - 10장 JAVA 웹을 다루는 기술 - 11,12장 JAVA 웹을 다루는 기술 - 13,14장 본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.</summary></entry><entry><title type="html">JAVA 웹을 다루는 기술 - 11, 12장</title><link href="https://jeongjinhooo.github.io/javaweb11" rel="alternate" type="text/html" title="JAVA 웹을 다루는 기술 - 11, 12장" /><published>2022-04-27T04:00:00+09:00</published><updated>2022-04-27T04:00:00+09:00</updated><id>https://jeongjinhooo.github.io/javaweb11</id><content type="html" xml:base="https://jeongjinhooo.github.io/javaweb11">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;JSP 페이지에서 가격, 날짜, 문자열을 원하는 형식으로 표시할 수 있음&lt;/p&gt;</content><author><name>Jinho1</name></author><category term="java" /><summary type="html">JAVA 웹을 다루는 기술 - 4장 JAVA 웹을 다루는 기술 - 5장 JAVA 웹을 다루는 기술 - 6,7장 JAVA 웹을 다루는 기술 - 8장 JAVA 웹을 다루는 기술 - 9장 JAVA 웹을 다루는 기술 - 10장 JAVA 웹을 다루는 기술 - 11,12장 JAVA 웹을 다루는 기술 - 13,14장 JAVA 웹을 다루는 기술 - 17장 본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.</summary></entry><entry><title type="html">JAVA 웹을 다루는 기술 - 17장</title><link href="https://jeongjinhooo.github.io/javaweb17" rel="alternate" type="text/html" title="JAVA 웹을 다루는 기술 - 17장" /><published>2022-04-30T04:00:00+09:00</published><updated>2022-04-30T04:00:00+09:00</updated><id>https://jeongjinhooo.github.io/javaweb17</id><content type="html" xml:base="https://jeongjinhooo.github.io/javaweb17">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb4&quot;&gt;JAVA 웹을 다루는 기술 - 4장&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb5&quot;&gt;JAVA 웹을 다루는 기술 - 5장&lt;/a&gt;&lt;/li&gt;
@@ -118,6 +119,51 @@
     &lt;li&gt;&lt;a href=&quot;./javaweb10&quot;&gt;JAVA 웹을 다루는 기술 - 10장&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb10&quot;&gt;JAVA 웹을 다루는 기술 - 11,12장&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb10&quot;&gt;JAVA 웹을 다루는 기술 - 13,14장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb10&quot;&gt;JAVA 웹을 다루는 기술 - 17장&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;p&gt;본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;웹-애플리케이션-모델&quot;&gt;웹 애플리케이션 모델&lt;/h4&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h6 id=&quot;모델2-방식&quot;&gt;모델2 방식&lt;/h6&gt;
+&lt;ul&gt;
+  &lt;li&gt;웹 애플리케이션의 각 기능(클라이언트의 요청 처리, 응답 처리, 비즈니스 로직 처리)을 분리해서 구현&lt;/li&gt;
+  &lt;li&gt;객체 지향 프로그래핑에서 각각의 기능을 모듈화해서 개발하자는 원리&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id=&quot;모델2-방식-특징&quot;&gt;모델2 방식 특징&lt;/h6&gt;
+&lt;ul&gt;
+  &lt;li&gt;각 기능이 서로 분리되어 있어 개발 및 유지보수가 쉬움&lt;/li&gt;
+  &lt;li&gt;각 기능(모듈)의 재사용성이 높음&lt;/li&gt;
+  &lt;li&gt;디자이너와 개발자의 작업을 분업화해서 쉽게 개발할 수 있음&lt;/li&gt;
+  &lt;li&gt;모델2 방식과 관련된 기능이나 개념의 학습이 필요&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id=&quot;mvc란&quot;&gt;MVC란?&lt;/h6&gt;
+&lt;ul&gt;
+  &lt;li&gt;Model-ViewController(모델-뷰-컨트롤러)의 약자로, 일반 PC 프로그램 개발에 사용되는 디자인 패턴을 웹 애플리케이션에 도입한 것&lt;/li&gt;
+  &lt;li&gt;즉, 웹 애플리케이션을 화면 부분, 요청 처리 부분, 로직 처리 부분으로 나누어 개발하는 방법&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;mvc-특징&quot;&gt;MVC 특징&lt;/h5&gt;
+&lt;ul&gt;
+  &lt;li&gt;각 기능이 분리되어 있어 개발 및 유지보수가 편리함&lt;/li&gt;
+  &lt;li&gt;각 기능의 재사용성이 높아짐&lt;/li&gt;
+  &lt;li&gt;디자이너와 개발자의 작업을 분업화해서 쉽게 개발할 수 있음&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Jinho1</name></author><category term="java" /><summary type="html">JAVA 웹을 다루는 기술 - 4장 JAVA 웹을 다루는 기술 - 5장 JAVA 웹을 다루는 기술 - 6,7장 JAVA 웹을 다루는 기술 - 8장 JAVA 웹을 다루는 기술 - 9장 JAVA 웹을 다루는 기술 - 10장 JAVA 웹을 다루는 기술 - 11,12장 JAVA 웹을 다루는 기술 - 13,14장 JAVA 웹을 다루는 기술 - 17장 본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.</summary></entry><entry><title type="html">JAVA 웹을 다루는 기술 - 11, 12장</title><link href="https://jeongjinhooo.github.io/javaweb11" rel="alternate" type="text/html" title="JAVA 웹을 다루는 기술 - 11, 12장" /><published>2022-04-27T04:00:00+09:00</published><updated>2022-04-27T04:00:00+09:00</updated><id>https://jeongjinhooo.github.io/javaweb11</id><content type="html" xml:base="https://jeongjinhooo.github.io/javaweb11">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb4&quot;&gt;JAVA 웹을 다루는 기술 - 4장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb5&quot;&gt;JAVA 웹을 다루는 기술 - 5장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb6&quot;&gt;JAVA 웹을 다루는 기술 - 6,7장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb8&quot;&gt;JAVA 웹을 다루는 기술 - 8장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb9&quot;&gt;JAVA 웹을 다루는 기술 - 9장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb10&quot;&gt;JAVA 웹을 다루는 기술 - 10장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb10&quot;&gt;JAVA 웹을 다루는 기술 - 11,12장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb10&quot;&gt;JAVA 웹을 다루는 기술 - 13,14장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb10&quot;&gt;JAVA 웹을 다루는 기술 - 17장&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
 &lt;p&gt;본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.&lt;/p&gt;
@@ -251,7 +297,7 @@
 &lt;ul&gt;
   &lt;li&gt;하나의 웹 애플리케이션&lt;/li&gt;
   &lt;li&gt;애플리케이션은 모든 유저, 모든페이지, 페이지 요청, 세션에 공유될 수 있다&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Jinho1</name></author><category term="java" /><summary type="html">JAVA 웹을 다루는 기술 - 4장 JAVA 웹을 다루는 기술 - 5장 JAVA 웹을 다루는 기술 - 6,7장 JAVA 웹을 다루는 기술 - 8장 JAVA 웹을 다루는 기술 - 9장 JAVA 웹을 다루는 기술 - 10장 JAVA 웹을 다루는 기술 - 11,12장 JAVA 웹을 다루는 기술 - 13,14장 본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.</summary></entry><entry><title type="html">JAVA 웹을 다루는 기술 - 10장</title><link href="https://jeongjinhooo.github.io/javaweb10" rel="alternate" type="text/html" title="JAVA 웹을 다루는 기술 - 10장" /><published>2022-04-26T04:00:00+09:00</published><updated>2022-04-26T04:00:00+09:00</updated><id>https://jeongjinhooo.github.io/javaweb10</id><content type="html" xml:base="https://jeongjinhooo.github.io/javaweb10">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/ul&gt;</content><author><name>Jinho1</name></author><category term="java" /><summary type="html">JAVA 웹을 다루는 기술 - 4장 JAVA 웹을 다루는 기술 - 5장 JAVA 웹을 다루는 기술 - 6,7장 JAVA 웹을 다루는 기술 - 8장 JAVA 웹을 다루는 기술 - 9장 JAVA 웹을 다루는 기술 - 10장 JAVA 웹을 다루는 기술 - 11,12장 JAVA 웹을 다루는 기술 - 13,14장 JAVA 웹을 다루는 기술 - 17장 본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.</summary></entry><entry><title type="html">JAVA 웹을 다루는 기술 - 10장</title><link href="https://jeongjinhooo.github.io/javaweb10" rel="alternate" type="text/html" title="JAVA 웹을 다루는 기술 - 10장" /><published>2022-04-26T04:00:00+09:00</published><updated>2022-04-26T04:00:00+09:00</updated><id>https://jeongjinhooo.github.io/javaweb10</id><content type="html" xml:base="https://jeongjinhooo.github.io/javaweb10">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb4&quot;&gt;JAVA 웹을 다루는 기술 - 4장&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb5&quot;&gt;JAVA 웹을 다루는 기술 - 5장&lt;/a&gt;&lt;/li&gt;
@@ -261,6 +307,7 @@
     &lt;li&gt;&lt;a href=&quot;./javaweb10&quot;&gt;JAVA 웹을 다루는 기술 - 10장&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb10&quot;&gt;JAVA 웹을 다루는 기술 - 11,12장&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb10&quot;&gt;JAVA 웹을 다루는 기술 - 13,14장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb10&quot;&gt;JAVA 웹을 다루는 기술 - 17장&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
 &lt;p&gt;본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.&lt;/p&gt;
@@ -316,7 +363,7 @@
       &lt;li&gt;서비스 시간 측정&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Jinho1</name></author><category term="java" /><summary type="html">JAVA 웹을 다루는 기술 - 4장 JAVA 웹을 다루는 기술 - 5장 JAVA 웹을 다루는 기술 - 6,7장 JAVA 웹을 다루는 기술 - 8장 JAVA 웹을 다루는 기술 - 9장 JAVA 웹을 다루는 기술 - 10장 JAVA 웹을 다루는 기술 - 11,12장 JAVA 웹을 다루는 기술 - 13,14장 본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.</summary></entry><entry><title type="html">JAVA 웹을 다루는 기술 - 9장</title><link href="https://jeongjinhooo.github.io/javaweb9" rel="alternate" type="text/html" title="JAVA 웹을 다루는 기술 - 9장" /><published>2022-04-25T04:00:00+09:00</published><updated>2022-04-25T04:00:00+09:00</updated><id>https://jeongjinhooo.github.io/javaweb9</id><content type="html" xml:base="https://jeongjinhooo.github.io/javaweb9">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/ul&gt;</content><author><name>Jinho1</name></author><category term="java" /><summary type="html">JAVA 웹을 다루는 기술 - 4장 JAVA 웹을 다루는 기술 - 5장 JAVA 웹을 다루는 기술 - 6,7장 JAVA 웹을 다루는 기술 - 8장 JAVA 웹을 다루는 기술 - 9장 JAVA 웹을 다루는 기술 - 10장 JAVA 웹을 다루는 기술 - 11,12장 JAVA 웹을 다루는 기술 - 13,14장 JAVA 웹을 다루는 기술 - 17장 본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.</summary></entry><entry><title type="html">JAVA 웹을 다루는 기술 - 9장</title><link href="https://jeongjinhooo.github.io/javaweb9" rel="alternate" type="text/html" title="JAVA 웹을 다루는 기술 - 9장" /><published>2022-04-25T04:00:00+09:00</published><updated>2022-04-25T04:00:00+09:00</updated><id>https://jeongjinhooo.github.io/javaweb9</id><content type="html" xml:base="https://jeongjinhooo.github.io/javaweb9">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb4&quot;&gt;JAVA 웹을 다루는 기술 - 4장&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb5&quot;&gt;JAVA 웹을 다루는 기술 - 5장&lt;/a&gt;&lt;/li&gt;
@@ -326,6 +373,7 @@
     &lt;li&gt;&lt;a href=&quot;./javaweb10&quot;&gt;JAVA 웹을 다루는 기술 - 10장&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb10&quot;&gt;JAVA 웹을 다루는 기술 - 11,12장&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb10&quot;&gt;JAVA 웹을 다루는 기술 - 13,14장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb10&quot;&gt;JAVA 웹을 다루는 기술 - 17장&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
 &lt;p&gt;본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.&lt;/p&gt;
@@ -414,7 +462,7 @@
   &lt;li&gt;getSession() : 기존의 세션 객체가 존재하면 반환하고, 없으면 새로 생성&lt;/li&gt;
   &lt;li&gt;getSession(true) : 기존의 세션 객체가 존재하면 반환하고, 없으면 새로 생성&lt;/li&gt;
   &lt;li&gt;getSession(false) : 기존의 세션 객체가 존재하면 반환하고, 없으면 null을 반환&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Jinho1</name></author><category term="java" /><summary type="html">JAVA 웹을 다루는 기술 - 4장 JAVA 웹을 다루는 기술 - 5장 JAVA 웹을 다루는 기술 - 6,7장 JAVA 웹을 다루는 기술 - 8장 JAVA 웹을 다루는 기술 - 9장 JAVA 웹을 다루는 기술 - 10장 JAVA 웹을 다루는 기술 - 11,12장 JAVA 웹을 다루는 기술 - 13,14장 본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.</summary></entry><entry><title type="html">JAVA 웹을 다루는 기술 - 8장</title><link href="https://jeongjinhooo.github.io/javaweb8" rel="alternate" type="text/html" title="JAVA 웹을 다루는 기술 - 8장" /><published>2022-04-24T04:00:00+09:00</published><updated>2022-04-24T04:00:00+09:00</updated><id>https://jeongjinhooo.github.io/javaweb8</id><content type="html" xml:base="https://jeongjinhooo.github.io/javaweb8">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/ul&gt;</content><author><name>Jinho1</name></author><category term="java" /><summary type="html">JAVA 웹을 다루는 기술 - 4장 JAVA 웹을 다루는 기술 - 5장 JAVA 웹을 다루는 기술 - 6,7장 JAVA 웹을 다루는 기술 - 8장 JAVA 웹을 다루는 기술 - 9장 JAVA 웹을 다루는 기술 - 10장 JAVA 웹을 다루는 기술 - 11,12장 JAVA 웹을 다루는 기술 - 13,14장 JAVA 웹을 다루는 기술 - 17장 본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.</summary></entry><entry><title type="html">JAVA 웹을 다루는 기술 - 8장</title><link href="https://jeongjinhooo.github.io/javaweb8" rel="alternate" type="text/html" title="JAVA 웹을 다루는 기술 - 8장" /><published>2022-04-24T04:00:00+09:00</published><updated>2022-04-24T04:00:00+09:00</updated><id>https://jeongjinhooo.github.io/javaweb8</id><content type="html" xml:base="https://jeongjinhooo.github.io/javaweb8">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb4&quot;&gt;JAVA 웹을 다루는 기술 - 4장&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb5&quot;&gt;JAVA 웹을 다루는 기술 - 5장&lt;/a&gt;&lt;/li&gt;
@@ -424,6 +472,7 @@
     &lt;li&gt;&lt;a href=&quot;./javaweb10&quot;&gt;JAVA 웹을 다루는 기술 - 10장&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb10&quot;&gt;JAVA 웹을 다루는 기술 - 11,12장&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb10&quot;&gt;JAVA 웹을 다루는 기술 - 13,14장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb10&quot;&gt;JAVA 웹을 다루는 기술 - 17장&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
 &lt;p&gt;본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.&lt;/p&gt;
@@ -546,7 +595,7 @@ rediret 방법&lt;/p&gt;
   &lt;li&gt;지정한 숫자가 0보다 크면 톰캣 컨테이너가 실행되면서 서블릿이 초기화함&lt;/li&gt;
   &lt;li&gt;지정한 숫자는 우선순위를 의미하며 작은 숫자부터 먼저 초기화됨&lt;/li&gt;
   &lt;li&gt;애너테이션으로 설정하는 방법과 web.xml에 설정하는 방법이 있음&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Jinho1</name></author><category term="java" /><summary type="html">JAVA 웹을 다루는 기술 - 4장 JAVA 웹을 다루는 기술 - 5장 JAVA 웹을 다루는 기술 - 6,7장 JAVA 웹을 다루는 기술 - 8장 JAVA 웹을 다루는 기술 - 9장 JAVA 웹을 다루는 기술 - 10장 JAVA 웹을 다루는 기술 - 11,12장 JAVA 웹을 다루는 기술 - 13,14장 본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.</summary></entry><entry><title type="html">JAVA 웹을 다루는 기술 - 6,7장</title><link href="https://jeongjinhooo.github.io/javaweb6" rel="alternate" type="text/html" title="JAVA 웹을 다루는 기술 - 6,7장" /><published>2022-04-24T03:00:00+09:00</published><updated>2022-04-24T03:00:00+09:00</updated><id>https://jeongjinhooo.github.io/javaweb6</id><content type="html" xml:base="https://jeongjinhooo.github.io/javaweb6">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/ul&gt;</content><author><name>Jinho1</name></author><category term="java" /><summary type="html">JAVA 웹을 다루는 기술 - 4장 JAVA 웹을 다루는 기술 - 5장 JAVA 웹을 다루는 기술 - 6,7장 JAVA 웹을 다루는 기술 - 8장 JAVA 웹을 다루는 기술 - 9장 JAVA 웹을 다루는 기술 - 10장 JAVA 웹을 다루는 기술 - 11,12장 JAVA 웹을 다루는 기술 - 13,14장 JAVA 웹을 다루는 기술 - 17장 본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.</summary></entry><entry><title type="html">JAVA 웹을 다루는 기술 - 6,7장</title><link href="https://jeongjinhooo.github.io/javaweb6" rel="alternate" type="text/html" title="JAVA 웹을 다루는 기술 - 6,7장" /><published>2022-04-24T03:00:00+09:00</published><updated>2022-04-24T03:00:00+09:00</updated><id>https://jeongjinhooo.github.io/javaweb6</id><content type="html" xml:base="https://jeongjinhooo.github.io/javaweb6">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb4&quot;&gt;JAVA 웹을 다루는 기술 - 4장&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb5&quot;&gt;JAVA 웹을 다루는 기술 - 5장&lt;/a&gt;&lt;/li&gt;
@@ -556,6 +605,7 @@ rediret 방법&lt;/p&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb10&quot;&gt;JAVA 웹을 다루는 기술 - 10장&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb10&quot;&gt;JAVA 웹을 다루는 기술 - 11,12장&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb10&quot;&gt;JAVA 웹을 다루는 기술 - 13,14장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb10&quot;&gt;JAVA 웹을 다루는 기술 - 17장&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
 &lt;p&gt;본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.&lt;/p&gt;
@@ -601,7 +651,7 @@ rediret 방법&lt;/p&gt;
   &lt;li&gt;웹 브라우저에서 name/value 쌍으로 전송한 후 서블릿에서 getParameter(name)로 값을 가져올 때&lt;/li&gt;
   &lt;li&gt;해시맵(HashMap)이나 해시테이블(HashTable)에 키/값으로 저장한 후 키를 이용해 값을 가져올 때&lt;/li&gt;
   &lt;li&gt;웹 브라우저에서 도메인 네임으로 DNS 서버에 요청할 경우 도메인 네임에 대한 IP 주소를 가져올 때&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Jinho1</name></author><category term="java" /><summary type="html">JAVA 웹을 다루는 기술 - 4장 JAVA 웹을 다루는 기술 - 5장 JAVA 웹을 다루는 기술 - 6,7장 JAVA 웹을 다루는 기술 - 8장 JAVA 웹을 다루는 기술 - 9장 JAVA 웹을 다루는 기술 - 10장 JAVA 웹을 다루는 기술 - 11,12장 JAVA 웹을 다루는 기술 - 13,14장 본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.</summary></entry><entry><title type="html">JAVA 웹을 다루는 기술 - 5장</title><link href="https://jeongjinhooo.github.io/javaweb5" rel="alternate" type="text/html" title="JAVA 웹을 다루는 기술 - 5장" /><published>2022-04-22T02:00:00+09:00</published><updated>2022-04-22T02:00:00+09:00</updated><id>https://jeongjinhooo.github.io/javaweb5</id><content type="html" xml:base="https://jeongjinhooo.github.io/javaweb5">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/ul&gt;</content><author><name>Jinho1</name></author><category term="java" /><summary type="html">JAVA 웹을 다루는 기술 - 4장 JAVA 웹을 다루는 기술 - 5장 JAVA 웹을 다루는 기술 - 6,7장 JAVA 웹을 다루는 기술 - 8장 JAVA 웹을 다루는 기술 - 9장 JAVA 웹을 다루는 기술 - 10장 JAVA 웹을 다루는 기술 - 11,12장 JAVA 웹을 다루는 기술 - 13,14장 JAVA 웹을 다루는 기술 - 17장 본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.</summary></entry><entry><title type="html">JAVA 웹을 다루는 기술 - 5장</title><link href="https://jeongjinhooo.github.io/javaweb5" rel="alternate" type="text/html" title="JAVA 웹을 다루는 기술 - 5장" /><published>2022-04-22T02:00:00+09:00</published><updated>2022-04-22T02:00:00+09:00</updated><id>https://jeongjinhooo.github.io/javaweb5</id><content type="html" xml:base="https://jeongjinhooo.github.io/javaweb5">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb4&quot;&gt;JAVA 웹을 다루는 기술 - 4장&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb5&quot;&gt;JAVA 웹을 다루는 기술 - 5장&lt;/a&gt;&lt;/li&gt;
@@ -611,6 +661,7 @@ rediret 방법&lt;/p&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb10&quot;&gt;JAVA 웹을 다루는 기술 - 10장&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb10&quot;&gt;JAVA 웹을 다루는 기술 - 11,12장&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb10&quot;&gt;JAVA 웹을 다루는 기술 - 13,14장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb10&quot;&gt;JAVA 웹을 다루는 기술 - 17장&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
 &lt;p&gt;본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.&lt;/p&gt;
@@ -699,7 +750,7 @@ rediret 방법&lt;/p&gt;
 
 &lt;h4 id=&quot;서블릿-생성-과정&quot;&gt;서블릿 생성 과정&lt;/h4&gt;
 &lt;p&gt;&lt;br /&gt;
-사용자 정의 서블릿 클래스 만들기 -&amp;gt; 서블릿 생명주기 메서드 구현 -&amp;gt; 서블릿 매핑 작업&lt;br /&gt;-&amp;gt; 웹 브라우저에서 서블릿 매핑 이름으로 요청하기&lt;/p&gt;</content><author><name>Jinho1</name></author><category term="java" /><summary type="html">JAVA 웹을 다루는 기술 - 4장 JAVA 웹을 다루는 기술 - 5장 JAVA 웹을 다루는 기술 - 6,7장 JAVA 웹을 다루는 기술 - 8장 JAVA 웹을 다루는 기술 - 9장 JAVA 웹을 다루는 기술 - 10장 JAVA 웹을 다루는 기술 - 11,12장 JAVA 웹을 다루는 기술 - 13,14장 본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.</summary></entry><entry><title type="html">JAVA 웹을 다루는 기술 - 4장</title><link href="https://jeongjinhooo.github.io/javaweb4" rel="alternate" type="text/html" title="JAVA 웹을 다루는 기술 - 4장" /><published>2022-04-22T01:40:00+09:00</published><updated>2022-04-22T01:40:00+09:00</updated><id>https://jeongjinhooo.github.io/javaweb4</id><content type="html" xml:base="https://jeongjinhooo.github.io/javaweb4">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+사용자 정의 서블릿 클래스 만들기 -&amp;gt; 서블릿 생명주기 메서드 구현 -&amp;gt; 서블릿 매핑 작업&lt;br /&gt;-&amp;gt; 웹 브라우저에서 서블릿 매핑 이름으로 요청하기&lt;/p&gt;</content><author><name>Jinho1</name></author><category term="java" /><summary type="html">JAVA 웹을 다루는 기술 - 4장 JAVA 웹을 다루는 기술 - 5장 JAVA 웹을 다루는 기술 - 6,7장 JAVA 웹을 다루는 기술 - 8장 JAVA 웹을 다루는 기술 - 9장 JAVA 웹을 다루는 기술 - 10장 JAVA 웹을 다루는 기술 - 11,12장 JAVA 웹을 다루는 기술 - 13,14장 JAVA 웹을 다루는 기술 - 17장 본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.</summary></entry><entry><title type="html">JAVA 웹을 다루는 기술 - 4장</title><link href="https://jeongjinhooo.github.io/javaweb4" rel="alternate" type="text/html" title="JAVA 웹을 다루는 기술 - 4장" /><published>2022-04-22T01:40:00+09:00</published><updated>2022-04-22T01:40:00+09:00</updated><id>https://jeongjinhooo.github.io/javaweb4</id><content type="html" xml:base="https://jeongjinhooo.github.io/javaweb4">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb4&quot;&gt;JAVA 웹을 다루는 기술 - 4장&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb5&quot;&gt;JAVA 웹을 다루는 기술 - 5장&lt;/a&gt;&lt;/li&gt;
@@ -709,6 +760,7 @@ rediret 방법&lt;/p&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb10&quot;&gt;JAVA 웹을 다루는 기술 - 10장&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb10&quot;&gt;JAVA 웹을 다루는 기술 - 11,12장&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb10&quot;&gt;JAVA 웹을 다루는 기술 - 13,14장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb10&quot;&gt;JAVA 웹을 다루는 기술 - 17장&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
 &lt;p&gt;본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.&lt;/p&gt;
@@ -806,21 +858,10 @@ rediret 방법&lt;/p&gt;
   &lt;li&gt;웹 애플리케이션의 의미를 가장 잘 나타낼 수 있는 명사형으로 지정&lt;/li&gt;
   &lt;li&gt;대소문자 구분&lt;/li&gt;
   &lt;li&gt;server.xml에 등록&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Jinho1</name></author><category term="java" /><summary type="html">JAVA 웹을 다루는 기술 - 4장 JAVA 웹을 다루는 기술 - 5장 JAVA 웹을 다루는 기술 - 6,7장 JAVA 웹을 다루는 기술 - 8장 JAVA 웹을 다루는 기술 - 9장 JAVA 웹을 다루는 기술 - 10장 JAVA 웹을 다루는 기술 - 11,12장 JAVA 웹을 다루는 기술 - 13,14장 본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다. 웹 애플리케이션 정의</summary></entry><entry><title type="html">Python 강좌(2) - Python 제어문</title><link href="https://jeongjinhooo.github.io/python-control-statement" rel="alternate" type="text/html" title="Python 강좌(2) - Python 제어문" /><published>2022-04-22T01:40:00+09:00</published><updated>2022-04-22T01:40:00+09:00</updated><id>https://jeongjinhooo.github.io/python-control-statement</id><content type="html" xml:base="https://jeongjinhooo.github.io/python-control-statement">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python 강좌는 여러 절로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
+&lt;/ul&gt;</content><author><name>Jinho1</name></author><category term="java" /><summary type="html">JAVA 웹을 다루는 기술 - 4장 JAVA 웹을 다루는 기술 - 5장 JAVA 웹을 다루는 기술 - 6,7장 JAVA 웹을 다루는 기술 - 8장 JAVA 웹을 다루는 기술 - 9장 JAVA 웹을 다루는 기술 - 10장 JAVA 웹을 다루는 기술 - 11,12장 JAVA 웹을 다루는 기술 - 13,14장 JAVA 웹을 다루는 기술 - 17장 본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다. 웹 애플리케이션 정의</summary></entry><entry><title type="html">Python 강좌(2) - Python 제어문</title><link href="https://jeongjinhooo.github.io/python-control-statement" rel="alternate" type="text/html" title="Python 강좌(2) - Python 제어문" /><published>2022-04-22T01:40:00+09:00</published><updated>2022-04-22T01:40:00+09:00</updated><id>https://jeongjinhooo.github.io/python-control-statement</id><content type="html" xml:base="https://jeongjinhooo.github.io/python-control-statement">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python 강좌는 여러 절로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./python-basic&quot;&gt;Python 강좌(1) - Python 기본&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./python-control-statement&quot;&gt;Python 강좌(2) - Python 제어문&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;두번째 테스트&lt;/p&gt;</content><author><name>Jinho1</name></author><category term="python" /><summary type="html">Python 강좌는 여러 절로 구성되어 있습니다. Python 강좌(1) - Python 기본 Python 강좌(2) - Python 제어문</summary></entry><entry><title type="html">Python 강좌(1) - Python 기본</title><link href="https://jeongjinhooo.github.io/python-basic" rel="alternate" type="text/html" title="Python 강좌(1) - Python 기본" /><published>2022-04-22T01:40:00+09:00</published><updated>2022-04-22T01:40:00+09:00</updated><id>https://jeongjinhooo.github.io/python-basic</id><content type="html" xml:base="https://jeongjinhooo.github.io/python-basic">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python 강좌는 여러 절로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
-&lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic&quot;&gt;Python 강좌(1) - Python 기본&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-control-statement&quot;&gt;Python 강좌(2) - Python 제어문&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;이 글은 파이썬폴더 테스트&lt;/p&gt;
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;syntaxHighlight&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;code&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-   &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;foo&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;Hello World&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-   &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;bar&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Jinho1</name></author><category term="python" /><summary type="html">Python 강좌는 여러 절로 구성되어 있습니다. Python 강좌(1) - Python 기본 Python 강좌(2) - Python 제어문</summary></entry></feed>
+&lt;p&gt;두번째 테스트&lt;/p&gt;</content><author><name>Jinho1</name></author><category term="python" /><summary type="html">Python 강좌는 여러 절로 구성되어 있습니다. Python 강좌(1) - Python 기본 Python 강좌(2) - Python 제어문</summary></entry></feed>
