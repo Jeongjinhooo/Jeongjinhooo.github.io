@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://jeongjinhooo.github.io/author/Jinho1/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://jeongjinhooo.github.io/" rel="alternate" type="text/html" />
-  <updated>2022-05-01T22:55:22+09:00</updated>
+  <updated>2022-05-02T18:26:03+09:00</updated>
   <id>https://jeongjinhooo.github.io/author/Jinho1/feed.xml</id>
 
   
@@ -221,11 +221,18 @@
   &lt;li&gt;즉, 웹 애플리케이션을 화면 부분, 요청 처리 부분, 로직 처리 부분으로 나누어 개발하는 방법&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h5 id=&quot;mvc-특징&quot;&gt;MVC 특징&lt;/h5&gt;
+&lt;h6 id=&quot;mvc-특징&quot;&gt;MVC 특징&lt;/h6&gt;
 &lt;ul&gt;
   &lt;li&gt;각 기능이 분리되어 있어 개발 및 유지보수가 편리함&lt;/li&gt;
   &lt;li&gt;각 기능의 재사용성이 높아짐&lt;/li&gt;
   &lt;li&gt;디자이너와 개발자의 작업을 분업화해서 쉽게 개발할 수 있음&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id=&quot;커맨드command-패턴&quot;&gt;커맨드(Command) 패턴&lt;/h6&gt;
+&lt;ul&gt;
+  &lt;li&gt;브라우저가 URL 패턴을 이요해 컨트롤러에게 수행 작업을 요청하는 방법&lt;/li&gt;
+  &lt;li&gt;컨트롤러는 HttpServletRequest의 getPathinfo()메서드를 이용해 URL 패턴에서 요청명을 받아와 작업을 수행&lt;/li&gt;
+  &lt;li&gt;URL 패턴을 이용해 컨트롤러에 요청하는 형식 &lt;br /&gt; http://localhost:8090/pro17/member/listMembers.do&lt;/li&gt;
 &lt;/ul&gt;</content>
 
       
