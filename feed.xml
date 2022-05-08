@@ -1,4 +1,49 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://jeongjinhooo.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jeongjinhooo.github.io/" rel="alternate" type="text/html" /><updated>2022-05-06T23:01:51+09:00</updated><id>https://jeongjinhooo.github.io/feed.xml</id><title type="html">Jinhonote</title><subtitle>개발공부블로그</subtitle><entry><title type="html">JAVA 웹을 다루는 기술 - 13,14장</title><link href="https://jeongjinhooo.github.io/javaweb13" rel="alternate" type="text/html" title="JAVA 웹을 다루는 기술 - 13,14장" /><published>2022-04-30T04:00:00+09:00</published><updated>2022-04-30T04:00:00+09:00</updated><id>https://jeongjinhooo.github.io/javaweb13</id><content type="html" xml:base="https://jeongjinhooo.github.io/javaweb13">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://jeongjinhooo.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jeongjinhooo.github.io/" rel="alternate" type="text/html" /><updated>2022-05-08T23:23:16+09:00</updated><id>https://jeongjinhooo.github.io/feed.xml</id><title type="html">Jinhonote</title><subtitle>개발공부블로그</subtitle><entry><title type="html">JAVA 웹을 다루는 기술 - 18장</title><link href="https://jeongjinhooo.github.io/javaweb18" rel="alternate" type="text/html" title="JAVA 웹을 다루는 기술 - 18장" /><published>2022-05-07T04:00:00+09:00</published><updated>2022-05-07T04:00:00+09:00</updated><id>https://jeongjinhooo.github.io/javaweb18</id><content type="html" xml:base="https://jeongjinhooo.github.io/javaweb18">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb4&quot;&gt;JAVA 웹을 다루는 기술 - 4장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb5&quot;&gt;JAVA 웹을 다루는 기술 - 5장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb6&quot;&gt;JAVA 웹을 다루는 기술 - 6,7장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb8&quot;&gt;JAVA 웹을 다루는 기술 - 8장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb9&quot;&gt;JAVA 웹을 다루는 기술 - 9장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb10&quot;&gt;JAVA 웹을 다루는 기술 - 10장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb11&quot;&gt;JAVA 웹을 다루는 기술 - 11,12장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb13&quot;&gt;JAVA 웹을 다루는 기술 - 13,14장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb17&quot;&gt;JAVA 웹을 다루는 기술 - 17장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb18&quot;&gt;JAVA 웹을 다루는 기술 - 18장&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;p&gt;본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;프레임워크framework&quot;&gt;프레임워크(Framework)&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;사전적의미는 ‘어떤 것을 구성하는 구조 또는 뼈대’&lt;/li&gt;
+  &lt;li&gt;소프트웨어적 의미로는 ‘기능을 미리 클래스나 인터페이스 등으로 만들어 제공하는 반제품’&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id=&quot;프레임워크-장점&quot;&gt;프레임워크 장점&lt;/h6&gt;
+&lt;ul&gt;
+  &lt;li&gt;일정한 기준에 따라 개발이 이루어지므로 개발 생산성과 품질이 보장된 애플리케이션을 개발할 수 있음&lt;/li&gt;
+  &lt;li&gt;개발 후 유지보수 및 기능의 확장성에서도 고품질 보장&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Jinho1</name></author><category term="java" /><summary type="html">JAVA 웹을 다루는 기술 - 4장 JAVA 웹을 다루는 기술 - 5장 JAVA 웹을 다루는 기술 - 6,7장 JAVA 웹을 다루는 기술 - 8장 JAVA 웹을 다루는 기술 - 9장 JAVA 웹을 다루는 기술 - 10장 JAVA 웹을 다루는 기술 - 11,12장 JAVA 웹을 다루는 기술 - 13,14장 JAVA 웹을 다루는 기술 - 17장 JAVA 웹을 다루는 기술 - 18장 본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.</summary></entry><entry><title type="html">용어 정리</title><link href="https://jeongjinhooo.github.io/memo1" rel="alternate" type="text/html" title="용어 정리" /><published>2022-05-07T04:00:00+09:00</published><updated>2022-05-07T04:00:00+09:00</updated><id>https://jeongjinhooo.github.io/memo1</id><content type="html" xml:base="https://jeongjinhooo.github.io/memo1">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./memo1&quot;&gt;용어 정리&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+
+&lt;h6 id=&quot;sql-sysdate-함수현재-날짜-시간-구해오기&quot;&gt;SQL SYSDATE 함수(현재 날짜, 시간 구해오기)&lt;/h6&gt;
+&lt;p&gt;사용법 : SELECT SYSDATE FROM DUAL;&lt;br /&gt;
+Dual 이라는 테이블은 오라클이 설치될 때 만들어지는 테이블이며 산술, 날짜처리, 계산 등을하는 기본 임시 테이블&lt;/p&gt;
+
+&lt;h6 id=&quot;sql-round-floor-ceil-함수&quot;&gt;SQL ROUND, FLOOR, CEIL 함수&lt;/h6&gt;
+&lt;p&gt;ROUND - 반올림 &lt;br /&gt;
+CEIL  - 올림 &lt;br /&gt;
+FLOOR - 버림&lt;/p&gt;
+
+&lt;h6 id=&quot;sql-decode-case-함수&quot;&gt;SQL DECODE, CASE 함수&lt;/h6&gt;
+&lt;p&gt;조건에 따라 각각 다른 값을 입력/출력하는 분기함수&lt;br /&gt;
+DECODE : A=B이면 X, A≠B이면 Y를 출력 (A와 B가 같은지에 대한 조건)&lt;br /&gt;
+CASE : DECODE와 달리, A와 B 사이에 부등호 관계(크거나 작은 조건)를 처리할 때 주로 사용&lt;/p&gt;</content><author><name>Jinho1</name></author><category term="memo" /><summary type="html">용어 정리</summary></entry><entry><title type="html">JAVA 웹을 다루는 기술 - 13,14장</title><link href="https://jeongjinhooo.github.io/javaweb13" rel="alternate" type="text/html" title="JAVA 웹을 다루는 기술 - 13,14장" /><published>2022-04-30T04:00:00+09:00</published><updated>2022-04-30T04:00:00+09:00</updated><id>https://jeongjinhooo.github.io/javaweb13</id><content type="html" xml:base="https://jeongjinhooo.github.io/javaweb13">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb4&quot;&gt;JAVA 웹을 다루는 기술 - 4장&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb5&quot;&gt;JAVA 웹을 다루는 기술 - 5장&lt;/a&gt;&lt;/li&gt;
@@ -765,119 +810,4 @@ rediret 방법&lt;/p&gt;
 
 &lt;h4 id=&quot;서블릿-생성-과정&quot;&gt;서블릿 생성 과정&lt;/h4&gt;
 &lt;p&gt;&lt;br /&gt;
-사용자 정의 서블릿 클래스 만들기 -&amp;gt; 서블릿 생명주기 메서드 구현 -&amp;gt; 서블릿 매핑 작업&lt;br /&gt;-&amp;gt; 웹 브라우저에서 서블릿 매핑 이름으로 요청하기&lt;/p&gt;</content><author><name>Jinho1</name></author><category term="java" /><summary type="html">JAVA 웹을 다루는 기술 - 4장 JAVA 웹을 다루는 기술 - 5장 JAVA 웹을 다루는 기술 - 6,7장 JAVA 웹을 다루는 기술 - 8장 JAVA 웹을 다루는 기술 - 9장 JAVA 웹을 다루는 기술 - 10장 JAVA 웹을 다루는 기술 - 11,12장 JAVA 웹을 다루는 기술 - 13,14장 JAVA 웹을 다루는 기술 - 17장 JAVA 웹을 다루는 기술 - 18장 본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.</summary></entry><entry><title type="html">JAVA 웹을 다루는 기술 - 4장</title><link href="https://jeongjinhooo.github.io/javaweb4" rel="alternate" type="text/html" title="JAVA 웹을 다루는 기술 - 4장" /><published>2022-04-22T01:40:00+09:00</published><updated>2022-04-22T01:40:00+09:00</updated><id>https://jeongjinhooo.github.io/javaweb4</id><content type="html" xml:base="https://jeongjinhooo.github.io/javaweb4">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb4&quot;&gt;JAVA 웹을 다루는 기술 - 4장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb5&quot;&gt;JAVA 웹을 다루는 기술 - 5장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb6&quot;&gt;JAVA 웹을 다루는 기술 - 6,7장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb8&quot;&gt;JAVA 웹을 다루는 기술 - 8장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb9&quot;&gt;JAVA 웹을 다루는 기술 - 9장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb10&quot;&gt;JAVA 웹을 다루는 기술 - 10장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb11&quot;&gt;JAVA 웹을 다루는 기술 - 11,12장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb13&quot;&gt;JAVA 웹을 다루는 기술 - 13,14장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb17&quot;&gt;JAVA 웹을 다루는 기술 - 17장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb18&quot;&gt;JAVA 웹을 다루는 기술 - 18장&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;p&gt;본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;h4 id=&quot;웹-애플리케이션-정의&quot;&gt;웹 애플리케이션 정의&lt;/h4&gt;
-
-&lt;p&gt;&lt;br /&gt;기존의 정적 웹 애플리케이션 기능을 그대로 사용하면서 서블릿, JSP, 자바 클래스들을 추가하여 사용자에게 동적인 서비스를 제공하는 프로그램&lt;/p&gt;
-
-&lt;h4 id=&quot;웹-애플리케이션-기본-구조&quot;&gt;웹 애플리케이션 기본 구조&lt;/h4&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;웹 애플리케이션 이름
-        │
-        └─────── WEB-INF
-                   │
-                   ├─────── classes
-                   │
-                   ├─────── lib 
-                   │
-                   └─────── web.xml
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;h4 id=&quot;웹-애플리케이션-구성-요소의-기능&quot;&gt;웹 애플리케이션 구성 요소의 기능&lt;/h4&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;구성요소&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;기능&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;webShop&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;- 웹 애플리케이션의 루트 디렉터리, 다른 웹 애플리케이션 이름과 중복 허용 X &lt;br /&gt;- JSP HTML 파일이 저장된다&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;WEB-INF&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;- 웹 애플리케이션에 관한 정보가 저장되는 곳. 이 디릭터리는 외부에서 접근할 수 없다&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;classes&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;- 웹 애플리케이션이 수행하는 서블릿과 다른 일반 클래스들이 위치하는 곳&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;lib&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;- 웹 애플리케이션에서 사용되는 여러 가지 라이브러리 압축파일(jar파일)이 저장되는 곳&lt;br /&gt;- DB 연동 드라이버나 프레임워크 기능 관련 jar 파일이 여기에 저장&lt;br /&gt;- lib 디렉터리의 jar는 클래스 패스가 자동으로 설정된다&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;web.xml&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;- 배치 지시자로서 일종의 환경 설정 파일&lt;br /&gt;- 웹 애플리케이션에 대한 여러 가지 설정을 할 때 사용&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;jsp/html&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;- JSP 파일과 HTML 파일이 저장된 곳&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;css&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;- 스타일시트 파일이 저장된 곳&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;image&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;- 웹 애플리케이션에서 사용되는 이미지가 저장된 곳&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;js&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;- 자바스크립트 파일이 저장된 곳&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;bin&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;- 애플리케이션에서 사용되는 각종 실행 파일이 저장된 곳&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;conf&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;- 프레임워크에서 사용하는 각종 설정 파일이 저장된 곳&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;src&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;- 자바 소스 파일이 저장된 곳&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h4 id=&quot;컨텍스트란&quot;&gt;컨텍스트란?&lt;/h4&gt;
-&lt;p&gt;&lt;br /&gt;
-톰캣의 server.xml에 등록하는 웹 애플리케이션&lt;/p&gt;
-
-&lt;h4 id=&quot;컨텍스트-특징&quot;&gt;컨텍스트 특징&lt;/h4&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;웹 애플리케이션당 하나의 컨텍스트가 등록&lt;/li&gt;
-  &lt;li&gt;웹 애플리케이션 이름과 같을 수도 있고 다를 수도 있음&lt;/li&gt;
-  &lt;li&gt;컨텍스트 이름은 중복되면 안됨&lt;/li&gt;
-  &lt;li&gt;웹 애플리케이션의 의미를 가장 잘 나타낼 수 있는 명사형으로 지정&lt;/li&gt;
-  &lt;li&gt;대소문자 구분&lt;/li&gt;
-  &lt;li&gt;server.xml에 등록&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Jinho1</name></author><category term="java" /><summary type="html">JAVA 웹을 다루는 기술 - 4장 JAVA 웹을 다루는 기술 - 5장 JAVA 웹을 다루는 기술 - 6,7장 JAVA 웹을 다루는 기술 - 8장 JAVA 웹을 다루는 기술 - 9장 JAVA 웹을 다루는 기술 - 10장 JAVA 웹을 다루는 기술 - 11,12장 JAVA 웹을 다루는 기술 - 13,14장 JAVA 웹을 다루는 기술 - 17장 JAVA 웹을 다루는 기술 - 18장 본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다. 웹 애플리케이션 정의</summary></entry><entry><title type="html">Python 강좌(2) - Python 제어문</title><link href="https://jeongjinhooo.github.io/python-control-statement" rel="alternate" type="text/html" title="Python 강좌(2) - Python 제어문" /><published>2022-04-22T01:40:00+09:00</published><updated>2022-04-22T01:40:00+09:00</updated><id>https://jeongjinhooo.github.io/python-control-statement</id><content type="html" xml:base="https://jeongjinhooo.github.io/python-control-statement">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Python 강좌는 여러 절로 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
-&lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-basic&quot;&gt;Python 강좌(1) - Python 기본&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./python-control-statement&quot;&gt;Python 강좌(2) - Python 제어문&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;두번째 테스트&lt;/p&gt;</content><author><name>Jinho1</name></author><category term="python" /><summary type="html">Python 강좌는 여러 절로 구성되어 있습니다. Python 강좌(1) - Python 기본 Python 강좌(2) - Python 제어문</summary></entry></feed>
+사용자 정의 서블릿 클래스 만들기 -&amp;gt; 서블릿 생명주기 메서드 구현 -&amp;gt; 서블릿 매핑 작업&lt;br /&gt;-&amp;gt; 웹 브라우저에서 서블릿 매핑 이름으로 요청하기&lt;/p&gt;</content><author><name>Jinho1</name></author><category term="java" /><summary type="html">JAVA 웹을 다루는 기술 - 4장 JAVA 웹을 다루는 기술 - 5장 JAVA 웹을 다루는 기술 - 6,7장 JAVA 웹을 다루는 기술 - 8장 JAVA 웹을 다루는 기술 - 9장 JAVA 웹을 다루는 기술 - 10장 JAVA 웹을 다루는 기술 - 11,12장 JAVA 웹을 다루는 기술 - 13,14장 JAVA 웹을 다루는 기술 - 17장 JAVA 웹을 다루는 기술 - 18장 본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.</summary></entry></feed>

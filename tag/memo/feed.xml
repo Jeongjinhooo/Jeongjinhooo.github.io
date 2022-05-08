@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
+  <link href="https://jeongjinhooo.github.io/tag/memo/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="https://jeongjinhooo.github.io/" rel="alternate" type="text/html" />
+  <updated>2022-05-08T23:23:16+09:00</updated>
+  <id>https://jeongjinhooo.github.io/tag/memo/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">Jinhonote | </title>
+  
+
+  
+    <subtitle>개발공부블로그</subtitle>
+  
+
+  
+
+  
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">용어 정리</title>
+      <link href="https://jeongjinhooo.github.io/memo1" rel="alternate" type="text/html" title="용어 정리" />
+      <published>2022-05-07T04:00:00+09:00</published>
+      <updated>2022-05-07T04:00:00+09:00</updated>
+      <id>https://jeongjinhooo.github.io/memo1</id>
+      <content type="html" xml:base="https://jeongjinhooo.github.io/memo1">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./memo1&quot;&gt;용어 정리&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+
+&lt;h6 id=&quot;sql-sysdate-함수현재-날짜-시간-구해오기&quot;&gt;SQL SYSDATE 함수(현재 날짜, 시간 구해오기)&lt;/h6&gt;
+&lt;p&gt;사용법 : SELECT SYSDATE FROM DUAL;&lt;br /&gt;
+Dual 이라는 테이블은 오라클이 설치될 때 만들어지는 테이블이며 산술, 날짜처리, 계산 등을하는 기본 임시 테이블&lt;/p&gt;
+
+&lt;h6 id=&quot;sql-round-floor-ceil-함수&quot;&gt;SQL ROUND, FLOOR, CEIL 함수&lt;/h6&gt;
+&lt;p&gt;ROUND - 반올림 &lt;br /&gt;
+CEIL  - 올림 &lt;br /&gt;
+FLOOR - 버림&lt;/p&gt;
+
+&lt;h6 id=&quot;sql-decode-case-함수&quot;&gt;SQL DECODE, CASE 함수&lt;/h6&gt;
+&lt;p&gt;조건에 따라 각각 다른 값을 입력/출력하는 분기함수&lt;br /&gt;
+DECODE : A=B이면 X, A≠B이면 Y를 출력 (A와 B가 같은지에 대한 조건)&lt;br /&gt;
+CASE : DECODE와 달리, A와 B 사이에 부등호 관계(크거나 작은 조건)를 처리할 때 주로 사용&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Jinho1</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="memo" />
+      
+
+      
+        <summary type="html">용어 정리</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>
