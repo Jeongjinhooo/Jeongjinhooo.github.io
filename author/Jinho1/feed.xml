@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://jeongjinhooo.github.io/author/Jinho1/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://jeongjinhooo.github.io/" rel="alternate" type="text/html" />
-  <updated>2022-05-08T23:23:16+09:00</updated>
+  <updated>2022-05-09T22:52:32+09:00</updated>
   <id>https://jeongjinhooo.github.io/author/Jinho1/feed.xml</id>
 
   
@@ -64,6 +64,28 @@
 &lt;ul&gt;
   &lt;li&gt;일정한 기준에 따라 개발이 이루어지므로 개발 생산성과 품질이 보장된 애플리케이션을 개발할 수 있음&lt;/li&gt;
   &lt;li&gt;개발 후 유지보수 및 기능의 확장성에서도 고품질 보장&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id=&quot;스프링-프레임워크&quot;&gt;스프링 프레임워크&lt;/h6&gt;
+&lt;ul&gt;
+  &lt;li&gt;스프링 프레임워크(스프링)는 자바 웹 애플리케이션 개발을 위한 오픈 소스 프레임워크&lt;/li&gt;
+  &lt;li&gt;EJB(Enterprise Java Bean)보다 가벼운 경량 프레임워크&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id=&quot;특징&quot;&gt;특징&lt;/h6&gt;
+&lt;ul&gt;
+  &lt;li&gt;EJB보다 가볍고 배우기도 쉬우며 경량 컨테이너의 기능을 수행&lt;/li&gt;
+  &lt;li&gt;제어 역행(ioC, Inversion of Control) 기술을 이용해 애플리케이션 간의 느슨한 결합을 제어함&lt;/li&gt;
+  &lt;li&gt;의존성 주입(DI, Dependency injection) 기능을 지원함&lt;/li&gt;
+  &lt;li&gt;관점지향 (AOP, Aspect-Oriented Programming) 기능을 이용해 자원 관리함&lt;/li&gt;
+  &lt;li&gt;영속성과 관련된 다양한 서비스를 지원함&lt;/li&gt;
+  &lt;li&gt;수많은 라이브러리와의 연동 기능을 지원함&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id=&quot;컨테이너란&quot;&gt;컨테이너란?&lt;/h6&gt;
+&lt;ul&gt;
+  &lt;li&gt;톰캣은 서블릿 컨테이너라고 부르는데, 그 이유는 톰캣을 실행하면 톰캣은 서블릿의 생성, 초기화, 서비스실행, 소멸에 관한 모든 권한을 가지고 서블릿을 관리&lt;/li&gt;
+  &lt;li&gt;스프링은 애플리케이션에서 사용되는 여러가지 빈(클래스 객체)을 개발자가 아닌 스프링이 권한을 가지고 직접 관리&lt;/li&gt;
 &lt;/ul&gt;</content>
 
       
