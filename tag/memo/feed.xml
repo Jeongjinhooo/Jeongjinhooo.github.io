@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://jeongjinhooo.github.io/tag/memo/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://jeongjinhooo.github.io/" rel="alternate" type="text/html" />
-  <updated>2022-05-10T22:52:26+09:00</updated>
+  <updated>2022-05-12T22:50:55+09:00</updated>
   <id>https://jeongjinhooo.github.io/tag/memo/feed.xml</id>
 
   
@@ -32,14 +32,73 @@
 
   
     <entry>
-      <title type="html">용어 정리</title>
-      <link href="https://jeongjinhooo.github.io/memo1" rel="alternate" type="text/html" title="용어 정리" />
+      <title type="html">JAVA</title>
+      <link href="https://jeongjinhooo.github.io/memo2" rel="alternate" type="text/html" title="JAVA" />
+      <published>2022-05-12T04:00:00+09:00</published>
+      <updated>2022-05-12T04:00:00+09:00</updated>
+      <id>https://jeongjinhooo.github.io/memo2</id>
+      <content type="html" xml:base="https://jeongjinhooo.github.io/memo2">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./memo1&quot;&gt;SQL 정리&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./memo1&quot;&gt;JAVA 정리&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;게터와-세터getter-and-setter&quot;&gt;게터와 세터(getter and setter)&lt;/h3&gt;
+
+&lt;p&gt;getter와 setter는 말 그대로 어떤 오브젝트 혹은 변수의 값을 가져오거나, 설정해주는 역할을 하는 메소드를 말한다.&lt;/p&gt;
+
+&lt;h6 id=&quot;getter&quot;&gt;getter&lt;/h6&gt;
+&lt;ul&gt;
+  &lt;li&gt;return type은 참조할 맴버변수의 자료형과 일치해야 한다.&lt;/li&gt;
+  &lt;li&gt;이름 앞에 get 을 붙이고 뒤에는 리턴할 맴버변수의 이름 혹은 해당 변수를 직관적으로 표현하는 단어가 와야한다.&lt;/li&gt;
+  &lt;li&gt;ex) int getLength();&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id=&quot;setter&quot;&gt;setter&lt;/h6&gt;
+&lt;ul&gt;
+  &lt;li&gt;return type은 void 혹은 값의 설정 결과를 알려줄 수 있는 type이어야 한다.&lt;/li&gt;
+  &lt;li&gt;argument는 수정할 맴버변수와 같은 type이어야 한다.&lt;/li&gt;
+  &lt;li&gt;이름 앞에 set을 붙이고 뒤에는 수정할 맴버변수의 이름 혹은 해당 변수를 직관적으로 표현하는 단어이어야 한다.&lt;/li&gt;
+  &lt;li&gt;ex) void setLength(int length);&lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Jinho1</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="memo" />
+      
+
+      
+        <summary type="html">SQL 정리 JAVA 정리</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">SQL</title>
+      <link href="https://jeongjinhooo.github.io/memo1" rel="alternate" type="text/html" title="SQL" />
       <published>2022-05-07T04:00:00+09:00</published>
       <updated>2022-05-07T04:00:00+09:00</updated>
       <id>https://jeongjinhooo.github.io/memo1</id>
       <content type="html" xml:base="https://jeongjinhooo.github.io/memo1">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./memo1&quot;&gt;용어 정리&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./memo1&quot;&gt;SQL 정리&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./memo1&quot;&gt;JAVA 정리&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
 
@@ -76,7 +135,7 @@ CASE : DECODE와 달리, A와 B 사이에 부등호 관계(크거나 작은 조�
       
 
       
-        <summary type="html">용어 정리</summary>
+        <summary type="html">SQL 정리 JAVA 정리</summary>
       
 
       
