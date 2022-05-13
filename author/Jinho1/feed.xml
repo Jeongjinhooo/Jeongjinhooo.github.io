@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://jeongjinhooo.github.io/author/Jinho1/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://jeongjinhooo.github.io/" rel="alternate" type="text/html" />
-  <updated>2022-05-13T23:51:45+09:00</updated>
+  <updated>2022-05-14T00:04:06+09:00</updated>
   <id>https://jeongjinhooo.github.io/author/Jinho1/feed.xml</id>
 
   
@@ -238,7 +238,7 @@
     &lt;li&gt;&lt;a href=&quot;./algorithm1&quot;&gt;2022-05-13&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
-&lt;h6 id=&quot;문제&quot;&gt;문제&lt;/h6&gt;
+&lt;h6 id=&quot;문제-2557&quot;&gt;문제 2557&lt;/h6&gt;
 &lt;p&gt;&lt;br /&gt;
 Hello World!를 출력하시오.&lt;/p&gt;
 
@@ -252,7 +252,7 @@ Hello World!를 출력하시오.&lt;/p&gt;
 
 &lt;p&gt;백준 알고리즘에서는 클래스명을 Main으로 해주어야 한다&lt;/p&gt;
 
-&lt;h6 id=&quot;문제-1&quot;&gt;문제&lt;/h6&gt;
+&lt;h6 id=&quot;문제-10718&quot;&gt;문제 10718&lt;/h6&gt;
 &lt;p&gt;&lt;br /&gt;
 두 줄에 걸쳐 “강한친구 대한육군”을 한 줄에 한 번씩 출력한다.&lt;/p&gt;
 
@@ -274,7 +274,7 @@ Hello World!를 출력하시오.&lt;/p&gt;
 }
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;h6 id=&quot;문제-2&quot;&gt;문제&lt;/h6&gt;
+&lt;h6 id=&quot;문제-10171&quot;&gt;문제 10171&lt;/h6&gt;
 &lt;p&gt;&lt;br /&gt;
 고양이를 출력한다.&lt;/p&gt;
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;\    /\
@@ -305,7 +305,33 @@ Hello World!를 출력하시오.&lt;/p&gt;
 	}
 }
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;\는 이스케이프 시퀀시로 사용되는 문자이기 때문에 출력하려면 \\와같이 앞에 \를 하나 붙여야 정상적으로 출력된다&lt;/p&gt;</content>
+&lt;p&gt;\는 이스케이프 시퀀시로 사용되는 문자이기 때문에 출력하려면 \\와같이 앞에 \를 하나 붙여야 정상적으로 출력된다&lt;/p&gt;
+
+&lt;h6 id=&quot;문제-25083&quot;&gt;문제 25083&lt;/h6&gt;
+&lt;p&gt;&lt;br /&gt;
+새싹을 출력한다.&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;         ,r&apos;&quot;7
+r`-_   ,&apos;  ,/
+ \. &quot;. L_r&apos;
+   `~\/
+      |
+      |
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h6 id=&quot;풀이-3&quot;&gt;풀이&lt;/h6&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;public class Main { 
+    public static void main(String[] args) {
+  System.out.printf(&quot;         ,r&apos;\&quot;7\n&quot;);
+  System.out.printf(&quot;r`-_   ,&apos;  ,/\n&quot;);
+  System.out.printf(&quot; \\. \&quot;. L_r&apos;\n&quot;);
+  System.out.printf(&quot;   `~\\/\n&quot;);
+  System.out.printf(&quot;      |\n&quot;);
+  System.out.printf(&quot;      |\n&quot;);       
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;’\‘나 &quot;는 앞에 \를 붙여주면 출력이 가능하다&lt;/p&gt;</content>
 
       
       
@@ -326,7 +352,7 @@ Hello World!를 출력하시오.&lt;/p&gt;
       
 
       
-        <summary type="html">백준 문제 연습 2022-05-13 문제 Hello World!를 출력하시오.</summary>
+        <summary type="html">백준 문제 연습 2022-05-13 문제 2557 Hello World!를 출력하시오.</summary>
       
 
       
