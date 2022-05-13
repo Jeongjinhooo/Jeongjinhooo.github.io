@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
+  <link href="https://jeongjinhooo.github.io/tag/algorithm/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="https://jeongjinhooo.github.io/" rel="alternate" type="text/html" />
+  <updated>2022-05-13T23:51:45+09:00</updated>
+  <id>https://jeongjinhooo.github.io/tag/algorithm/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">Jinhonote | </title>
+  
+
+  
+    <subtitle>개발공부블로그</subtitle>
+  
+
+  
+
+  
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">algorithm</title>
+      <link href="https://jeongjinhooo.github.io/algorithm1" rel="alternate" type="text/html" title="algorithm" />
+      <published>2022-05-07T04:00:00+09:00</published>
+      <updated>2022-05-07T04:00:00+09:00</updated>
+      <id>https://jeongjinhooo.github.io/algorithm1</id>
+      <content type="html" xml:base="https://jeongjinhooo.github.io/algorithm1">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;백준 문제 연습&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./algorithm1&quot;&gt;2022-05-13&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h6 id=&quot;문제&quot;&gt;문제&lt;/h6&gt;
+&lt;p&gt;&lt;br /&gt;
+Hello World!를 출력하시오.&lt;/p&gt;
+
+&lt;h6 id=&quot;풀이&quot;&gt;풀이&lt;/h6&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;public class Main {
+	public static void main(String[] args) {
+		System.out.print(&quot;Hello World!&quot;);    
+	}
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;백준 알고리즘에서는 클래스명을 Main으로 해주어야 한다&lt;/p&gt;
+
+&lt;h6 id=&quot;문제-1&quot;&gt;문제&lt;/h6&gt;
+&lt;p&gt;&lt;br /&gt;
+두 줄에 걸쳐 “강한친구 대한육군”을 한 줄에 한 번씩 출력한다.&lt;/p&gt;
+
+&lt;h6 id=&quot;풀이-1&quot;&gt;풀이&lt;/h6&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;public class Main {
+	
+	public static void main(String[] args) {
+		System.out.println(&quot;강한친구 대한육군&quot;);
+		System.out.println(&quot;강한친구 대한육군&quot;);
+	}
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;public class Main {
+	
+	public static void main(String[] args) {
+		System.out.println(&quot;강한친구 대한육군\n강한친구 대한육군&quot;);	
+	}
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h6 id=&quot;문제-2&quot;&gt;문제&lt;/h6&gt;
+&lt;p&gt;&lt;br /&gt;
+고양이를 출력한다.&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;\    /\
+ )  ( &apos;)
+(  /  )
+ \(__)|
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h6 id=&quot;풀이-2&quot;&gt;풀이&lt;/h6&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;public class Main {
+	public static void main(String[] args) {
+    
+		System.out.println(&quot;\\    /\\&quot;);
+		System.out.println(&quot; )  ( &apos;)&quot;);
+		System.out.println(&quot;(  /  )&quot;);
+		System.out.println(&quot; \\(__)|&quot;);    
+ 
+	}
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;public class Main {
+	public static void main(String[] args) {
+    
+	System.out.println(  &quot;\\    /\\\n&quot; + 
+		                 &quot; )  ( &apos;)\n&quot; + 
+		            	 &quot;(  /  )\n&quot; + 
+		            	 &quot; \\(__)|&quot;);
+	}
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;\는 이스케이프 시퀀시로 사용되는 문자이기 때문에 출력하려면 \\와같이 앞에 \를 하나 붙여야 정상적으로 출력된다&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Jinho1</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="algorithm" />
+      
+
+      
+        <summary type="html">백준 문제 연습 2022-05-13 문제 Hello World!를 출력하시오.</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>

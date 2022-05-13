@@ -136,7 +136,7 @@ into the {body} of the default.hbs template -->
     <li class="nav-home" role="menuitem"><a href="/">Home</a></li>
     <li class="nav-about" role="menuitem"><a href="/about/">About</a></li>
     <li class="nav-java" role="menuitem"><a href="/tag/java/">Java</a></li>
-    <li class="nav-python" role="menuitem"><a href="/tag/python/">Python</a></li>
+    <li class="nav-algorithm" role="menuitem"><a href="/tag/algorithm/">Algorithm</a></li>
     <li class="nav-memo" role="menuitem"><a href="/tag/memo/">Memo</a></li>
     <li class="nav-archive" role="menuitem">
         <a href="/archive.html">All Posts</a>
@@ -216,6 +216,9 @@ into the {body} of the default.hbs template -->
   <li>이름 앞에 set을 붙이고 뒤에는 수정할 맴버변수의 이름 혹은 해당 변수를 직관적으로 표현하는 단어이어야 한다.</li>
   <li>ex) void setLength(int length);</li>
 </ul>
+
+<h3 id="override-어노테이션">@Override 어노테이션</h3>
+<p>상속받은 메서드를 재정의할 때 메서드 이름이 틀리지 않게 쓰기 위한 어노테이션이다</p>
 
                 </div>
             </section>
@@ -325,6 +328,8 @@ into the {body} of the default.hbs template -->
                                 
                                 
                                   
+                                
+                                  
                                     
                                   
                                 
@@ -335,8 +340,6 @@ into the {body} of the default.hbs template -->
                                             <li><a href="/memo1">SQL</a></li>
                                         
                                     
-                                  
-                                
                                   
                                 
                                   
@@ -375,6 +378,55 @@ into the {body} of the default.hbs template -->
             
 
             <!-- If there's a next post, display it using the same markup included from - partials/post-card.hbs -->
+            
+                
+
+    <article class="post-card post-template">
+        
+            <a class="post-card-image-link" href="/javaweb23">
+                <div class="post-card-image" style="background-image: url(/assets/built/images/java-logo.jpg)"></div>
+            </a>
+        
+        <div class="post-card-content">
+            <a class="post-card-content-link" href="/javaweb23">
+                <header class="post-card-header">
+                    
+                        
+                            
+                                <span class="post-card-tags">Java</span>
+                            
+                        
+                    
+
+                    <h2 class="post-card-title">JAVA 웹을 다루는 기술 - 23장</h2>
+                </header>
+                <section class="post-card-excerpt">
+                    
+                        <p>JAVA 웹을 다루는 기술 - 4장 JAVA 웹을 다루는 기술 - 5장 JAVA 웹을 다루는 기술 - 6,7장 JAVA 웹을 다루는 기술 - 8장 JAVA 웹을 다루는 기술 - 9장 JAVA 웹을 다루는</p>
+                    
+                </section>
+            </a>
+            <footer class="post-card-meta">
+                
+                    
+                        
+                        <img class="author-profile-image" src="/assets/built/images/author-logo.gif" alt="Jinho1" />
+                        
+                        <span class="post-card-author">
+                            <a href="/author/Jinho1/">Jinho1</a>
+                        </span>
+                    
+                
+                <span class="reading-time">
+                    
+                    
+                      1 min read
+                    
+                </span>
+            </footer>
+        </div>
+    </article>
+
             
 
             <!-- If there's a previous post, display it using the same markup included from - partials/post-card.hbs -->
