@@ -231,7 +231,7 @@ Hello World!를 출력하시오.</p>
 	}
 }
 </code></pre></div></div>
-
+<p>\n 으로 줄바꿈 할수있다</p>
 <h6 id="문제-10171">문제 10171</h6>
 <p><br />
 고양이를 출력한다.</p>
@@ -290,6 +290,95 @@ r`-_   ,'  ,/
 }
 </code></pre></div></div>
 <p>’\‘나 "는 앞에 \를 붙여주면 출력이 가능하다</p>
+
+<h6 id="문제-1000-1001-10998">문제 1000, 1001, 10998</h6>
+<p><br />
+두 정수 A와 B를 입력받은 다음, A+B, A-B, A*B를 출력하는 프로그램을 작성하시오.</p>
+
+<h6 id="풀이-4">풀이</h6>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int a = sc.nextInt();
+		int b = sc.nextInt();
+		
+
+		System.out.println(a + b); // A+B
+        System.out.println(a - b); // A-B
+        System.out.println(a * b); // A*B
+
+	}
+}
+</code></pre></div></div>
+
+<h6 id="문제-1008">문제 1008</h6>
+<p><br />
+첫째 줄에 A/B를 출력한다. 실제 정답과 출력값의 절대오차 또는 상대오차가 10-9 이하이면 정답</p>
+
+<h6 id="풀이-5">풀이</h6>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		Double a = sc.nextDouble();
+		Double b = sc.nextDouble();
+		
+
+		System.out.println(a/b);
+	}
+}
+</code></pre></div></div>
+
+<h6 id="문제-10869">문제 10869</h6>
+<p><br />
+첫째 줄에 A+B, 둘째 줄에 A-B, 셋째 줄에 A*B, 넷째 줄에 A/B, 다섯째 줄에 A%B를 출력한다.</p>
+
+<h6 id="풀이-6">풀이</h6>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int a = sc.nextInt();
+		int b = sc.nextInt();
+		
+
+		System.out.println(a+b);
+        System.out.println(a-b);
+        System.out.println(a*b);
+        System.out.println(a/b);
+        System.out.println(a%b);
+	}
+}
+</code></pre></div></div>
+
+<h6 id="문제-10926">문제 10926</h6>
+<p><br />
+첫째 줄에 준하의 놀람을 출력한다. 놀람은 아이디 뒤에 ??!를 붙여서 나타낸다.</p>
+
+<h6 id="풀이-7">풀이</h6>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		String id = sc.next();
+		System.out.println(id + "??!");
+		}
+
+	}
+</code></pre></div></div>
 
                 </div>
             </section>

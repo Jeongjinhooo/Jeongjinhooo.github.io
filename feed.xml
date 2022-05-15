@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://jeongjinhooo.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jeongjinhooo.github.io/" rel="alternate" type="text/html" /><updated>2022-05-14T00:04:06+09:00</updated><id>https://jeongjinhooo.github.io/feed.xml</id><title type="html">Jinhonote</title><subtitle>개발공부블로그</subtitle><entry><title type="html">JAVA 웹을 다루는 기술 - 23장</title><link href="https://jeongjinhooo.github.io/javaweb23" rel="alternate" type="text/html" title="JAVA 웹을 다루는 기술 - 23장" /><published>2022-05-13T04:00:00+09:00</published><updated>2022-05-13T04:00:00+09:00</updated><id>https://jeongjinhooo.github.io/javaweb23</id><content type="html" xml:base="https://jeongjinhooo.github.io/javaweb23">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://jeongjinhooo.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jeongjinhooo.github.io/" rel="alternate" type="text/html" /><updated>2022-05-15T22:17:30+09:00</updated><id>https://jeongjinhooo.github.io/feed.xml</id><title type="html">Jinhonote</title><subtitle>개발공부블로그</subtitle><entry><title type="html">JAVA 웹을 다루는 기술 - 23장</title><link href="https://jeongjinhooo.github.io/javaweb23" rel="alternate" type="text/html" title="JAVA 웹을 다루는 기술 - 23장" /><published>2022-05-13T04:00:00+09:00</published><updated>2022-05-13T04:00:00+09:00</updated><id>https://jeongjinhooo.github.io/javaweb23</id><content type="html" xml:base="https://jeongjinhooo.github.io/javaweb23">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb4&quot;&gt;JAVA 웹을 다루는 기술 - 4장&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb5&quot;&gt;JAVA 웹을 다루는 기술 - 5장&lt;/a&gt;&lt;/li&gt;
@@ -82,7 +82,7 @@ Hello World!를 출력하시오.&lt;/p&gt;
 	}
 }
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
+&lt;p&gt;\n 으로 줄바꿈 할수있다&lt;/p&gt;
 &lt;h6 id=&quot;문제-10171&quot;&gt;문제 10171&lt;/h6&gt;
 &lt;p&gt;&lt;br /&gt;
 고양이를 출력한다.&lt;/p&gt;
@@ -140,7 +140,96 @@ r`-_   ,&apos;  ,/
     }
 }
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;’\‘나 &quot;는 앞에 \를 붙여주면 출력이 가능하다&lt;/p&gt;</content><author><name>Jinho1</name></author><category term="algorithm" /><summary type="html">백준 문제 연습 2022-05-13 문제 2557 Hello World!를 출력하시오.</summary></entry><entry><title type="html">SQL</title><link href="https://jeongjinhooo.github.io/memo1" rel="alternate" type="text/html" title="SQL" /><published>2022-05-07T04:00:00+09:00</published><updated>2022-05-07T04:00:00+09:00</updated><id>https://jeongjinhooo.github.io/memo1</id><content type="html" xml:base="https://jeongjinhooo.github.io/memo1">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;’\‘나 &quot;는 앞에 \를 붙여주면 출력이 가능하다&lt;/p&gt;
+
+&lt;h6 id=&quot;문제-1000-1001-10998&quot;&gt;문제 1000, 1001, 10998&lt;/h6&gt;
+&lt;p&gt;&lt;br /&gt;
+두 정수 A와 B를 입력받은 다음, A+B, A-B, A*B를 출력하는 프로그램을 작성하시오.&lt;/p&gt;
+
+&lt;h6 id=&quot;풀이-4&quot;&gt;풀이&lt;/h6&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int a = sc.nextInt();
+		int b = sc.nextInt();
+		
+
+		System.out.println(a + b); // A+B
+        System.out.println(a - b); // A-B
+        System.out.println(a * b); // A*B
+
+	}
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h6 id=&quot;문제-1008&quot;&gt;문제 1008&lt;/h6&gt;
+&lt;p&gt;&lt;br /&gt;
+첫째 줄에 A/B를 출력한다. 실제 정답과 출력값의 절대오차 또는 상대오차가 10-9 이하이면 정답&lt;/p&gt;
+
+&lt;h6 id=&quot;풀이-5&quot;&gt;풀이&lt;/h6&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		Double a = sc.nextDouble();
+		Double b = sc.nextDouble();
+		
+
+		System.out.println(a/b);
+	}
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h6 id=&quot;문제-10869&quot;&gt;문제 10869&lt;/h6&gt;
+&lt;p&gt;&lt;br /&gt;
+첫째 줄에 A+B, 둘째 줄에 A-B, 셋째 줄에 A*B, 넷째 줄에 A/B, 다섯째 줄에 A%B를 출력한다.&lt;/p&gt;
+
+&lt;h6 id=&quot;풀이-6&quot;&gt;풀이&lt;/h6&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int a = sc.nextInt();
+		int b = sc.nextInt();
+		
+
+		System.out.println(a+b);
+        System.out.println(a-b);
+        System.out.println(a*b);
+        System.out.println(a/b);
+        System.out.println(a%b);
+	}
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h6 id=&quot;문제-10926&quot;&gt;문제 10926&lt;/h6&gt;
+&lt;p&gt;&lt;br /&gt;
+첫째 줄에 준하의 놀람을 출력한다. 놀람은 아이디 뒤에 ??!를 붙여서 나타낸다.&lt;/p&gt;
+
+&lt;h6 id=&quot;풀이-7&quot;&gt;풀이&lt;/h6&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		String id = sc.next();
+		System.out.println(id + &quot;??!&quot;);
+		}
+
+	}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Jinho1</name></author><category term="algorithm" /><summary type="html">백준 문제 연습 2022-05-13 문제 2557 Hello World!를 출력하시오.</summary></entry><entry><title type="html">SQL</title><link href="https://jeongjinhooo.github.io/memo1" rel="alternate" type="text/html" title="SQL" /><published>2022-05-07T04:00:00+09:00</published><updated>2022-05-07T04:00:00+09:00</updated><id>https://jeongjinhooo.github.io/memo1</id><content type="html" xml:base="https://jeongjinhooo.github.io/memo1">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./memo1&quot;&gt;SQL 정리&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./memo1&quot;&gt;JAVA 정리&lt;/a&gt;&lt;/li&gt;
