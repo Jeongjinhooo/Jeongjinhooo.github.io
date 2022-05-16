@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://jeongjinhooo.github.io/tag/java/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://jeongjinhooo.github.io/" rel="alternate" type="text/html" />
-  <updated>2022-05-15T22:17:30+09:00</updated>
+  <updated>2022-05-16T23:40:12+09:00</updated>
   <id>https://jeongjinhooo.github.io/tag/java/feed.xml</id>
 
   
@@ -54,7 +54,49 @@
 &lt;hr /&gt;
 &lt;p&gt;본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.&lt;/p&gt;
 
-&lt;h3 id=&quot;마이바티스&quot;&gt;마이바티스&lt;/h3&gt;</content>
+&lt;h3 id=&quot;마이바티스&quot;&gt;마이바티스&lt;/h3&gt;
+&lt;p&gt;특징&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;SQL 실행 결과를 자바 빈즈 또는 Map 객체에 매핑해 주는 Persisitence 솔루션으로 관리함
+&lt;br /&gt; 즉 SQL을 소스 코드가 아닌 XML로 분리함&lt;/li&gt;
+  &lt;li&gt;SQL문과 프로그래밍 코드를 분리해서 구현함&lt;/li&gt;
+  &lt;li&gt;데이터소스(DataSource) 기능과 트랜잭션 처리 기능을 제공&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;resultType : 한개의 값이나 한개의 레코드를 반환받을때 &lt;br /&gt;
+resultMap : 여러개의 레코드를 반환받을때&lt;/p&gt;
+
+&lt;h6 id=&quot;마이바티스의-동적-sql문의-특징&quot;&gt;마이바티스의 동적 SQL문의 특징&lt;/h6&gt;
+&lt;ul&gt;
+  &lt;li&gt;주로 SQL문의 조건절에서 사용&lt;/li&gt;
+  &lt;li&gt;조건절(where)에 조건을 동적으로 추가&lt;/li&gt;
+  &lt;li&gt;JSTL과 XML 기반으로 동적 SQL문을 작성&lt;/li&gt;
+  &lt;li&gt;구성요소 : if, choose(when, otherwise), tirm(where, set), foreach&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id=&quot;동적-sql문을-구성하는-요소&quot;&gt;동적 SQL문을 구성하는 요소&lt;/h6&gt;
+&lt;ul&gt;
+  &lt;li&gt;if&lt;/li&gt;
+  &lt;li&gt;choose(when, otherwise) : 자바의 switch문과 같은 기능&lt;/li&gt;
+  &lt;li&gt;tirm(where, set)&lt;/li&gt;
+  &lt;li&gt;foreach : 한번에 여러개의 데이터를 처리할 수 있음&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id=&quot;sql-태그와-include-태그로-sql문-중복-제거하기&quot;&gt;&amp;lt;sql&amp;gt; 태그와 &amp;lt;include&amp;gt; 태그로 SQL문 중복 제거하기&lt;/h6&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; &amp;lt;sql id=&quot;a&quot;&amp;gt;  // 공통 SQL문의 refid를 a로 지정
+    &amp;lt;![CDATA[
+      select * from t_member
+     ]]&amp;gt; 
+   &amp;lt;/sql&amp;gt;  
+
+ &amp;lt;include refid=&quot;a&quot; /&amp;gt; // include 태그를 이용해 공통 SQL문을 재사용
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h6 id=&quot;마이바티스에서-오라클-연동해-like-검색하는-방법&quot;&gt;마이바티스에서 오라클 연동해 like 검색하는 방법&lt;/h6&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;name like &apos;%&apos;#{name}&apos;%&apos;          //  오라클에서 사용하는 방법
+
+name like &apos;%&apos; || #{name} || &apos;%&apos;	 // 마이바티스에서 사용하는 방법
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content>
 
       
       

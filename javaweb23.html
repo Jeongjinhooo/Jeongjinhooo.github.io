@@ -137,6 +137,7 @@ into the {body} of the default.hbs template -->
     <li class="nav-about" role="menuitem"><a href="/about/">About</a></li>
     <li class="nav-java" role="menuitem"><a href="/tag/java/">Java</a></li>
     <li class="nav-algorithm" role="menuitem"><a href="/tag/algorithm/">Algorithm</a></li>
+    <li class="nav-error" role="menuitem"><a href="/tag/error/">Error</a></li>
     <li class="nav-memo" role="menuitem"><a href="/tag/memo/">Memo</a></li>
     <li class="nav-archive" role="menuitem">
         <a href="/archive.html">All Posts</a>
@@ -209,6 +210,48 @@ into the {body} of the default.hbs template -->
 <p>본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.</p>
 
 <h3 id="마이바티스">마이바티스</h3>
+<p>특징</p>
+<ul>
+  <li>SQL 실행 결과를 자바 빈즈 또는 Map 객체에 매핑해 주는 Persisitence 솔루션으로 관리함
+<br /> 즉 SQL을 소스 코드가 아닌 XML로 분리함</li>
+  <li>SQL문과 프로그래밍 코드를 분리해서 구현함</li>
+  <li>데이터소스(DataSource) 기능과 트랜잭션 처리 기능을 제공</li>
+</ul>
+
+<p>resultType : 한개의 값이나 한개의 레코드를 반환받을때 <br />
+resultMap : 여러개의 레코드를 반환받을때</p>
+
+<h6 id="마이바티스의-동적-sql문의-특징">마이바티스의 동적 SQL문의 특징</h6>
+<ul>
+  <li>주로 SQL문의 조건절에서 사용</li>
+  <li>조건절(where)에 조건을 동적으로 추가</li>
+  <li>JSTL과 XML 기반으로 동적 SQL문을 작성</li>
+  <li>구성요소 : if, choose(when, otherwise), tirm(where, set), foreach</li>
+</ul>
+
+<h6 id="동적-sql문을-구성하는-요소">동적 SQL문을 구성하는 요소</h6>
+<ul>
+  <li>if</li>
+  <li>choose(when, otherwise) : 자바의 switch문과 같은 기능</li>
+  <li>tirm(where, set)</li>
+  <li>foreach : 한번에 여러개의 데이터를 처리할 수 있음</li>
+</ul>
+
+<h6 id="sql-태그와-include-태그로-sql문-중복-제거하기">&lt;sql&gt; 태그와 &lt;include&gt; 태그로 SQL문 중복 제거하기</h6>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> &lt;sql id="a"&gt;  // 공통 SQL문의 refid를 a로 지정
+    &lt;![CDATA[
+      select * from t_member
+     ]]&gt; 
+   &lt;/sql&gt;  
+
+ &lt;include refid="a" /&gt; // include 태그를 이용해 공통 SQL문을 재사용
+</code></pre></div></div>
+
+<h6 id="마이바티스에서-오라클-연동해-like-검색하는-방법">마이바티스에서 오라클 연동해 like 검색하는 방법</h6>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>name like '%'#{name}'%'          //  오라클에서 사용하는 방법
+
+name like '%' || #{name} || '%'	 // 마이바티스에서 사용하는 방법
+</code></pre></div></div>
 
                 </div>
             </section>
@@ -332,6 +375,8 @@ into the {body} of the default.hbs template -->
                                             <li><a href="/javaweb18">JAVA 웹을 다루는 기술 - 18,19장</a></li>
                                         
                                     
+                                  
+                                
                                   
                                 
                                   
