@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://jeongjinhooo.github.io/tag/algorithm/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://jeongjinhooo.github.io/" rel="alternate" type="text/html" />
-  <updated>2022-05-16T23:40:12+09:00</updated>
+  <updated>2022-05-17T22:44:48+09:00</updated>
   <id>https://jeongjinhooo.github.io/tag/algorithm/feed.xml</id>
 
   
@@ -32,14 +32,170 @@
 
   
     <entry>
-      <title type="html">algorithm</title>
-      <link href="https://jeongjinhooo.github.io/algorithm1" rel="alternate" type="text/html" title="algorithm" />
+      <title type="html">조건문</title>
+      <link href="https://jeongjinhooo.github.io/algorithm2" rel="alternate" type="text/html" title="조건문" />
+      <published>2022-05-17T04:00:00+09:00</published>
+      <updated>2022-05-17T04:00:00+09:00</updated>
+      <id>https://jeongjinhooo.github.io/algorithm2</id>
+      <content type="html" xml:base="https://jeongjinhooo.github.io/algorithm2">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;백준 문제 연습&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./algorithm1&quot;&gt;입출력과 사칙연산&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./algorithm2&quot;&gt;조건문&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+
+&lt;h6 id=&quot;문제-1330&quot;&gt;문제 1330&lt;/h6&gt;
+&lt;p&gt;&lt;br /&gt;
+첫째 줄에 다음 세 가지 중 하나를 출력한다.&lt;/p&gt;
+
+&lt;p&gt;A가 B보다 큰 경우에는 ‘&amp;gt;’를 출력한다.
+A가 B보다 작은 경우에는 ‘&amp;lt;’를 출력한다.
+A와 B가 같은 경우에는 ‘==’를 출력한다.&lt;/p&gt;
+
+&lt;h6 id=&quot;풀이&quot;&gt;풀이&lt;/h6&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;import java.util.Scanner;
+public class Main {
+ 
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		
+		int A = in.nextInt();
+		int B = in.nextInt();
+		
+		in.close();
+        
+		if(A&amp;gt;B) System.out.println(&quot;&amp;gt;&quot;);
+		else if(A&amp;lt;B) System.out.println(&quot;&amp;lt;&quot;);
+		else System.out.println(&quot;==&quot;);
+	}
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h6 id=&quot;문제-9498&quot;&gt;문제 9498&lt;/h6&gt;
+&lt;p&gt;&lt;br /&gt;
+시험 점수를 입력받아 90 ~ 100점은 A, 80 ~ 89점은 B, 70 ~ 79점은 C, 60 ~ 69점은 D, 나머지 점수는 F를 출력하는 프로그램을 작성하시오.&lt;/p&gt;
+
+&lt;h6 id=&quot;풀이-1&quot;&gt;풀이&lt;/h6&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;import java.util.Scanner;
+public class Main {
+ 
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		
+		int A = in.nextInt();
+		in.close();
+		
+		if(A&amp;gt;=90) System.out.println(&quot;A&quot;);
+		else if(A&amp;gt;=80) System.out.println(&quot;B&quot;);
+		else if (A&amp;gt;=70) System.out.println(&quot;C&quot;);
+		else if(A&amp;gt;=60) System.out.println(&quot;D&quot;);
+		else System.out.println(&quot;F&quot;);
+	}
+ 
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h6 id=&quot;문제-2753&quot;&gt;문제 2753&lt;/h6&gt;
+&lt;p&gt;&lt;br /&gt;
+연도가 주어졌을 때, 윤년이면 1, 아니면 0을 출력하는 프로그램을 작성하시오.&lt;br /&gt;
+윤년은 연도가 4의 배수이면서, 100의 배수가 아닐 때 또는 400의 배수일 때이다.&lt;/p&gt;
+
+&lt;h6 id=&quot;풀이-2&quot;&gt;풀이&lt;/h6&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;import java.util.Scanner;
+ 
+public class Main {
+ 
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		
+		int y = in.nextInt();
+		in.close();
+        
+		if(y%4==0) {
+			if(y%400==0) System.out.println(&quot;1&quot;);
+			else if(y%100==0) System.out.println(&quot;0&quot;);
+			else System.out.println(&quot;1&quot;);
+		}
+		else System.out.println(&quot;0&quot;);
+	}
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h6 id=&quot;문제-14681&quot;&gt;문제 14681&lt;/h6&gt;
+&lt;p&gt;&lt;br /&gt;
+점 (x, y)의 사분면 번호(1, 2, 3, 4 중 하나)를 출력한다.&lt;/p&gt;
+
+&lt;h6 id=&quot;풀이-3&quot;&gt;풀이&lt;/h6&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;import java.util.Scanner;
+ 
+public class Main {
+ 
+	public static void main(String[] args) {
+ 
+		Scanner in = new Scanner(System.in);
+        
+		int X = in.nextInt();
+		int Y = in.nextInt();
+		
+		if(X &amp;gt; 0) {
+			if(Y &amp;gt; 0) {
+				System.out.print(1);
+			} 
+			else {
+				System.out.print(4);
+			}
+		} 
+		
+		else {
+			if(Y &amp;gt; 0) {
+				System.out.print(2);
+			} 
+			else {
+				System.out.print(3);
+			}
+		}
+	}
+ 
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Jinho1</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="algorithm" />
+      
+
+      
+        <summary type="html">백준 문제 연습 입출력과 사칙연산 조건문</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">입출력과 사칙연산</title>
+      <link href="https://jeongjinhooo.github.io/algorithm1" rel="alternate" type="text/html" title="입출력과 사칙연산" />
       <published>2022-05-07T04:00:00+09:00</published>
       <updated>2022-05-07T04:00:00+09:00</updated>
       <id>https://jeongjinhooo.github.io/algorithm1</id>
       <content type="html" xml:base="https://jeongjinhooo.github.io/algorithm1">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;백준 문제 연습&lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./algorithm1&quot;&gt;2022-05-13&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./algorithm1&quot;&gt;입출력과 사칙연산&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./algorithm2&quot;&gt;조건문&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
 &lt;h6 id=&quot;문제-2557&quot;&gt;문제 2557&lt;/h6&gt;
@@ -298,6 +454,7 @@ public class Main {
 		System.out.println(A * (B.charAt(1) - &apos;0&apos;));
 		System.out.println(A * (B.charAt(0) - &apos;0&apos;));
 		//charAt() : 문자열의 인덱스 위치에 있는 문자(Character) 값을 반환한다
+		// -&apos;0&apos; 을 해주는 이유 : 우리가 보는 숫자 그대로의 값을 쓰기 위한 것
 		System.out.println(A * Integer.parseInt(B));
 		//Integer.parseInt()을 통해 문자열을 int형으로 바꿔준다
  
@@ -324,7 +481,7 @@ public class Main {
       
 
       
-        <summary type="html">백준 문제 연습 2022-05-13 문제 2557 Hello World!를 출력하시오.</summary>
+        <summary type="html">백준 문제 연습 입출력과 사칙연산 조건문 문제 2557 Hello World!를 출력하시오.</summary>
       
 
       

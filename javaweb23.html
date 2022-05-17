@@ -205,12 +205,14 @@ into the {body} of the default.hbs template -->
     <li><a href="./javaweb17">JAVA 웹을 다루는 기술 - 17장</a></li>
     <li><a href="./javaweb18">JAVA 웹을 다루는 기술 - 18,19장</a></li>
     <li><a href="./javaweb23">JAVA 웹을 다루는 기술 - 23장</a></li>
+    <li><a href="./javaweb25">JAVA 웹을 다루는 기술 - 25장</a></li>
 </ul>
 <hr />
 <p>본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.</p>
 
+<p><br /></p>
+
 <h3 id="마이바티스">마이바티스</h3>
-<p>특징</p>
 <ul>
   <li>SQL 실행 결과를 자바 빈즈 또는 Map 객체에 매핑해 주는 Persisitence 솔루션으로 관리함
 <br /> 즉 SQL을 소스 코드가 아닌 XML로 분리함</li>
@@ -218,7 +220,7 @@ into the {body} of the default.hbs template -->
   <li>데이터소스(DataSource) 기능과 트랜잭션 처리 기능을 제공</li>
 </ul>
 
-<p>resultType : 한개의 값이나 한개의 레코드를 반환받을때 <br />
+<p>resultType : 한개의 값이나 한개의 레코드를 반환받을때<br />
 resultMap : 여러개의 레코드를 반환받을때</p>
 
 <h6 id="마이바티스의-동적-sql문의-특징">마이바티스의 동적 SQL문의 특징</h6>
@@ -362,6 +364,17 @@ name like '%' || #{name} || '%'	 // 마이바티스에서 사용하는 방법
                                 
                                   
                                     
+                                        
+                                        
+                                            <li><a href="/javaweb25">JAVA 웹을 다루는 기술 - 25장</a></li>
+                                        
+                                    
+                                  
+                                
+                                  
+                                
+                                  
+                                    
                                   
                                 
                                   
@@ -393,8 +406,6 @@ name like '%' || #{name} || '%'	 // 마이바티스에서 사용하는 방법
                                   
                                     
                                         
-                                        
-                                            <li><a href="/javaweb13">JAVA 웹을 다루는 기술 - 13,14장</a></li>
                                         
                                     
                                   
@@ -453,7 +464,7 @@ name like '%' || #{name} || '%'	 // 마이바티스에서 사용하는 방법
                         <footer class="read-next-card-footer">
                             <a href="/tag/java/">
                                 
-                                    See all 10 posts  →
+                                    See all 11 posts  →
                                 
                             </a>
                         </footer>
@@ -462,6 +473,62 @@ name like '%' || #{name} || '%'	 // 마이바티스에서 사용하는 방법
             
 
             <!-- If there's a next post, display it using the same markup included from - partials/post-card.hbs -->
+            
+                
+
+    <article class="post-card post-template">
+        
+            <a class="post-card-image-link" href="/algorithm2">
+                <div class="post-card-image" style="background-image: url(/assets/built/images/java-logo.jpg)"></div>
+            </a>
+        
+        <div class="post-card-content">
+            <a class="post-card-content-link" href="/algorithm2">
+                <header class="post-card-header">
+                    
+                        
+                            
+                                <span class="post-card-tags">Algorithm</span>
+                            
+                        
+                    
+
+                    <h2 class="post-card-title">조건문</h2>
+                </header>
+                <section class="post-card-excerpt">
+                    
+                        <p>백준 문제 연습
+
+    입출력과 사칙연산
+    조건문
+
+
+
+</p>
+                    
+                </section>
+            </a>
+            <footer class="post-card-meta">
+                
+                    
+                        
+                        <img class="author-profile-image" src="/assets/built/images/author-logo.gif" alt="Jinho1" />
+                        
+                        <span class="post-card-author">
+                            <a href="/author/Jinho1/">Jinho1</a>
+                        </span>
+                    
+                
+                <span class="reading-time">
+                    
+                    
+                      1 min read
+                    
+                </span>
+            </footer>
+        </div>
+    </article>
+
             
 
             <!-- If there's a previous post, display it using the same markup included from - partials/post-card.hbs -->
