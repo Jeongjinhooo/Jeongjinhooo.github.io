@@ -8,7 +8,7 @@
     
       
       <item>
-        <title>JAVA 웹을 다루는 기술 - 25장</title>
+        <title>JAVA 웹을 다루는 기술 - 27장</title>
         
           <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
@@ -23,7 +23,40 @@
     &lt;li&gt;&lt;a href=&quot;./javaweb17&quot;&gt;JAVA 웹을 다루는 기술 - 17장&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb18&quot;&gt;JAVA 웹을 다루는 기술 - 18,19장&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb23&quot;&gt;JAVA 웹을 다루는 기술 - 23장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb25&quot;&gt;JAVA 웹을 다루는 기술 - 25장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb25&quot;&gt;JAVA 웹을 다루는 기술 - 25,26장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb27&quot;&gt;JAVA 웹을 다루는 기술 - 27장&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;p&gt;본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Wed, 18 May 2022 04:00:00 +0900</pubDate>
+        <link>
+        https://Jeongjinhooo.github.io/javaweb27</link>
+        <guid isPermaLink="true">https://Jeongjinhooo.github.io/javaweb27</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>JAVA 웹을 다루는 기술 - 25, 26장</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb4&quot;&gt;JAVA 웹을 다루는 기술 - 4장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb5&quot;&gt;JAVA 웹을 다루는 기술 - 5장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb6&quot;&gt;JAVA 웹을 다루는 기술 - 6,7장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb8&quot;&gt;JAVA 웹을 다루는 기술 - 8장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb9&quot;&gt;JAVA 웹을 다루는 기술 - 9장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb10&quot;&gt;JAVA 웹을 다루는 기술 - 10장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb11&quot;&gt;JAVA 웹을 다루는 기술 - 11,12장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb13&quot;&gt;JAVA 웹을 다루는 기술 - 13,14장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb17&quot;&gt;JAVA 웹을 다루는 기술 - 17장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb18&quot;&gt;JAVA 웹을 다루는 기술 - 18,19장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb23&quot;&gt;JAVA 웹을 다루는 기술 - 23장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb25&quot;&gt;JAVA 웹을 다루는 기술 - 25,26장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb27&quot;&gt;JAVA 웹을 다루는 기술 - 27장&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
 &lt;p&gt;본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.&lt;/p&gt;
@@ -74,7 +107,8 @@
     &lt;li&gt;&lt;a href=&quot;./javaweb17&quot;&gt;JAVA 웹을 다루는 기술 - 17장&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb18&quot;&gt;JAVA 웹을 다루는 기술 - 18,19장&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb23&quot;&gt;JAVA 웹을 다루는 기술 - 23장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb25&quot;&gt;JAVA 웹을 다루는 기술 - 25장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb25&quot;&gt;JAVA 웹을 다루는 기술 - 25,26장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb27&quot;&gt;JAVA 웹을 다루는 기술 - 27장&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
 &lt;p&gt;본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.&lt;/p&gt;
@@ -145,7 +179,8 @@
     &lt;li&gt;&lt;a href=&quot;./javaweb17&quot;&gt;JAVA 웹을 다루는 기술 - 17장&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb18&quot;&gt;JAVA 웹을 다루는 기술 - 18,19장&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb23&quot;&gt;JAVA 웹을 다루는 기술 - 23장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb25&quot;&gt;JAVA 웹을 다루는 기술 - 25장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb25&quot;&gt;JAVA 웹을 다루는 기술 - 25,26장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb27&quot;&gt;JAVA 웹을 다루는 기술 - 27장&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
 &lt;p&gt;본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.&lt;/p&gt;
@@ -219,7 +254,8 @@ Hello World!를 출력하시오.&lt;/p&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb17&quot;&gt;JAVA 웹을 다루는 기술 - 17장&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb18&quot;&gt;JAVA 웹을 다루는 기술 - 18,19장&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb23&quot;&gt;JAVA 웹을 다루는 기술 - 23장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb25&quot;&gt;JAVA 웹을 다루는 기술 - 25장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb25&quot;&gt;JAVA 웹을 다루는 기술 - 25,26장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb27&quot;&gt;JAVA 웹을 다루는 기술 - 27장&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
 &lt;p&gt;본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.&lt;/p&gt;
@@ -251,7 +287,8 @@ Hello World!를 출력하시오.&lt;/p&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb17&quot;&gt;JAVA 웹을 다루는 기술 - 17장&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb18&quot;&gt;JAVA 웹을 다루는 기술 - 18,19장&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb23&quot;&gt;JAVA 웹을 다루는 기술 - 23장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb25&quot;&gt;JAVA 웹을 다루는 기술 - 25장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb25&quot;&gt;JAVA 웹을 다루는 기술 - 25,26장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb27&quot;&gt;JAVA 웹을 다루는 기술 - 27장&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
 &lt;p&gt;본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.&lt;/p&gt;
@@ -283,7 +320,8 @@ Hello World!를 출력하시오.&lt;/p&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb17&quot;&gt;JAVA 웹을 다루는 기술 - 17장&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb18&quot;&gt;JAVA 웹을 다루는 기술 - 18,19장&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb23&quot;&gt;JAVA 웹을 다루는 기술 - 23장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb25&quot;&gt;JAVA 웹을 다루는 기술 - 25장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb25&quot;&gt;JAVA 웹을 다루는 기술 - 25,26장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb27&quot;&gt;JAVA 웹을 다루는 기술 - 27장&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
 &lt;p&gt;본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.&lt;/p&gt;
@@ -315,7 +353,8 @@ Hello World!를 출력하시오.&lt;/p&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb17&quot;&gt;JAVA 웹을 다루는 기술 - 17장&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb18&quot;&gt;JAVA 웹을 다루는 기술 - 18,19장&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb23&quot;&gt;JAVA 웹을 다루는 기술 - 23장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb25&quot;&gt;JAVA 웹을 다루는 기술 - 25장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb25&quot;&gt;JAVA 웹을 다루는 기술 - 25,26장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb27&quot;&gt;JAVA 웹을 다루는 기술 - 27장&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
 &lt;p&gt;본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.&lt;/p&gt;
@@ -347,7 +386,8 @@ Hello World!를 출력하시오.&lt;/p&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb17&quot;&gt;JAVA 웹을 다루는 기술 - 17장&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb18&quot;&gt;JAVA 웹을 다루는 기술 - 18,19장&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb23&quot;&gt;JAVA 웹을 다루는 기술 - 23장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb25&quot;&gt;JAVA 웹을 다루는 기술 - 25장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb25&quot;&gt;JAVA 웹을 다루는 기술 - 25,26장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb27&quot;&gt;JAVA 웹을 다루는 기술 - 27장&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
 &lt;p&gt;본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.&lt;/p&gt;
@@ -379,7 +419,8 @@ Hello World!를 출력하시오.&lt;/p&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb17&quot;&gt;JAVA 웹을 다루는 기술 - 17장&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb18&quot;&gt;JAVA 웹을 다루는 기술 - 18,19장&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb23&quot;&gt;JAVA 웹을 다루는 기술 - 23장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb25&quot;&gt;JAVA 웹을 다루는 기술 - 25장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb25&quot;&gt;JAVA 웹을 다루는 기술 - 25,26장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb27&quot;&gt;JAVA 웹을 다루는 기술 - 27장&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
 &lt;p&gt;본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.&lt;/p&gt;
@@ -411,7 +452,8 @@ Hello World!를 출력하시오.&lt;/p&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb17&quot;&gt;JAVA 웹을 다루는 기술 - 17장&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb18&quot;&gt;JAVA 웹을 다루는 기술 - 18,19장&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb23&quot;&gt;JAVA 웹을 다루는 기술 - 23장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb25&quot;&gt;JAVA 웹을 다루는 기술 - 25장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb25&quot;&gt;JAVA 웹을 다루는 기술 - 25,26장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb27&quot;&gt;JAVA 웹을 다루는 기술 - 27장&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
 &lt;p&gt;본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.&lt;/p&gt;
@@ -443,7 +485,8 @@ Hello World!를 출력하시오.&lt;/p&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb17&quot;&gt;JAVA 웹을 다루는 기술 - 17장&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb18&quot;&gt;JAVA 웹을 다루는 기술 - 18,19장&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb23&quot;&gt;JAVA 웹을 다루는 기술 - 23장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb25&quot;&gt;JAVA 웹을 다루는 기술 - 25장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb25&quot;&gt;JAVA 웹을 다루는 기술 - 25,26장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb27&quot;&gt;JAVA 웹을 다루는 기술 - 27장&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
 &lt;p&gt;본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.&lt;/p&gt;
@@ -475,7 +518,8 @@ Hello World!를 출력하시오.&lt;/p&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb17&quot;&gt;JAVA 웹을 다루는 기술 - 17장&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb18&quot;&gt;JAVA 웹을 다루는 기술 - 18,19장&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb23&quot;&gt;JAVA 웹을 다루는 기술 - 23장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb25&quot;&gt;JAVA 웹을 다루는 기술 - 25장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb25&quot;&gt;JAVA 웹을 다루는 기술 - 25,26장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb27&quot;&gt;JAVA 웹을 다루는 기술 - 27장&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
 &lt;p&gt;본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.&lt;/p&gt;

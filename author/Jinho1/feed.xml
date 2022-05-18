@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://jeongjinhooo.github.io/author/Jinho1/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://jeongjinhooo.github.io/" rel="alternate" type="text/html" />
-  <updated>2022-05-17T22:44:48+09:00</updated>
+  <updated>2022-05-18T23:08:06+09:00</updated>
   <id>https://jeongjinhooo.github.io/author/Jinho1/feed.xml</id>
 
   
@@ -30,6 +30,65 @@
   
   
 
+  
+    <entry>
+      <title type="html">JAVA 웹을 다루는 기술 - 27장</title>
+      <link href="https://jeongjinhooo.github.io/javaweb27" rel="alternate" type="text/html" title="JAVA 웹을 다루는 기술 - 27장" />
+      <published>2022-05-18T04:00:00+09:00</published>
+      <updated>2022-05-18T04:00:00+09:00</updated>
+      <id>https://jeongjinhooo.github.io/javaweb27</id>
+      <content type="html" xml:base="https://jeongjinhooo.github.io/javaweb27">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb4&quot;&gt;JAVA 웹을 다루는 기술 - 4장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb5&quot;&gt;JAVA 웹을 다루는 기술 - 5장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb6&quot;&gt;JAVA 웹을 다루는 기술 - 6,7장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb8&quot;&gt;JAVA 웹을 다루는 기술 - 8장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb9&quot;&gt;JAVA 웹을 다루는 기술 - 9장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb10&quot;&gt;JAVA 웹을 다루는 기술 - 10장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb11&quot;&gt;JAVA 웹을 다루는 기술 - 11,12장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb13&quot;&gt;JAVA 웹을 다루는 기술 - 13,14장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb17&quot;&gt;JAVA 웹을 다루는 기술 - 17장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb18&quot;&gt;JAVA 웹을 다루는 기술 - 18,19장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb23&quot;&gt;JAVA 웹을 다루는 기술 - 23장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb25&quot;&gt;JAVA 웹을 다루는 기술 - 25,26장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb27&quot;&gt;JAVA 웹을 다루는 기술 - 27장&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;p&gt;본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;메이븐maven&quot;&gt;메이븐(Maven)&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;프로젝트 구조와 내용을 기술하는 선언적 접근 방식의 오픈소스 빌드 툴&lt;/li&gt;
+  &lt;li&gt;프로젝트 종속 라이브러리들과 그 라이브러리에 의존(Dependency)하는 자원까지 관리할 수 있음&lt;/li&gt;
+  &lt;li&gt;프로젝트 전반의 리소스 관리와 설정 파일 그리고 이와 관련된 표준 디렉터리 구조를 처음부터 일관된 형태로 구성하여 관리할 수 있음&lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Jinho1</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="java" />
+      
+
+      
+        <summary type="html">JAVA 웹을 다루는 기술 - 4장 JAVA 웹을 다루는 기술 - 5장 JAVA 웹을 다루는 기술 - 6,7장 JAVA 웹을 다루는 기술 - 8장 JAVA 웹을 다루는 기술 - 9장 JAVA 웹을 다루는 기술 - 10장 JAVA 웹을 다루는 기술 - 11,12장 JAVA 웹을 다루는 기술 - 13,14장 JAVA 웹을 다루는 기술 - 17장 JAVA 웹을 다루는 기술 - 18,19장 JAVA 웹을 다루는 기술 - 23장 JAVA 웹을 다루는 기술 - 25,26장 JAVA 웹을 다루는 기술 - 27장 본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">조건문</title>
@@ -158,7 +217,83 @@ public class Main {
 	}
  
 }
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content>
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h6 id=&quot;문제-2884&quot;&gt;문제 2884&lt;/h6&gt;
+&lt;p&gt;&lt;br /&gt;
+첫째 줄에 두 정수 H와 M이 주어진다. (0 ≤ H ≤ 23, 0 ≤ M ≤ 59) 그리고 이것은 현재 상근이가 설정한 놓은 알람 시간 H시 M분을 의미한다.
+입력 시간은 24시간 표현을 사용한다. 24시간 표현에서 하루의 시작은 0:0(자정)이고, 끝은 23:59(다음날 자정 1분 전)이다. 시간을 나타낼 때, 불필요한 0은 사용하지 않는다.&lt;/p&gt;
+
+&lt;h6 id=&quot;풀이-4&quot;&gt;풀이&lt;/h6&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;import java.util.Scanner;
+ 
+public class Main {
+	public static void main(String[] args) {
+    
+		Scanner in = new Scanner(System.in);
+		
+		int H = in.nextInt(); // 시
+		int M = in.nextInt(); // 분
+		in.close();
+		
+		if(M &amp;lt; 45) {
+			H--;		// 시(hour) 1 감소
+			M= 60 - (45 - M); 	// 분(min) 감소
+			if(H &amp;lt; 0) {
+				H = 23;
+			}
+			System.out.println(H + &quot; &quot; + M);
+		}
+		else {
+			System.out.println(H + &quot; &quot; + (M - 45));
+		}
+	}
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h6 id=&quot;문제-2525&quot;&gt;문제 2525&lt;/h6&gt;
+&lt;p&gt;&lt;br /&gt;
+첫째 줄에는 현재 시각이 나온다. 현재 시각은 시 A (0 ≤ A ≤ 23) 와 분 B (0 ≤ B ≤ 59)가 정수로 빈칸을 사이에 두고 순서대로 주어진다. 두 번째 줄에는 요리하는 데 필요한 시간 C (0 ≤ C ≤ 1,000)가 분 단위로 주어진다. 
+첫째 줄에 종료되는 시각의 시와 분을 공백을 사이에 두고 출력한다. (단, 시는 0부터 23까지의 정수, 분은 0부터 59까지의 정수이다. 디지털 시계는 23시 59분에서 1분이 지나면 0시 0분이 된다.)&lt;/p&gt;
+
+&lt;h6 id=&quot;풀이-5&quot;&gt;풀이&lt;/h6&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;import java.util.*;
+ 
+class Main {
+      public static void main(String[] args) {
+          Scanner sc=new Scanner(System.in);
+          int h=sc.nextInt();   // 시
+          int m=sc.nextInt();   // 분
+          int c =sc.nextInt();  // 요리 시간
+          
+          m+=c;                 // 분 + 요리 시간
+          if(m&amp;gt;=60) {           
+              while(m&amp;gt;=60) {   // 60분 넘어가면
+                  m-=60;       // 60 빼주고
+                  h++;         // 1시간 증가
+                  if(h&amp;gt;=24) {  //24 넘으면 0으로 
+                      h=0;
+                  }
+              }
+          }
+          System.out.println(h+&quot; &quot;+m); //공백두고 출력
+}
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h6 id=&quot;문제-2480&quot;&gt;문제 2480&lt;/h6&gt;
+&lt;p&gt;&lt;br /&gt;
+1에서부터 6까지의 눈을 가진 3개의 주사위를 던져서 다음과 같은 규칙에 따라 상금을 받는 게임이 있다.&lt;/p&gt;
+
+&lt;p&gt;같은 눈이 3개가 나오면 10,000원+(같은 눈)×1,000원의 상금을 받게 된다. 
+같은 눈이 2개만 나오는 경우에는 1,000원+(같은 눈)×100원의 상금을 받게 된다. 
+모두 다른 눈이 나오는 경우에는 (그 중 가장 큰 눈)×100원의 상금을 받게 된다.&lt;br /&gt;
+예를 들어, 3개의 눈 3, 3, 6이 주어지면 상금은 1,000+3×100으로 계산되어 1,300원을 받게 된다. 또 3개의 눈이 2, 2, 2로 주어지면 10,000+2×1,000 으로 계산되어 12,000원을 받게 된다. 3개의 눈이 6, 2, 5로 주어지면 그중 가장 큰 값이 6이므로 6×100으로 계산되어 600원을 상금으로 받게 된다.&lt;/p&gt;
+
+&lt;p&gt;3개 주사위의 나온 눈이 주어질 때, 상금을 계산하는 프로그램을 작성 하시오.&lt;/p&gt;
+&lt;h6 id=&quot;풀이-6&quot;&gt;풀이&lt;/h6&gt;
+
+&lt;p&gt;~~~&lt;/p&gt;</content>
 
       
       
@@ -187,8 +322,8 @@ public class Main {
     </entry>
   
     <entry>
-      <title type="html">JAVA 웹을 다루는 기술 - 25장</title>
-      <link href="https://jeongjinhooo.github.io/javaweb25" rel="alternate" type="text/html" title="JAVA 웹을 다루는 기술 - 25장" />
+      <title type="html">JAVA 웹을 다루는 기술 - 25, 26장</title>
+      <link href="https://jeongjinhooo.github.io/javaweb25" rel="alternate" type="text/html" title="JAVA 웹을 다루는 기술 - 25, 26장" />
       <published>2022-05-17T04:00:00+09:00</published>
       <updated>2022-05-17T04:00:00+09:00</updated>
       <id>https://jeongjinhooo.github.io/javaweb25</id>
@@ -205,7 +340,8 @@ public class Main {
     &lt;li&gt;&lt;a href=&quot;./javaweb17&quot;&gt;JAVA 웹을 다루는 기술 - 17장&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb18&quot;&gt;JAVA 웹을 다루는 기술 - 18,19장&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb23&quot;&gt;JAVA 웹을 다루는 기술 - 23장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb25&quot;&gt;JAVA 웹을 다루는 기술 - 25장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb25&quot;&gt;JAVA 웹을 다루는 기술 - 25,26장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb27&quot;&gt;JAVA 웹을 다루는 기술 - 27장&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
 &lt;p&gt;본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.&lt;/p&gt;
@@ -297,7 +433,7 @@ public class Main {
       
 
       
-        <summary type="html">JAVA 웹을 다루는 기술 - 4장 JAVA 웹을 다루는 기술 - 5장 JAVA 웹을 다루는 기술 - 6,7장 JAVA 웹을 다루는 기술 - 8장 JAVA 웹을 다루는 기술 - 9장 JAVA 웹을 다루는 기술 - 10장 JAVA 웹을 다루는 기술 - 11,12장 JAVA 웹을 다루는 기술 - 13,14장 JAVA 웹을 다루는 기술 - 17장 JAVA 웹을 다루는 기술 - 18,19장 JAVA 웹을 다루는 기술 - 23장 JAVA 웹을 다루는 기술 - 25장 본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.</summary>
+        <summary type="html">JAVA 웹을 다루는 기술 - 4장 JAVA 웹을 다루는 기술 - 5장 JAVA 웹을 다루는 기술 - 6,7장 JAVA 웹을 다루는 기술 - 8장 JAVA 웹을 다루는 기술 - 9장 JAVA 웹을 다루는 기술 - 10장 JAVA 웹을 다루는 기술 - 11,12장 JAVA 웹을 다루는 기술 - 13,14장 JAVA 웹을 다루는 기술 - 17장 JAVA 웹을 다루는 기술 - 18,19장 JAVA 웹을 다루는 기술 - 23장 JAVA 웹을 다루는 기술 - 25,26장 JAVA 웹을 다루는 기술 - 27장 본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.</summary>
       
 
       
@@ -323,7 +459,8 @@ public class Main {
     &lt;li&gt;&lt;a href=&quot;./javaweb17&quot;&gt;JAVA 웹을 다루는 기술 - 17장&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb18&quot;&gt;JAVA 웹을 다루는 기술 - 18,19장&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb23&quot;&gt;JAVA 웹을 다루는 기술 - 23장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb25&quot;&gt;JAVA 웹을 다루는 기술 - 25장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb25&quot;&gt;JAVA 웹을 다루는 기술 - 25,26장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb27&quot;&gt;JAVA 웹을 다루는 기술 - 27장&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
 &lt;p&gt;본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.&lt;/p&gt;
@@ -392,7 +529,7 @@ name like &apos;%&apos; || #{name} || &apos;%&apos;	 // 마이바티스에서 �
       
 
       
-        <summary type="html">JAVA 웹을 다루는 기술 - 4장 JAVA 웹을 다루는 기술 - 5장 JAVA 웹을 다루는 기술 - 6,7장 JAVA 웹을 다루는 기술 - 8장 JAVA 웹을 다루는 기술 - 9장 JAVA 웹을 다루는 기술 - 10장 JAVA 웹을 다루는 기술 - 11,12장 JAVA 웹을 다루는 기술 - 13,14장 JAVA 웹을 다루는 기술 - 17장 JAVA 웹을 다루는 기술 - 18,19장 JAVA 웹을 다루는 기술 - 23장 JAVA 웹을 다루는 기술 - 25장 본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.</summary>
+        <summary type="html">JAVA 웹을 다루는 기술 - 4장 JAVA 웹을 다루는 기술 - 5장 JAVA 웹을 다루는 기술 - 6,7장 JAVA 웹을 다루는 기술 - 8장 JAVA 웹을 다루는 기술 - 9장 JAVA 웹을 다루는 기술 - 10장 JAVA 웹을 다루는 기술 - 11,12장 JAVA 웹을 다루는 기술 - 13,14장 JAVA 웹을 다루는 기술 - 17장 JAVA 웹을 다루는 기술 - 18,19장 JAVA 웹을 다루는 기술 - 23장 JAVA 웹을 다루는 기술 - 25,26장 JAVA 웹을 다루는 기술 - 27장 본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.</summary>
       
 
       
@@ -532,7 +669,8 @@ CASE : DECODE와 달리, A와 B 사이에 부등호 관계(크거나 작은 조�
     &lt;li&gt;&lt;a href=&quot;./javaweb17&quot;&gt;JAVA 웹을 다루는 기술 - 17장&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb18&quot;&gt;JAVA 웹을 다루는 기술 - 18,19장&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb23&quot;&gt;JAVA 웹을 다루는 기술 - 23장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb25&quot;&gt;JAVA 웹을 다루는 기술 - 25장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb25&quot;&gt;JAVA 웹을 다루는 기술 - 25,26장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb27&quot;&gt;JAVA 웹을 다루는 기술 - 27장&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
 &lt;p&gt;본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.&lt;/p&gt;
@@ -591,7 +729,7 @@ CASE : DECODE와 달리, A와 B 사이에 부등호 관계(크거나 작은 조�
       
 
       
-        <summary type="html">JAVA 웹을 다루는 기술 - 4장 JAVA 웹을 다루는 기술 - 5장 JAVA 웹을 다루는 기술 - 6,7장 JAVA 웹을 다루는 기술 - 8장 JAVA 웹을 다루는 기술 - 9장 JAVA 웹을 다루는 기술 - 10장 JAVA 웹을 다루는 기술 - 11,12장 JAVA 웹을 다루는 기술 - 13,14장 JAVA 웹을 다루는 기술 - 17장 JAVA 웹을 다루는 기술 - 18,19장 JAVA 웹을 다루는 기술 - 23장 JAVA 웹을 다루는 기술 - 25장 본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.</summary>
+        <summary type="html">JAVA 웹을 다루는 기술 - 4장 JAVA 웹을 다루는 기술 - 5장 JAVA 웹을 다루는 기술 - 6,7장 JAVA 웹을 다루는 기술 - 8장 JAVA 웹을 다루는 기술 - 9장 JAVA 웹을 다루는 기술 - 10장 JAVA 웹을 다루는 기술 - 11,12장 JAVA 웹을 다루는 기술 - 13,14장 JAVA 웹을 다루는 기술 - 17장 JAVA 웹을 다루는 기술 - 18,19장 JAVA 웹을 다루는 기술 - 23장 JAVA 웹을 다루는 기술 - 25,26장 JAVA 웹을 다루는 기술 - 27장 본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.</summary>
       
 
       
@@ -950,94 +1088,6 @@ public class Main {
     </entry>
   
     <entry>
-      <title type="html">JAVA 웹을 다루는 기술 - 17장</title>
-      <link href="https://jeongjinhooo.github.io/javaweb17" rel="alternate" type="text/html" title="JAVA 웹을 다루는 기술 - 17장" />
-      <published>2022-04-30T04:00:00+09:00</published>
-      <updated>2022-04-30T04:00:00+09:00</updated>
-      <id>https://jeongjinhooo.github.io/javaweb17</id>
-      <content type="html" xml:base="https://jeongjinhooo.github.io/javaweb17">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb4&quot;&gt;JAVA 웹을 다루는 기술 - 4장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb5&quot;&gt;JAVA 웹을 다루는 기술 - 5장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb6&quot;&gt;JAVA 웹을 다루는 기술 - 6,7장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb8&quot;&gt;JAVA 웹을 다루는 기술 - 8장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb9&quot;&gt;JAVA 웹을 다루는 기술 - 9장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb10&quot;&gt;JAVA 웹을 다루는 기술 - 10장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb11&quot;&gt;JAVA 웹을 다루는 기술 - 11,12장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb13&quot;&gt;JAVA 웹을 다루는 기술 - 13,14장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb17&quot;&gt;JAVA 웹을 다루는 기술 - 17장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb18&quot;&gt;JAVA 웹을 다루는 기술 - 18,19장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb23&quot;&gt;JAVA 웹을 다루는 기술 - 23장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb25&quot;&gt;JAVA 웹을 다루는 기술 - 25장&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;p&gt;본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;h4 id=&quot;웹-애플리케이션-모델&quot;&gt;웹 애플리케이션 모델&lt;/h4&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h6 id=&quot;모델2-방식&quot;&gt;모델2 방식&lt;/h6&gt;
-&lt;ul&gt;
-  &lt;li&gt;웹 애플리케이션의 각 기능(클라이언트의 요청 처리, 응답 처리, 비즈니스 로직 처리)을 분리해서 구현&lt;/li&gt;
-  &lt;li&gt;객체 지향 프로그래핑에서 각각의 기능을 모듈화해서 개발하자는 원리&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h6 id=&quot;모델2-방식-특징&quot;&gt;모델2 방식 특징&lt;/h6&gt;
-&lt;ul&gt;
-  &lt;li&gt;각 기능이 서로 분리되어 있어 개발 및 유지보수가 쉬움&lt;/li&gt;
-  &lt;li&gt;각 기능(모듈)의 재사용성이 높음&lt;/li&gt;
-  &lt;li&gt;디자이너와 개발자의 작업을 분업화해서 쉽게 개발할 수 있음&lt;/li&gt;
-  &lt;li&gt;모델2 방식과 관련된 기능이나 개념의 학습이 필요&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h6 id=&quot;mvc란&quot;&gt;MVC란?&lt;/h6&gt;
-&lt;ul&gt;
-  &lt;li&gt;Model-ViewController(모델-뷰-컨트롤러)의 약자로, 일반 PC 프로그램 개발에 사용되는 디자인 패턴을 웹 애플리케이션에 도입한 것&lt;/li&gt;
-  &lt;li&gt;즉, 웹 애플리케이션을 화면 부분, 요청 처리 부분, 로직 처리 부분으로 나누어 개발하는 방법&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h6 id=&quot;mvc-특징&quot;&gt;MVC 특징&lt;/h6&gt;
-&lt;ul&gt;
-  &lt;li&gt;각 기능이 분리되어 있어 개발 및 유지보수가 편리함&lt;/li&gt;
-  &lt;li&gt;각 기능의 재사용성이 높아짐&lt;/li&gt;
-  &lt;li&gt;디자이너와 개발자의 작업을 분업화해서 쉽게 개발할 수 있음&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h6 id=&quot;커맨드command-패턴&quot;&gt;커맨드(Command) 패턴&lt;/h6&gt;
-&lt;ul&gt;
-  &lt;li&gt;브라우저가 URL 패턴을 이요해 컨트롤러에게 수행 작업을 요청하는 방법&lt;/li&gt;
-  &lt;li&gt;컨트롤러는 HttpServletRequest의 getPathinfo()메서드를 이용해 URL 패턴에서 요청명을 받아와 작업을 수행&lt;/li&gt;
-  &lt;li&gt;URL 패턴을 이용해 컨트롤러에 요청하는 형식 &lt;br /&gt; http://localhost:8090/pro17/member/listMembers.do&lt;/li&gt;
-&lt;/ul&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Jinho1</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="java" />
-      
-
-      
-        <summary type="html">JAVA 웹을 다루는 기술 - 4장 JAVA 웹을 다루는 기술 - 5장 JAVA 웹을 다루는 기술 - 6,7장 JAVA 웹을 다루는 기술 - 8장 JAVA 웹을 다루는 기술 - 9장 JAVA 웹을 다루는 기술 - 10장 JAVA 웹을 다루는 기술 - 11,12장 JAVA 웹을 다루는 기술 - 13,14장 JAVA 웹을 다루는 기술 - 17장 JAVA 웹을 다루는 기술 - 18,19장 JAVA 웹을 다루는 기술 - 23장 JAVA 웹을 다루는 기술 - 25장 본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
       <title type="html">JAVA 웹을 다루는 기술 - 13,14장</title>
       <link href="https://jeongjinhooo.github.io/javaweb13" rel="alternate" type="text/html" title="JAVA 웹을 다루는 기술 - 13,14장" />
       <published>2022-04-30T04:00:00+09:00</published>
@@ -1056,7 +1106,8 @@ public class Main {
     &lt;li&gt;&lt;a href=&quot;./javaweb17&quot;&gt;JAVA 웹을 다루는 기술 - 17장&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb18&quot;&gt;JAVA 웹을 다루는 기술 - 18,19장&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb23&quot;&gt;JAVA 웹을 다루는 기술 - 23장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb25&quot;&gt;JAVA 웹을 다루는 기술 - 25장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb25&quot;&gt;JAVA 웹을 다루는 기술 - 25,26장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb27&quot;&gt;JAVA 웹을 다루는 기술 - 27장&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
 &lt;p&gt;본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.&lt;/p&gt;
@@ -1178,7 +1229,7 @@ public class Main {
       
 
       
-        <summary type="html">JAVA 웹을 다루는 기술 - 4장 JAVA 웹을 다루는 기술 - 5장 JAVA 웹을 다루는 기술 - 6,7장 JAVA 웹을 다루는 기술 - 8장 JAVA 웹을 다루는 기술 - 9장 JAVA 웹을 다루는 기술 - 10장 JAVA 웹을 다루는 기술 - 11,12장 JAVA 웹을 다루는 기술 - 13,14장 JAVA 웹을 다루는 기술 - 17장 JAVA 웹을 다루는 기술 - 18,19장 JAVA 웹을 다루는 기술 - 23장 JAVA 웹을 다루는 기술 - 25장 본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.</summary>
+        <summary type="html">JAVA 웹을 다루는 기술 - 4장 JAVA 웹을 다루는 기술 - 5장 JAVA 웹을 다루는 기술 - 6,7장 JAVA 웹을 다루는 기술 - 8장 JAVA 웹을 다루는 기술 - 9장 JAVA 웹을 다루는 기술 - 10장 JAVA 웹을 다루는 기술 - 11,12장 JAVA 웹을 다루는 기술 - 13,14장 JAVA 웹을 다루는 기술 - 17장 JAVA 웹을 다루는 기술 - 18,19장 JAVA 웹을 다루는 기술 - 23장 JAVA 웹을 다루는 기술 - 25,26장 JAVA 웹을 다루는 기술 - 27장 본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.</summary>
       
 
       

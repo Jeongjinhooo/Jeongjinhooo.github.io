@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://jeongjinhooo.github.io/tag/algorithm/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://jeongjinhooo.github.io/" rel="alternate" type="text/html" />
-  <updated>2022-05-17T22:44:48+09:00</updated>
+  <updated>2022-05-18T23:08:06+09:00</updated>
   <id>https://jeongjinhooo.github.io/tag/algorithm/feed.xml</id>
 
   
@@ -158,7 +158,83 @@ public class Main {
 	}
  
 }
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content>
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h6 id=&quot;문제-2884&quot;&gt;문제 2884&lt;/h6&gt;
+&lt;p&gt;&lt;br /&gt;
+첫째 줄에 두 정수 H와 M이 주어진다. (0 ≤ H ≤ 23, 0 ≤ M ≤ 59) 그리고 이것은 현재 상근이가 설정한 놓은 알람 시간 H시 M분을 의미한다.
+입력 시간은 24시간 표현을 사용한다. 24시간 표현에서 하루의 시작은 0:0(자정)이고, 끝은 23:59(다음날 자정 1분 전)이다. 시간을 나타낼 때, 불필요한 0은 사용하지 않는다.&lt;/p&gt;
+
+&lt;h6 id=&quot;풀이-4&quot;&gt;풀이&lt;/h6&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;import java.util.Scanner;
+ 
+public class Main {
+	public static void main(String[] args) {
+    
+		Scanner in = new Scanner(System.in);
+		
+		int H = in.nextInt(); // 시
+		int M = in.nextInt(); // 분
+		in.close();
+		
+		if(M &amp;lt; 45) {
+			H--;		// 시(hour) 1 감소
+			M= 60 - (45 - M); 	// 분(min) 감소
+			if(H &amp;lt; 0) {
+				H = 23;
+			}
+			System.out.println(H + &quot; &quot; + M);
+		}
+		else {
+			System.out.println(H + &quot; &quot; + (M - 45));
+		}
+	}
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h6 id=&quot;문제-2525&quot;&gt;문제 2525&lt;/h6&gt;
+&lt;p&gt;&lt;br /&gt;
+첫째 줄에는 현재 시각이 나온다. 현재 시각은 시 A (0 ≤ A ≤ 23) 와 분 B (0 ≤ B ≤ 59)가 정수로 빈칸을 사이에 두고 순서대로 주어진다. 두 번째 줄에는 요리하는 데 필요한 시간 C (0 ≤ C ≤ 1,000)가 분 단위로 주어진다. 
+첫째 줄에 종료되는 시각의 시와 분을 공백을 사이에 두고 출력한다. (단, 시는 0부터 23까지의 정수, 분은 0부터 59까지의 정수이다. 디지털 시계는 23시 59분에서 1분이 지나면 0시 0분이 된다.)&lt;/p&gt;
+
+&lt;h6 id=&quot;풀이-5&quot;&gt;풀이&lt;/h6&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;import java.util.*;
+ 
+class Main {
+      public static void main(String[] args) {
+          Scanner sc=new Scanner(System.in);
+          int h=sc.nextInt();   // 시
+          int m=sc.nextInt();   // 분
+          int c =sc.nextInt();  // 요리 시간
+          
+          m+=c;                 // 분 + 요리 시간
+          if(m&amp;gt;=60) {           
+              while(m&amp;gt;=60) {   // 60분 넘어가면
+                  m-=60;       // 60 빼주고
+                  h++;         // 1시간 증가
+                  if(h&amp;gt;=24) {  //24 넘으면 0으로 
+                      h=0;
+                  }
+              }
+          }
+          System.out.println(h+&quot; &quot;+m); //공백두고 출력
+}
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h6 id=&quot;문제-2480&quot;&gt;문제 2480&lt;/h6&gt;
+&lt;p&gt;&lt;br /&gt;
+1에서부터 6까지의 눈을 가진 3개의 주사위를 던져서 다음과 같은 규칙에 따라 상금을 받는 게임이 있다.&lt;/p&gt;
+
+&lt;p&gt;같은 눈이 3개가 나오면 10,000원+(같은 눈)×1,000원의 상금을 받게 된다. 
+같은 눈이 2개만 나오는 경우에는 1,000원+(같은 눈)×100원의 상금을 받게 된다. 
+모두 다른 눈이 나오는 경우에는 (그 중 가장 큰 눈)×100원의 상금을 받게 된다.&lt;br /&gt;
+예를 들어, 3개의 눈 3, 3, 6이 주어지면 상금은 1,000+3×100으로 계산되어 1,300원을 받게 된다. 또 3개의 눈이 2, 2, 2로 주어지면 10,000+2×1,000 으로 계산되어 12,000원을 받게 된다. 3개의 눈이 6, 2, 5로 주어지면 그중 가장 큰 값이 6이므로 6×100으로 계산되어 600원을 상금으로 받게 된다.&lt;/p&gt;
+
+&lt;p&gt;3개 주사위의 나온 눈이 주어질 때, 상금을 계산하는 프로그램을 작성 하시오.&lt;/p&gt;
+&lt;h6 id=&quot;풀이-6&quot;&gt;풀이&lt;/h6&gt;
+
+&lt;p&gt;~~~&lt;/p&gt;</content>
 
       
       
