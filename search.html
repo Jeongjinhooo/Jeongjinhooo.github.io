@@ -181,11 +181,20 @@ into the {body} of the default.hbs template -->
 <script>
     window.store = {
     
+    "error2": {
+        "title": "org.springframework.web.&lt;br&gt;context.ContextLoaderListener의 &lt;br&gt;애플리케이션 리스너를 설정하는 중 오류 발생",
+            "author": "Jinho1",
+            "category": "",
+            "content": "에러 해결    2022-05-16    2022-05-19전에 하던 예제를 복사해서 Maven 사용 실습하고 있었는데 실행이 안되서 찾아보니Maven - Update Project 실행시 maven 라이브러리 경로가 삭제되는 현상이 발생해서 그렇다고한다.문제 해결 방법프로젝트 우클릭 - propertiesDeployment Assembly - Add 버튼 - Java Build Path Entries - Maven Dependencies 선택 - Apply버튼",
+        "url": "/error2"
+    }
+    ,
+    
     "javaweb27": {
         "title": "JAVA 웹을 다루는 기술 - 27장",
             "author": "Jinho1",
             "category": "",
-            "content": "    JAVA 웹을 다루는 기술 - 4장    JAVA 웹을 다루는 기술 - 5장    JAVA 웹을 다루는 기술 - 6,7장    JAVA 웹을 다루는 기술 - 8장    JAVA 웹을 다루는 기술 - 9장    JAVA 웹을 다루는 기술 - 10장    JAVA 웹을 다루는 기술 - 11,12장    JAVA 웹을 다루는 기술 - 13,14장    JAVA 웹을 다루는 기술 - 17장    JAVA 웹을 다루는 기술 - 18,19장    JAVA 웹을 다루는 기술 - 23장    JAVA 웹을 다루는 기술 - 25,26장    JAVA 웹을 다루는 기술 - 27장본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.메이븐(Maven)  프로젝트 구조와 내용을 기술하는 선언적 접근 방식의 오픈소스 빌드 툴  프로젝트 종속 라이브러리들과 그 라이브러리에 의존(Dependency)하는 자원까지 관리할 수 있음  프로젝트 전반의 리소스 관리와 설정 파일 그리고 이와 관련된 표준 디렉터리 구조를 처음부터 일관된 형태로 구성하여 관리할 수 있음",
+            "content": "    JAVA 웹을 다루는 기술 - 4장    JAVA 웹을 다루는 기술 - 5장    JAVA 웹을 다루는 기술 - 6,7장    JAVA 웹을 다루는 기술 - 8장    JAVA 웹을 다루는 기술 - 9장    JAVA 웹을 다루는 기술 - 10장    JAVA 웹을 다루는 기술 - 11,12장    JAVA 웹을 다루는 기술 - 13,14장    JAVA 웹을 다루는 기술 - 17장    JAVA 웹을 다루는 기술 - 18,19장    JAVA 웹을 다루는 기술 - 23장    JAVA 웹을 다루는 기술 - 25,26장    JAVA 웹을 다루는 기술 - 27장본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.메이븐(Maven)  프로젝트 구조와 내용을 기술하는 선언적 접근 방식의 오픈소스 빌드 툴  프로젝트 종속 라이브러리들과 그 라이브러리에 의존(Dependency)하는 자원까지 관리할 수 있음  프로젝트 전반의 리소스 관리와 설정 파일 그리고 이와 관련된 표준 디렉터리 구조를 처음부터 일관된 형태로 구성하여 관리할 수 있음log4j  로그 기능을 제공하는 오픈 소스 라이브러리  애플리케이션에서 웹 사이트에 접속한 사용자 정보나 각 클래스의 메서드호출 시각 등 여러가지 정보를 로그로 출력해서 관리  메이븐에선 프로젝트 생성 시 자동으로 log4j 라이브러리가 설치됨타일즈(tiles)  화면의 레이아웃 기능을 제공하는 오픈 소스 라이브러리특징  페이지 레이아웃을 쉽고 단순하게 구현할 수 있음  공통된 레이아웃을 사용하므로 유지관리가 용이함",
         "url": "/javaweb27"
     }
     ,
@@ -245,10 +254,10 @@ into the {body} of the default.hbs template -->
     ,
     
     "error1": {
-        "title": "에러",
+        "title": "web.xml에서 발생한 에러",
             "author": "Jinho1",
             "category": "",
-            "content": "에러 해결    2022-05-16web.xml에서 발생한 에러cvc-id.3: A field of identity constraint ‘web-common-servlet-name-uniqueness’ matched element ‘web-app’, but this element does not have a simple type.&lt;?xml version=\"1.0\" encoding=\"UTF-8\"?&gt;&lt;web-app xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\txmlns=\"http://java.sun.com/xml/ns/javaee\"\txsi:schemaLocation=\"http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd\"\tid=\"WebApp_ID\" version=\"3.0\"&gt;xsi:schemaLocation=”http://java.sun.com/xml/ns/javaee에 있는 java를 대문자 JAVA로 바꾸어주면 된다.",
+            "content": "에러 해결    2022-05-16    2022-05-19web.xml에서 발생한 에러cvc-id.3: A field of identity constraint ‘web-common-servlet-name-uniqueness’ matched element ‘web-app’, but this element does not have a simple type.&lt;?xml version=\"1.0\" encoding=\"UTF-8\"?&gt;&lt;web-app xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\txmlns=\"http://java.sun.com/xml/ns/javaee\"\txsi:schemaLocation=\"http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd\"\tid=\"WebApp_ID\" version=\"3.0\"&gt;xsi:schemaLocation=”http://java.sun.com/xml/ns/javaee에 있는 java를 대문자 JAVA로 바꾸어주면 된다.",
         "url": "/error1"
     }
     ,

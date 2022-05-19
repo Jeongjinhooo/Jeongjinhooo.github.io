@@ -1,4 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://jeongjinhooo.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jeongjinhooo.github.io/" rel="alternate" type="text/html" /><updated>2022-05-18T23:08:06+09:00</updated><id>https://jeongjinhooo.github.io/feed.xml</id><title type="html">Jinhonote</title><subtitle>개발공부블로그</subtitle><entry><title type="html">JAVA 웹을 다루는 기술 - 27장</title><link href="https://jeongjinhooo.github.io/javaweb27" rel="alternate" type="text/html" title="JAVA 웹을 다루는 기술 - 27장" /><published>2022-05-18T04:00:00+09:00</published><updated>2022-05-18T04:00:00+09:00</updated><id>https://jeongjinhooo.github.io/javaweb27</id><content type="html" xml:base="https://jeongjinhooo.github.io/javaweb27">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://jeongjinhooo.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jeongjinhooo.github.io/" rel="alternate" type="text/html" /><updated>2022-05-19T23:13:59+09:00</updated><id>https://jeongjinhooo.github.io/feed.xml</id><title type="html">Jinhonote</title><subtitle>개발공부블로그</subtitle><entry><title type="html">org.springframework.web.context.ContextLoaderListener의 애플리케이션 리스너를 설정하는 중 오류 발생</title><link href="https://jeongjinhooo.github.io/error2" rel="alternate" type="text/html" title="org.springframework.web.context.ContextLoaderListener의 애플리케이션 리스너를 설정하는 중 오류 발생" /><published>2022-05-19T04:00:00+09:00</published><updated>2022-05-19T04:00:00+09:00</updated><id>https://jeongjinhooo.github.io/error2</id><content type="html" xml:base="https://jeongjinhooo.github.io/error2">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;에러 해결&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./error1&quot;&gt;2022-05-16&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./error2&quot;&gt;2022-05-19&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;전에 하던 예제를 복사해서 Maven 사용 실습하고 있었는데 실행이 안되서 찾아보니&lt;br /&gt;
+Maven - Update Project 실행시 maven 라이브러리 경로가 삭제되는 현상이 발생해서 그렇다고한다.&lt;/p&gt;
+
+&lt;h6 id=&quot;문제-해결-방법&quot;&gt;문제 해결 방법&lt;/h6&gt;
+&lt;p&gt;프로젝트 우클릭 - properties
+Deployment Assembly - Add 버튼 - Java Build Path Entries - Maven Dependencies 선택 - Apply버튼&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/image00/error2.PNG&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;</content><author><name>Jinho1</name></author><category term="error" /><summary type="html">에러 해결 2022-05-16 2022-05-19</summary></entry><entry><title type="html">JAVA 웹을 다루는 기술 - 27장</title><link href="https://jeongjinhooo.github.io/javaweb27" rel="alternate" type="text/html" title="JAVA 웹을 다루는 기술 - 27장" /><published>2022-05-18T04:00:00+09:00</published><updated>2022-05-18T04:00:00+09:00</updated><id>https://jeongjinhooo.github.io/javaweb27</id><content type="html" xml:base="https://jeongjinhooo.github.io/javaweb27">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb4&quot;&gt;JAVA 웹을 다루는 기술 - 4장&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb5&quot;&gt;JAVA 웹을 다루는 기술 - 5장&lt;/a&gt;&lt;/li&gt;
@@ -23,6 +37,24 @@
   &lt;li&gt;프로젝트 구조와 내용을 기술하는 선언적 접근 방식의 오픈소스 빌드 툴&lt;/li&gt;
   &lt;li&gt;프로젝트 종속 라이브러리들과 그 라이브러리에 의존(Dependency)하는 자원까지 관리할 수 있음&lt;/li&gt;
   &lt;li&gt;프로젝트 전반의 리소스 관리와 설정 파일 그리고 이와 관련된 표준 디렉터리 구조를 처음부터 일관된 형태로 구성하여 관리할 수 있음&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;log4j&quot;&gt;log4j&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;로그 기능을 제공하는 오픈 소스 라이브러리&lt;/li&gt;
+  &lt;li&gt;애플리케이션에서 웹 사이트에 접속한 사용자 정보나 각 클래스의 메서드호출 시각 등 여러가지 정보를 로그로 출력해서 관리&lt;/li&gt;
+  &lt;li&gt;메이븐에선 프로젝트 생성 시 자동으로 log4j 라이브러리가 설치됨&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;타일즈tiles&quot;&gt;타일즈(tiles)&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;화면의 레이아웃 기능을 제공하는 오픈 소스 라이브러리&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id=&quot;특징&quot;&gt;특징&lt;/h6&gt;
+&lt;ul&gt;
+  &lt;li&gt;페이지 레이아웃을 쉽고 단순하게 구현할 수 있음&lt;/li&gt;
+  &lt;li&gt;공통된 레이아웃을 사용하므로 유지관리가 용이함&lt;/li&gt;
 &lt;/ul&gt;</content><author><name>Jinho1</name></author><category term="java" /><summary type="html">JAVA 웹을 다루는 기술 - 4장 JAVA 웹을 다루는 기술 - 5장 JAVA 웹을 다루는 기술 - 6,7장 JAVA 웹을 다루는 기술 - 8장 JAVA 웹을 다루는 기술 - 9장 JAVA 웹을 다루는 기술 - 10장 JAVA 웹을 다루는 기술 - 11,12장 JAVA 웹을 다루는 기술 - 13,14장 JAVA 웹을 다루는 기술 - 17장 JAVA 웹을 다루는 기술 - 18,19장 JAVA 웹을 다루는 기술 - 23장 JAVA 웹을 다루는 기술 - 25,26장 JAVA 웹을 다루는 기술 - 27장 본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.</summary></entry><entry><title type="html">조건문</title><link href="https://jeongjinhooo.github.io/algorithm2" rel="alternate" type="text/html" title="조건문" /><published>2022-05-17T04:00:00+09:00</published><updated>2022-05-17T04:00:00+09:00</updated><id>https://jeongjinhooo.github.io/algorithm2</id><content type="html" xml:base="https://jeongjinhooo.github.io/algorithm2">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;백준 문제 연습&lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./algorithm1&quot;&gt;입출력과 사칙연산&lt;/a&gt;&lt;/li&gt;
@@ -394,7 +426,94 @@ name like &apos;%&apos; || #{name} || &apos;%&apos;	 // 마이바티스에서 �
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;override-어노테이션&quot;&gt;@Override 어노테이션&lt;/h3&gt;
-&lt;p&gt;상속받은 메서드를 재정의할 때 메서드 이름이 틀리지 않게 쓰기 위한 어노테이션이다&lt;/p&gt;</content><author><name>Jinho1</name></author><category term="memo" /><summary type="html">SQL 정리 JAVA 정리</summary></entry><entry><title type="html">입출력과 사칙연산</title><link href="https://jeongjinhooo.github.io/algorithm1" rel="alternate" type="text/html" title="입출력과 사칙연산" /><published>2022-05-07T04:00:00+09:00</published><updated>2022-05-07T04:00:00+09:00</updated><id>https://jeongjinhooo.github.io/algorithm1</id><content type="html" xml:base="https://jeongjinhooo.github.io/algorithm1">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;백준 문제 연습&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;상속받은 메서드를 재정의할 때 메서드 이름이 틀리지 않게 쓰기 위한 어노테이션이다&lt;/p&gt;</content><author><name>Jinho1</name></author><category term="memo" /><summary type="html">SQL 정리 JAVA 정리</summary></entry><entry><title type="html">JAVA 웹을 다루는 기술 - 18,19장</title><link href="https://jeongjinhooo.github.io/javaweb18" rel="alternate" type="text/html" title="JAVA 웹을 다루는 기술 - 18,19장" /><published>2022-05-07T04:00:00+09:00</published><updated>2022-05-07T04:00:00+09:00</updated><id>https://jeongjinhooo.github.io/javaweb18</id><content type="html" xml:base="https://jeongjinhooo.github.io/javaweb18">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb4&quot;&gt;JAVA 웹을 다루는 기술 - 4장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb5&quot;&gt;JAVA 웹을 다루는 기술 - 5장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb6&quot;&gt;JAVA 웹을 다루는 기술 - 6,7장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb8&quot;&gt;JAVA 웹을 다루는 기술 - 8장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb9&quot;&gt;JAVA 웹을 다루는 기술 - 9장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb10&quot;&gt;JAVA 웹을 다루는 기술 - 10장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb11&quot;&gt;JAVA 웹을 다루는 기술 - 11,12장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb13&quot;&gt;JAVA 웹을 다루는 기술 - 13,14장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb17&quot;&gt;JAVA 웹을 다루는 기술 - 17장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb18&quot;&gt;JAVA 웹을 다루는 기술 - 18,19장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb23&quot;&gt;JAVA 웹을 다루는 기술 - 23장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb25&quot;&gt;JAVA 웹을 다루는 기술 - 25,26장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb27&quot;&gt;JAVA 웹을 다루는 기술 - 27장&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;p&gt;본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;프레임워크framework&quot;&gt;프레임워크(Framework)&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;사전적의미는 ‘어떤 것을 구성하는 구조 또는 뼈대’&lt;/li&gt;
+  &lt;li&gt;소프트웨어적 의미로는 ‘기능을 미리 클래스나 인터페이스 등으로 만들어 제공하는 반제품’&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id=&quot;프레임워크-장점&quot;&gt;프레임워크 장점&lt;/h6&gt;
+&lt;ul&gt;
+  &lt;li&gt;일정한 기준에 따라 개발이 이루어지므로 개발 생산성과 품질이 보장된 애플리케이션을 개발할 수 있음&lt;/li&gt;
+  &lt;li&gt;개발 후 유지보수 및 기능의 확장성에서도 고품질 보장&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id=&quot;스프링-프레임워크&quot;&gt;스프링 프레임워크&lt;/h6&gt;
+&lt;ul&gt;
+  &lt;li&gt;스프링 프레임워크(스프링)는 자바 웹 애플리케이션 개발을 위한 오픈 소스 프레임워크&lt;/li&gt;
+  &lt;li&gt;EJB(Enterprise Java Bean)보다 가벼운 경량 프레임워크&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id=&quot;특징&quot;&gt;특징&lt;/h6&gt;
+&lt;ul&gt;
+  &lt;li&gt;EJB보다 가볍고 배우기도 쉬우며 경량 컨테이너의 기능을 수행&lt;/li&gt;
+  &lt;li&gt;제어 역행(ioC, Inversion of Control) 기술을 이용해 애플리케이션 간의 느슨한 결합을 제어함&lt;/li&gt;
+  &lt;li&gt;의존성 주입(DI, Dependency injection) 기능을 지원함&lt;/li&gt;
+  &lt;li&gt;관점지향 (AOP, Aspect-Oriented Programming) 기능을 이용해 자원 관리함&lt;/li&gt;
+  &lt;li&gt;영속성과 관련된 다양한 서비스를 지원함&lt;/li&gt;
+  &lt;li&gt;수많은 라이브러리와의 연동 기능을 지원함&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id=&quot;컨테이너란&quot;&gt;컨테이너란?&lt;/h6&gt;
+&lt;ul&gt;
+  &lt;li&gt;톰캣은 서블릿 컨테이너라고 부르는데, 그 이유는 톰캣을 실행하면 톰캣은 서블릿의 생성, 초기화, 서비스실행, 소멸에 관한 모든 권한을 가지고 서블릿을 관리&lt;/li&gt;
+  &lt;li&gt;스프링은 애플리케이션에서 사용되는 여러가지 빈(클래스 객체)을 개발자가 아닌 스프링이 권한을 가지고 직접 관리&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Jinho1</name></author><category term="java" /><summary type="html">JAVA 웹을 다루는 기술 - 4장 JAVA 웹을 다루는 기술 - 5장 JAVA 웹을 다루는 기술 - 6,7장 JAVA 웹을 다루는 기술 - 8장 JAVA 웹을 다루는 기술 - 9장 JAVA 웹을 다루는 기술 - 10장 JAVA 웹을 다루는 기술 - 11,12장 JAVA 웹을 다루는 기술 - 13,14장 JAVA 웹을 다루는 기술 - 17장 JAVA 웹을 다루는 기술 - 18,19장 JAVA 웹을 다루는 기술 - 23장 JAVA 웹을 다루는 기술 - 25,26장 JAVA 웹을 다루는 기술 - 27장 본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.</summary></entry><entry><title type="html">SQL</title><link href="https://jeongjinhooo.github.io/memo1" rel="alternate" type="text/html" title="SQL" /><published>2022-05-07T04:00:00+09:00</published><updated>2022-05-07T04:00:00+09:00</updated><id>https://jeongjinhooo.github.io/memo1</id><content type="html" xml:base="https://jeongjinhooo.github.io/memo1">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./memo1&quot;&gt;SQL 정리&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./memo2&quot;&gt;JAVA 정리&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+
+&lt;h6 id=&quot;sql-sysdate-함수현재-날짜-시간-구해오기&quot;&gt;SQL SYSDATE 함수(현재 날짜, 시간 구해오기)&lt;/h6&gt;
+&lt;p&gt;사용법 : SELECT SYSDATE FROM DUAL;&lt;br /&gt;
+Dual 이라는 테이블은 오라클이 설치될 때 만들어지는 테이블이며 산술, 날짜처리, 계산 등을하는 기본 임시 테이블&lt;/p&gt;
+
+&lt;h6 id=&quot;sql-round-floor-ceil-함수&quot;&gt;SQL ROUND, FLOOR, CEIL 함수&lt;/h6&gt;
+&lt;p&gt;ROUND - 반올림 &lt;br /&gt;
+CEIL  - 올림 &lt;br /&gt;
+FLOOR - 버림&lt;/p&gt;
+
+&lt;h6 id=&quot;sql-decode-case-함수&quot;&gt;SQL DECODE, CASE 함수&lt;/h6&gt;
+&lt;p&gt;조건에 따라 각각 다른 값을 입력/출력하는 분기함수&lt;br /&gt;
+DECODE : A=B이면 X, A≠B이면 Y를 출력 (A와 B가 같은지에 대한 조건)&lt;br /&gt;
+CASE : DECODE와 달리, A와 B 사이에 부등호 관계(크거나 작은 조건)를 처리할 때 주로 사용&lt;/p&gt;</content><author><name>Jinho1</name></author><category term="memo" /><summary type="html">SQL 정리 JAVA 정리</summary></entry><entry><title type="html">web.xml에서 발생한 에러</title><link href="https://jeongjinhooo.github.io/error1" rel="alternate" type="text/html" title="web.xml에서 발생한 에러" /><published>2022-05-07T04:00:00+09:00</published><updated>2022-05-07T04:00:00+09:00</updated><id>https://jeongjinhooo.github.io/error1</id><content type="html" xml:base="https://jeongjinhooo.github.io/error1">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;에러 해결&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./error1&quot;&gt;2022-05-16&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./error2&quot;&gt;2022-05-19&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;web.xml에서 발생한 에러
+cvc-id.3: A field of identity constraint ‘web-common-servlet-name-uniqueness’ matched element ‘web-app’, but this element does not have a simple type.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&amp;gt;
+&amp;lt;web-app xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;
+	xmlns=&quot;http://java.sun.com/xml/ns/javaee&quot;
+	xsi:schemaLocation=&quot;http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd&quot;
+	id=&quot;WebApp_ID&quot; version=&quot;3.0&quot;&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;xsi:schemaLocation=”http://java.sun.com/xml/ns/javaee에 있는 java를 대문자 JAVA로 바꾸어주면 된다.&lt;/p&gt;</content><author><name>Jinho1</name></author><category term="error" /><summary type="html">에러 해결 2022-05-16 2022-05-19</summary></entry><entry><title type="html">입출력과 사칙연산</title><link href="https://jeongjinhooo.github.io/algorithm1" rel="alternate" type="text/html" title="입출력과 사칙연산" /><published>2022-05-07T04:00:00+09:00</published><updated>2022-05-07T04:00:00+09:00</updated><id>https://jeongjinhooo.github.io/algorithm1</id><content type="html" xml:base="https://jeongjinhooo.github.io/algorithm1">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;백준 문제 연습&lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./algorithm1&quot;&gt;입출력과 사칙연산&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./algorithm2&quot;&gt;조건문&lt;/a&gt;&lt;/li&gt;
@@ -662,145 +781,4 @@ public class Main {
  
 	}
 }
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Jinho1</name></author><category term="algorithm" /><summary type="html">백준 문제 연습 입출력과 사칙연산 조건문 문제 2557 Hello World!를 출력하시오.</summary></entry><entry><title type="html">SQL</title><link href="https://jeongjinhooo.github.io/memo1" rel="alternate" type="text/html" title="SQL" /><published>2022-05-07T04:00:00+09:00</published><updated>2022-05-07T04:00:00+09:00</updated><id>https://jeongjinhooo.github.io/memo1</id><content type="html" xml:base="https://jeongjinhooo.github.io/memo1">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./memo1&quot;&gt;SQL 정리&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./memo2&quot;&gt;JAVA 정리&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-
-&lt;h6 id=&quot;sql-sysdate-함수현재-날짜-시간-구해오기&quot;&gt;SQL SYSDATE 함수(현재 날짜, 시간 구해오기)&lt;/h6&gt;
-&lt;p&gt;사용법 : SELECT SYSDATE FROM DUAL;&lt;br /&gt;
-Dual 이라는 테이블은 오라클이 설치될 때 만들어지는 테이블이며 산술, 날짜처리, 계산 등을하는 기본 임시 테이블&lt;/p&gt;
-
-&lt;h6 id=&quot;sql-round-floor-ceil-함수&quot;&gt;SQL ROUND, FLOOR, CEIL 함수&lt;/h6&gt;
-&lt;p&gt;ROUND - 반올림 &lt;br /&gt;
-CEIL  - 올림 &lt;br /&gt;
-FLOOR - 버림&lt;/p&gt;
-
-&lt;h6 id=&quot;sql-decode-case-함수&quot;&gt;SQL DECODE, CASE 함수&lt;/h6&gt;
-&lt;p&gt;조건에 따라 각각 다른 값을 입력/출력하는 분기함수&lt;br /&gt;
-DECODE : A=B이면 X, A≠B이면 Y를 출력 (A와 B가 같은지에 대한 조건)&lt;br /&gt;
-CASE : DECODE와 달리, A와 B 사이에 부등호 관계(크거나 작은 조건)를 처리할 때 주로 사용&lt;/p&gt;</content><author><name>Jinho1</name></author><category term="memo" /><summary type="html">SQL 정리 JAVA 정리</summary></entry><entry><title type="html">JAVA 웹을 다루는 기술 - 18,19장</title><link href="https://jeongjinhooo.github.io/javaweb18" rel="alternate" type="text/html" title="JAVA 웹을 다루는 기술 - 18,19장" /><published>2022-05-07T04:00:00+09:00</published><updated>2022-05-07T04:00:00+09:00</updated><id>https://jeongjinhooo.github.io/javaweb18</id><content type="html" xml:base="https://jeongjinhooo.github.io/javaweb18">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb4&quot;&gt;JAVA 웹을 다루는 기술 - 4장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb5&quot;&gt;JAVA 웹을 다루는 기술 - 5장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb6&quot;&gt;JAVA 웹을 다루는 기술 - 6,7장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb8&quot;&gt;JAVA 웹을 다루는 기술 - 8장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb9&quot;&gt;JAVA 웹을 다루는 기술 - 9장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb10&quot;&gt;JAVA 웹을 다루는 기술 - 10장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb11&quot;&gt;JAVA 웹을 다루는 기술 - 11,12장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb13&quot;&gt;JAVA 웹을 다루는 기술 - 13,14장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb17&quot;&gt;JAVA 웹을 다루는 기술 - 17장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb18&quot;&gt;JAVA 웹을 다루는 기술 - 18,19장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb23&quot;&gt;JAVA 웹을 다루는 기술 - 23장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb25&quot;&gt;JAVA 웹을 다루는 기술 - 25,26장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb27&quot;&gt;JAVA 웹을 다루는 기술 - 27장&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;p&gt;본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;h4 id=&quot;프레임워크framework&quot;&gt;프레임워크(Framework)&lt;/h4&gt;
-&lt;ul&gt;
-  &lt;li&gt;사전적의미는 ‘어떤 것을 구성하는 구조 또는 뼈대’&lt;/li&gt;
-  &lt;li&gt;소프트웨어적 의미로는 ‘기능을 미리 클래스나 인터페이스 등으로 만들어 제공하는 반제품’&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h6 id=&quot;프레임워크-장점&quot;&gt;프레임워크 장점&lt;/h6&gt;
-&lt;ul&gt;
-  &lt;li&gt;일정한 기준에 따라 개발이 이루어지므로 개발 생산성과 품질이 보장된 애플리케이션을 개발할 수 있음&lt;/li&gt;
-  &lt;li&gt;개발 후 유지보수 및 기능의 확장성에서도 고품질 보장&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h6 id=&quot;스프링-프레임워크&quot;&gt;스프링 프레임워크&lt;/h6&gt;
-&lt;ul&gt;
-  &lt;li&gt;스프링 프레임워크(스프링)는 자바 웹 애플리케이션 개발을 위한 오픈 소스 프레임워크&lt;/li&gt;
-  &lt;li&gt;EJB(Enterprise Java Bean)보다 가벼운 경량 프레임워크&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h6 id=&quot;특징&quot;&gt;특징&lt;/h6&gt;
-&lt;ul&gt;
-  &lt;li&gt;EJB보다 가볍고 배우기도 쉬우며 경량 컨테이너의 기능을 수행&lt;/li&gt;
-  &lt;li&gt;제어 역행(ioC, Inversion of Control) 기술을 이용해 애플리케이션 간의 느슨한 결합을 제어함&lt;/li&gt;
-  &lt;li&gt;의존성 주입(DI, Dependency injection) 기능을 지원함&lt;/li&gt;
-  &lt;li&gt;관점지향 (AOP, Aspect-Oriented Programming) 기능을 이용해 자원 관리함&lt;/li&gt;
-  &lt;li&gt;영속성과 관련된 다양한 서비스를 지원함&lt;/li&gt;
-  &lt;li&gt;수많은 라이브러리와의 연동 기능을 지원함&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h6 id=&quot;컨테이너란&quot;&gt;컨테이너란?&lt;/h6&gt;
-&lt;ul&gt;
-  &lt;li&gt;톰캣은 서블릿 컨테이너라고 부르는데, 그 이유는 톰캣을 실행하면 톰캣은 서블릿의 생성, 초기화, 서비스실행, 소멸에 관한 모든 권한을 가지고 서블릿을 관리&lt;/li&gt;
-  &lt;li&gt;스프링은 애플리케이션에서 사용되는 여러가지 빈(클래스 객체)을 개발자가 아닌 스프링이 권한을 가지고 직접 관리&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Jinho1</name></author><category term="java" /><summary type="html">JAVA 웹을 다루는 기술 - 4장 JAVA 웹을 다루는 기술 - 5장 JAVA 웹을 다루는 기술 - 6,7장 JAVA 웹을 다루는 기술 - 8장 JAVA 웹을 다루는 기술 - 9장 JAVA 웹을 다루는 기술 - 10장 JAVA 웹을 다루는 기술 - 11,12장 JAVA 웹을 다루는 기술 - 13,14장 JAVA 웹을 다루는 기술 - 17장 JAVA 웹을 다루는 기술 - 18,19장 JAVA 웹을 다루는 기술 - 23장 JAVA 웹을 다루는 기술 - 25,26장 JAVA 웹을 다루는 기술 - 27장 본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.</summary></entry><entry><title type="html">에러</title><link href="https://jeongjinhooo.github.io/error1" rel="alternate" type="text/html" title="에러" /><published>2022-05-07T04:00:00+09:00</published><updated>2022-05-07T04:00:00+09:00</updated><id>https://jeongjinhooo.github.io/error1</id><content type="html" xml:base="https://jeongjinhooo.github.io/error1">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;에러 해결&lt;/span&gt;&lt;/p&gt;
-&lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./error1&quot;&gt;2022-05-16&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-
-&lt;h6 id=&quot;webxml에서-발생한-에러&quot;&gt;web.xml에서 발생한 에러&lt;/h6&gt;
-&lt;p&gt;cvc-id.3: A field of identity constraint ‘web-common-servlet-name-uniqueness’ matched element ‘web-app’, but this element does not have a simple type.&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&amp;gt;
-&amp;lt;web-app xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;
-	xmlns=&quot;http://java.sun.com/xml/ns/javaee&quot;
-	xsi:schemaLocation=&quot;http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd&quot;
-	id=&quot;WebApp_ID&quot; version=&quot;3.0&quot;&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;xsi:schemaLocation=”http://java.sun.com/xml/ns/javaee에 있는 java를 대문자 JAVA로 바꾸어주면 된다.&lt;/p&gt;</content><author><name>Jinho1</name></author><category term="error" /><summary type="html">에러 해결 2022-05-16</summary></entry><entry><title type="html">JAVA 웹을 다루는 기술 - 17장</title><link href="https://jeongjinhooo.github.io/javaweb17" rel="alternate" type="text/html" title="JAVA 웹을 다루는 기술 - 17장" /><published>2022-04-30T04:00:00+09:00</published><updated>2022-04-30T04:00:00+09:00</updated><id>https://jeongjinhooo.github.io/javaweb17</id><content type="html" xml:base="https://jeongjinhooo.github.io/javaweb17">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb4&quot;&gt;JAVA 웹을 다루는 기술 - 4장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb5&quot;&gt;JAVA 웹을 다루는 기술 - 5장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb6&quot;&gt;JAVA 웹을 다루는 기술 - 6,7장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb8&quot;&gt;JAVA 웹을 다루는 기술 - 8장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb9&quot;&gt;JAVA 웹을 다루는 기술 - 9장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb10&quot;&gt;JAVA 웹을 다루는 기술 - 10장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb11&quot;&gt;JAVA 웹을 다루는 기술 - 11,12장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb13&quot;&gt;JAVA 웹을 다루는 기술 - 13,14장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb17&quot;&gt;JAVA 웹을 다루는 기술 - 17장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb18&quot;&gt;JAVA 웹을 다루는 기술 - 18,19장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb23&quot;&gt;JAVA 웹을 다루는 기술 - 23장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb25&quot;&gt;JAVA 웹을 다루는 기술 - 25,26장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb27&quot;&gt;JAVA 웹을 다루는 기술 - 27장&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;p&gt;본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;h4 id=&quot;웹-애플리케이션-모델&quot;&gt;웹 애플리케이션 모델&lt;/h4&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h6 id=&quot;모델2-방식&quot;&gt;모델2 방식&lt;/h6&gt;
-&lt;ul&gt;
-  &lt;li&gt;웹 애플리케이션의 각 기능(클라이언트의 요청 처리, 응답 처리, 비즈니스 로직 처리)을 분리해서 구현&lt;/li&gt;
-  &lt;li&gt;객체 지향 프로그래핑에서 각각의 기능을 모듈화해서 개발하자는 원리&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h6 id=&quot;모델2-방식-특징&quot;&gt;모델2 방식 특징&lt;/h6&gt;
-&lt;ul&gt;
-  &lt;li&gt;각 기능이 서로 분리되어 있어 개발 및 유지보수가 쉬움&lt;/li&gt;
-  &lt;li&gt;각 기능(모듈)의 재사용성이 높음&lt;/li&gt;
-  &lt;li&gt;디자이너와 개발자의 작업을 분업화해서 쉽게 개발할 수 있음&lt;/li&gt;
-  &lt;li&gt;모델2 방식과 관련된 기능이나 개념의 학습이 필요&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h6 id=&quot;mvc란&quot;&gt;MVC란?&lt;/h6&gt;
-&lt;ul&gt;
-  &lt;li&gt;Model-ViewController(모델-뷰-컨트롤러)의 약자로, 일반 PC 프로그램 개발에 사용되는 디자인 패턴을 웹 애플리케이션에 도입한 것&lt;/li&gt;
-  &lt;li&gt;즉, 웹 애플리케이션을 화면 부분, 요청 처리 부분, 로직 처리 부분으로 나누어 개발하는 방법&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h6 id=&quot;mvc-특징&quot;&gt;MVC 특징&lt;/h6&gt;
-&lt;ul&gt;
-  &lt;li&gt;각 기능이 분리되어 있어 개발 및 유지보수가 편리함&lt;/li&gt;
-  &lt;li&gt;각 기능의 재사용성이 높아짐&lt;/li&gt;
-  &lt;li&gt;디자이너와 개발자의 작업을 분업화해서 쉽게 개발할 수 있음&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h6 id=&quot;커맨드command-패턴&quot;&gt;커맨드(Command) 패턴&lt;/h6&gt;
-&lt;ul&gt;
-  &lt;li&gt;브라우저가 URL 패턴을 이요해 컨트롤러에게 수행 작업을 요청하는 방법&lt;/li&gt;
-  &lt;li&gt;컨트롤러는 HttpServletRequest의 getPathinfo()메서드를 이용해 URL 패턴에서 요청명을 받아와 작업을 수행&lt;/li&gt;
-  &lt;li&gt;URL 패턴을 이용해 컨트롤러에 요청하는 형식 &lt;br /&gt; http://localhost:8090/pro17/member/listMembers.do&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Jinho1</name></author><category term="java" /><summary type="html">JAVA 웹을 다루는 기술 - 4장 JAVA 웹을 다루는 기술 - 5장 JAVA 웹을 다루는 기술 - 6,7장 JAVA 웹을 다루는 기술 - 8장 JAVA 웹을 다루는 기술 - 9장 JAVA 웹을 다루는 기술 - 10장 JAVA 웹을 다루는 기술 - 11,12장 JAVA 웹을 다루는 기술 - 13,14장 JAVA 웹을 다루는 기술 - 17장 JAVA 웹을 다루는 기술 - 18,19장 JAVA 웹을 다루는 기술 - 23장 JAVA 웹을 다루는 기술 - 25,26장 JAVA 웹을 다루는 기술 - 27장 본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.</summary></entry></feed>
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Jinho1</name></author><category term="algorithm" /><summary type="html">백준 문제 연습 입출력과 사칙연산 조건문 문제 2557 Hello World!를 출력하시오.</summary></entry></feed>

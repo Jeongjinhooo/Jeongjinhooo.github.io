@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://jeongjinhooo.github.io/author/Jinho1/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://jeongjinhooo.github.io/" rel="alternate" type="text/html" />
-  <updated>2022-05-18T23:08:06+09:00</updated>
+  <updated>2022-05-19T23:13:59+09:00</updated>
   <id>https://jeongjinhooo.github.io/author/Jinho1/feed.xml</id>
 
   
@@ -30,6 +30,54 @@
   
   
 
+  
+    <entry>
+      <title type="html">org.springframework.web.context.ContextLoaderListener의 애플리케이션 리스너를 설정하는 중 오류 발생</title>
+      <link href="https://jeongjinhooo.github.io/error2" rel="alternate" type="text/html" title="org.springframework.web.&lt;br&gt;context.ContextLoaderListener의 &lt;br&gt;애플리케이션 리스너를 설정하는 중 오류 발생" />
+      <published>2022-05-19T04:00:00+09:00</published>
+      <updated>2022-05-19T04:00:00+09:00</updated>
+      <id>https://jeongjinhooo.github.io/error2</id>
+      <content type="html" xml:base="https://jeongjinhooo.github.io/error2">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;에러 해결&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./error1&quot;&gt;2022-05-16&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./error2&quot;&gt;2022-05-19&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;전에 하던 예제를 복사해서 Maven 사용 실습하고 있었는데 실행이 안되서 찾아보니&lt;br /&gt;
+Maven - Update Project 실행시 maven 라이브러리 경로가 삭제되는 현상이 발생해서 그렇다고한다.&lt;/p&gt;
+
+&lt;h6 id=&quot;문제-해결-방법&quot;&gt;문제 해결 방법&lt;/h6&gt;
+&lt;p&gt;프로젝트 우클릭 - properties
+Deployment Assembly - Add 버튼 - Java Build Path Entries - Maven Dependencies 선택 - Apply버튼&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/image00/error2.PNG&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Jinho1</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="error" />
+      
+
+      
+        <summary type="html">에러 해결 2022-05-16 2022-05-19</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">JAVA 웹을 다루는 기술 - 27장</title>
@@ -62,6 +110,24 @@
   &lt;li&gt;프로젝트 구조와 내용을 기술하는 선언적 접근 방식의 오픈소스 빌드 툴&lt;/li&gt;
   &lt;li&gt;프로젝트 종속 라이브러리들과 그 라이브러리에 의존(Dependency)하는 자원까지 관리할 수 있음&lt;/li&gt;
   &lt;li&gt;프로젝트 전반의 리소스 관리와 설정 파일 그리고 이와 관련된 표준 디렉터리 구조를 처음부터 일관된 형태로 구성하여 관리할 수 있음&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;log4j&quot;&gt;log4j&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;로그 기능을 제공하는 오픈 소스 라이브러리&lt;/li&gt;
+  &lt;li&gt;애플리케이션에서 웹 사이트에 접속한 사용자 정보나 각 클래스의 메서드호출 시각 등 여러가지 정보를 로그로 출력해서 관리&lt;/li&gt;
+  &lt;li&gt;메이븐에선 프로젝트 생성 시 자동으로 log4j 라이브러리가 설치됨&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;타일즈tiles&quot;&gt;타일즈(tiles)&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;화면의 레이아웃 기능을 제공하는 오픈 소스 라이브러리&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id=&quot;특징&quot;&gt;특징&lt;/h6&gt;
+&lt;ul&gt;
+  &lt;li&gt;페이지 레이아웃을 쉽고 단순하게 구현할 수 있음&lt;/li&gt;
+  &lt;li&gt;공통된 레이아웃을 사용하므로 유지관리가 용이함&lt;/li&gt;
 &lt;/ul&gt;</content>
 
       
@@ -737,19 +803,20 @@ CASE : DECODE와 달리, A와 B 사이에 부등호 관계(크거나 작은 조�
     </entry>
   
     <entry>
-      <title type="html">에러</title>
-      <link href="https://jeongjinhooo.github.io/error1" rel="alternate" type="text/html" title="에러" />
+      <title type="html">web.xml에서 발생한 에러</title>
+      <link href="https://jeongjinhooo.github.io/error1" rel="alternate" type="text/html" title="web.xml에서 발생한 에러" />
       <published>2022-05-07T04:00:00+09:00</published>
       <updated>2022-05-07T04:00:00+09:00</updated>
       <id>https://jeongjinhooo.github.io/error1</id>
       <content type="html" xml:base="https://jeongjinhooo.github.io/error1">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;에러 해결&lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./error1&quot;&gt;2022-05-16&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./error2&quot;&gt;2022-05-19&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
 
-&lt;h6 id=&quot;webxml에서-발생한-에러&quot;&gt;web.xml에서 발생한 에러&lt;/h6&gt;
-&lt;p&gt;cvc-id.3: A field of identity constraint ‘web-common-servlet-name-uniqueness’ matched element ‘web-app’, but this element does not have a simple type.&lt;/p&gt;
+&lt;p&gt;web.xml에서 발생한 에러
+cvc-id.3: A field of identity constraint ‘web-common-servlet-name-uniqueness’ matched element ‘web-app’, but this element does not have a simple type.&lt;/p&gt;
 
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&amp;gt;
 &amp;lt;web-app xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;
@@ -778,7 +845,7 @@ CASE : DECODE와 달리, A와 B 사이에 부등호 관계(크거나 작은 조�
       
 
       
-        <summary type="html">에러 해결 2022-05-16</summary>
+        <summary type="html">에러 해결 2022-05-16 2022-05-19</summary>
       
 
       
@@ -1081,155 +1148,6 @@ public class Main {
 
       
         <summary type="html">백준 문제 연습 입출력과 사칙연산 조건문 문제 2557 Hello World!를 출력하시오.</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">JAVA 웹을 다루는 기술 - 13,14장</title>
-      <link href="https://jeongjinhooo.github.io/javaweb13" rel="alternate" type="text/html" title="JAVA 웹을 다루는 기술 - 13,14장" />
-      <published>2022-04-30T04:00:00+09:00</published>
-      <updated>2022-04-30T04:00:00+09:00</updated>
-      <id>https://jeongjinhooo.github.io/javaweb13</id>
-      <content type="html" xml:base="https://jeongjinhooo.github.io/javaweb13">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb4&quot;&gt;JAVA 웹을 다루는 기술 - 4장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb5&quot;&gt;JAVA 웹을 다루는 기술 - 5장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb6&quot;&gt;JAVA 웹을 다루는 기술 - 6,7장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb8&quot;&gt;JAVA 웹을 다루는 기술 - 8장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb9&quot;&gt;JAVA 웹을 다루는 기술 - 9장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb10&quot;&gt;JAVA 웹을 다루는 기술 - 10장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb11&quot;&gt;JAVA 웹을 다루는 기술 - 11,12장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb13&quot;&gt;JAVA 웹을 다루는 기술 - 13,14장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb17&quot;&gt;JAVA 웹을 다루는 기술 - 17장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb18&quot;&gt;JAVA 웹을 다루는 기술 - 18,19장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb23&quot;&gt;JAVA 웹을 다루는 기술 - 23장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb25&quot;&gt;JAVA 웹을 다루는 기술 - 25,26장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb27&quot;&gt;JAVA 웹을 다루는 기술 - 27장&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;p&gt;본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;h4 id=&quot;포워드-액션-태그&quot;&gt;포워드 액션 태그&lt;/h4&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;RequestDispatcher 클래스를 대신해서 포워딩하는 방법을 제공&lt;/li&gt;
-  &lt;li&gt;포워딩 시 값을 전달할 수 있음&lt;/li&gt;
-  &lt;li&gt;&amp;lt;jsp:forwardpage =”포워딩할 JSP페이지”&amp;gt;&lt;br /&gt;…&lt;br /&gt;&amp;lt;/jsp:forward&amp;gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;자바-빈bean&quot;&gt;자바 빈(Bean)&lt;/h4&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Java EE 프로그래밍 시 여러 객체를 거치면서 만들어지는 데이터를 저장하거나 전달하는 데 사용되는 클래스&lt;/li&gt;
-  &lt;li&gt;자바의 DTO(Data Transfer Object, 데이터 전송 객체) 클래스, VO(Value Class, 값 객체) 클래스와 같은 개념&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h6 id=&quot;특징&quot;&gt;특징&lt;/h6&gt;
-&lt;ul&gt;
-  &lt;li&gt;속성의 접근 제한자는 private임&lt;/li&gt;
-  &lt;li&gt;각 속성(attribute, property)은 각각의 setter/getter를 가짐&lt;/li&gt;
-  &lt;li&gt;setter/getter 이름의 첫 글자는 반드시 소문자이어야 함&lt;/li&gt;
-  &lt;li&gt;인자 없는 생성자를 반드시 가지며 다른 생성자도 추가할 수 있음&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;표현-언어&quot;&gt;표현 언어&lt;/h4&gt;
-&lt;p&gt;자바 코드가 들어가는 표현식을 좀 더 편리하게 사용하기 위해 JSP 2.0부터 도입된 데이터 출력 기능&lt;/p&gt;
-
-&lt;h6 id=&quot;특징-1&quot;&gt;특징&lt;/h6&gt;
-&lt;ul&gt;
-  &lt;li&gt;기존 표현식보다 편리하게 값을 출력&lt;/li&gt;
-  &lt;li&gt;변수와 여러 가지 연산자를 포함할 수 있음&lt;/li&gt;
-  &lt;li&gt;JSP의 내장 객체에 저장된 속성 및 자바의 빈 속성도 표현 언어에서 출력할 수 있음&lt;/li&gt;
-  &lt;li&gt;표현 언어 자체 내장 객체도 제공됨&lt;/li&gt;
-  &lt;li&gt;JSP페이지 생성 시 기본 설정은 표현 언어를 사용할 수 없음&lt;/li&gt;
-  &lt;li&gt;페이지 디렉티브 태그에서는 반드시 isELIgnored = false로 설정해야 함&lt;/li&gt;
-  &lt;li&gt;${표현식or값}&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h6 id=&quot;언어에서-같은-속성에-대한-우선순위&quot;&gt;언어에서 같은 속성에 대한 우선순위&lt;/h6&gt;
-&lt;p&gt;page &amp;gt; request &amp;gt; session &amp;gt; application&lt;/p&gt;
-
-&lt;h4 id=&quot;커스텀-태그&quot;&gt;커스텀 태그&lt;/h4&gt;
-&lt;p&gt;액션 태그나 표현 언어를 사용하더라도 조건식이나 반복문 등의 자바 코드를 제거하기 위해서 도입된 기능&lt;/p&gt;
-
-&lt;h6 id=&quot;커스텀-태그-종류&quot;&gt;커스텀 태그 종류&lt;/h6&gt;
-&lt;ul&gt;
-  &lt;li&gt;JSTL(JSP Standard Tag Library)&lt;br /&gt;
- JSP 페이지에서 가장 많이 사용하는 기능을 태그로 제공하며, JSTL 라이브러리를 따로 설치해서 사용함&lt;/li&gt;
-  &lt;li&gt;개발자가 만든 커스텀 태그&lt;br /&gt;
- 개발자가 필요에 의해 만든 태그로, 스트러츠나 스프링 프레임 워크에서 미리 만들어서 제공&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h6 id=&quot;jstl-태그-종류&quot;&gt;JSTL 태그 종류&lt;/h6&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;라이브러리&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;세부 기능&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;접두어&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;코어&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;변수지원, 흐름제어, 반복문 처리, URL 처리&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;c&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;국제화&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;지역, 메세지 형식, 숫자 및 날짜 형식&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;fmt&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;XML&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;XML 코어, 흐름 제어, XML 변환&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;x&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;데이터베이스&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;SQL&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;sql&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;함수&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;컬렉션 처리, 문자열 처리&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;fn&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;Core 태그 사용 전 반드시 taglib 디렉티브 태그를 선언해야 함&lt;br /&gt;
-&amp;lt;%@ taglib prefix=”c” uri=”http://java.sun.com/jsp/jstl/core” %&amp;gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;포매팅-태그-라이브러리&quot;&gt;포매팅 태그 라이브러리&lt;/h4&gt;
-&lt;p&gt;JSP 페이지에서 가격, 날짜, 문자열을 원하는 형식으로 표시할 수 있음&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Jinho1</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="java" />
-      
-
-      
-        <summary type="html">JAVA 웹을 다루는 기술 - 4장 JAVA 웹을 다루는 기술 - 5장 JAVA 웹을 다루는 기술 - 6,7장 JAVA 웹을 다루는 기술 - 8장 JAVA 웹을 다루는 기술 - 9장 JAVA 웹을 다루는 기술 - 10장 JAVA 웹을 다루는 기술 - 11,12장 JAVA 웹을 다루는 기술 - 13,14장 JAVA 웹을 다루는 기술 - 17장 JAVA 웹을 다루는 기술 - 18,19장 JAVA 웹을 다루는 기술 - 23장 JAVA 웹을 다루는 기술 - 25,26장 JAVA 웹을 다루는 기술 - 27장 본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.</summary>
       
 
       

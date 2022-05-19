@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://jeongjinhooo.github.io/tag/error/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://jeongjinhooo.github.io/" rel="alternate" type="text/html" />
-  <updated>2022-05-18T23:08:06+09:00</updated>
+  <updated>2022-05-19T23:13:59+09:00</updated>
   <id>https://jeongjinhooo.github.io/tag/error/feed.xml</id>
 
   
@@ -32,19 +32,68 @@
 
   
     <entry>
-      <title type="html">에러</title>
-      <link href="https://jeongjinhooo.github.io/error1" rel="alternate" type="text/html" title="에러" />
+      <title type="html">org.springframework.web.context.ContextLoaderListener의 애플리케이션 리스너를 설정하는 중 오류 발생</title>
+      <link href="https://jeongjinhooo.github.io/error2" rel="alternate" type="text/html" title="org.springframework.web.&lt;br&gt;context.ContextLoaderListener의 &lt;br&gt;애플리케이션 리스너를 설정하는 중 오류 발생" />
+      <published>2022-05-19T04:00:00+09:00</published>
+      <updated>2022-05-19T04:00:00+09:00</updated>
+      <id>https://jeongjinhooo.github.io/error2</id>
+      <content type="html" xml:base="https://jeongjinhooo.github.io/error2">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;에러 해결&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./error1&quot;&gt;2022-05-16&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./error2&quot;&gt;2022-05-19&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;전에 하던 예제를 복사해서 Maven 사용 실습하고 있었는데 실행이 안되서 찾아보니&lt;br /&gt;
+Maven - Update Project 실행시 maven 라이브러리 경로가 삭제되는 현상이 발생해서 그렇다고한다.&lt;/p&gt;
+
+&lt;h6 id=&quot;문제-해결-방법&quot;&gt;문제 해결 방법&lt;/h6&gt;
+&lt;p&gt;프로젝트 우클릭 - properties
+Deployment Assembly - Add 버튼 - Java Build Path Entries - Maven Dependencies 선택 - Apply버튼&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/image00/error2.PNG&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Jinho1</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="error" />
+      
+
+      
+        <summary type="html">에러 해결 2022-05-16 2022-05-19</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">web.xml에서 발생한 에러</title>
+      <link href="https://jeongjinhooo.github.io/error1" rel="alternate" type="text/html" title="web.xml에서 발생한 에러" />
       <published>2022-05-07T04:00:00+09:00</published>
       <updated>2022-05-07T04:00:00+09:00</updated>
       <id>https://jeongjinhooo.github.io/error1</id>
       <content type="html" xml:base="https://jeongjinhooo.github.io/error1">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;에러 해결&lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./error1&quot;&gt;2022-05-16&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./error2&quot;&gt;2022-05-19&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
 
-&lt;h6 id=&quot;webxml에서-발생한-에러&quot;&gt;web.xml에서 발생한 에러&lt;/h6&gt;
-&lt;p&gt;cvc-id.3: A field of identity constraint ‘web-common-servlet-name-uniqueness’ matched element ‘web-app’, but this element does not have a simple type.&lt;/p&gt;
+&lt;p&gt;web.xml에서 발생한 에러
+cvc-id.3: A field of identity constraint ‘web-common-servlet-name-uniqueness’ matched element ‘web-app’, but this element does not have a simple type.&lt;/p&gt;
 
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&amp;gt;
 &amp;lt;web-app xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;
@@ -73,7 +122,7 @@
       
 
       
-        <summary type="html">에러 해결 2022-05-16</summary>
+        <summary type="html">에러 해결 2022-05-16 2022-05-19</summary>
       
 
       
