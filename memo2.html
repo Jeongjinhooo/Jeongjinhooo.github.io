@@ -221,6 +221,20 @@ into the {body} of the default.hbs template -->
 <h3 id="override-어노테이션">@Override 어노테이션</h3>
 <p>상속받은 메서드를 재정의할 때 메서드 이름이 틀리지 않게 쓰기 위한 어노테이션이다</p>
 
+<h3 id="cset-태그">&lt;c:set&gt; 태그</h3>
+<p><br />
+&lt;c:set&gt; 태그는 EL에서 사용되어질 수 있는 Bean, Map등에 값을 설정을 하거나, 일반 변수를 생성해서 값을 할당 할 수 있다</p>
+
+<h3 id="cset-태그-속성">&lt;c:set&gt; 태그 속성</h3>
+<ul>
+  <li>value 속성 : 값을 입력.  EL을 사용할 수 있다.</li>
+  <li>target 속성 : 프로퍼티를 설정할 빈 또는 맵</li>
+  <li>property 속성 : 설정할 프로퍼티</li>
+  <li>var 속성 : 값이 저장되는 변수명</li>
+  <li>scope 속성 : 변수가 저장된  Scope.<br /> page, request, session, application 을 가질 수 있고, 기본값은 page</li>
+</ul>
+
+
                 </div>
             </section>
 

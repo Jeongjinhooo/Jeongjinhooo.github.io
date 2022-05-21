@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://jeongjinhooo.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jeongjinhooo.github.io/" rel="alternate" type="text/html" /><updated>2022-05-19T23:13:59+09:00</updated><id>https://jeongjinhooo.github.io/feed.xml</id><title type="html">Jinhonote</title><subtitle>개발공부블로그</subtitle><entry><title type="html">org.springframework.web.context.ContextLoaderListener의 애플리케이션 리스너를 설정하는 중 오류 발생</title><link href="https://jeongjinhooo.github.io/error2" rel="alternate" type="text/html" title="org.springframework.web.context.ContextLoaderListener의 애플리케이션 리스너를 설정하는 중 오류 발생" /><published>2022-05-19T04:00:00+09:00</published><updated>2022-05-19T04:00:00+09:00</updated><id>https://jeongjinhooo.github.io/error2</id><content type="html" xml:base="https://jeongjinhooo.github.io/error2">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;에러 해결&lt;/span&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://jeongjinhooo.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jeongjinhooo.github.io/" rel="alternate" type="text/html" /><updated>2022-05-21T22:27:55+09:00</updated><id>https://jeongjinhooo.github.io/feed.xml</id><title type="html">Jinhonote</title><subtitle>개발공부블로그</subtitle><entry><title type="html">org.springframework.web.context.ContextLoaderListener의 애플리케이션 리스너를 설정하는 중 오류 발생</title><link href="https://jeongjinhooo.github.io/error2" rel="alternate" type="text/html" title="org.springframework.web.context.ContextLoaderListener의 애플리케이션 리스너를 설정하는 중 오류 발생" /><published>2022-05-19T04:00:00+09:00</published><updated>2022-05-19T04:00:00+09:00</updated><id>https://jeongjinhooo.github.io/error2</id><content type="html" xml:base="https://jeongjinhooo.github.io/error2">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;에러 해결&lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./error1&quot;&gt;2022-05-16&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./error2&quot;&gt;2022-05-19&lt;/a&gt;&lt;/li&gt;
@@ -12,7 +12,7 @@ Maven - Update Project 실행시 maven 라이브러리 경로가 삭제되는 �
 &lt;p&gt;프로젝트 우클릭 - properties
 Deployment Assembly - Add 버튼 - Java Build Path Entries - Maven Dependencies 선택 - Apply버튼&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/image00/error2.PNG&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;</content><author><name>Jinho1</name></author><category term="error" /><summary type="html">에러 해결 2022-05-16 2022-05-19</summary></entry><entry><title type="html">JAVA 웹을 다루는 기술 - 27장</title><link href="https://jeongjinhooo.github.io/javaweb27" rel="alternate" type="text/html" title="JAVA 웹을 다루는 기술 - 27장" /><published>2022-05-18T04:00:00+09:00</published><updated>2022-05-18T04:00:00+09:00</updated><id>https://jeongjinhooo.github.io/javaweb27</id><content type="html" xml:base="https://jeongjinhooo.github.io/javaweb27">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/image00/error2.PNG&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;</content><author><name>Jinho1</name></author><category term="error" /><summary type="html">에러 해결 2022-05-16 2022-05-19</summary></entry><entry><title type="html">JAVA 웹을 다루는 기술 - 27, 28장</title><link href="https://jeongjinhooo.github.io/javaweb27" rel="alternate" type="text/html" title="JAVA 웹을 다루는 기술 - 27, 28장" /><published>2022-05-18T04:00:00+09:00</published><updated>2022-05-18T04:00:00+09:00</updated><id>https://jeongjinhooo.github.io/javaweb27</id><content type="html" xml:base="https://jeongjinhooo.github.io/javaweb27">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb4&quot;&gt;JAVA 웹을 다루는 기술 - 4장&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb5&quot;&gt;JAVA 웹을 다루는 기술 - 5장&lt;/a&gt;&lt;/li&gt;
@@ -40,6 +40,7 @@ Deployment Assembly - Add 버튼 - Java Build Path Entries - Maven Dependencies 
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;log4j&quot;&gt;log4j&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;로그 기능을 제공하는 오픈 소스 라이브러리&lt;/li&gt;
   &lt;li&gt;애플리케이션에서 웹 사이트에 접속한 사용자 정보나 각 클래스의 메서드호출 시각 등 여러가지 정보를 로그로 출력해서 관리&lt;/li&gt;
@@ -47,6 +48,7 @@ Deployment Assembly - Add 버튼 - Java Build Path Entries - Maven Dependencies 
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;타일즈tiles&quot;&gt;타일즈(tiles)&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;화면의 레이아웃 기능을 제공하는 오픈 소스 라이브러리&lt;/li&gt;
 &lt;/ul&gt;
@@ -55,6 +57,16 @@ Deployment Assembly - Add 버튼 - Java Build Path Entries - Maven Dependencies 
 &lt;ul&gt;
   &lt;li&gt;페이지 레이아웃을 쉽고 단순하게 구현할 수 있음&lt;/li&gt;
   &lt;li&gt;공통된 레이아웃을 사용하므로 유지관리가 용이함&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;commonsmultipartresolver-클래스&quot;&gt;CommonsMultipartResolver 클래스&lt;/h3&gt;
+&lt;p&gt;여러 개의 파일을 한꺼번에 업로드할 수 있음&lt;/p&gt;
+
+&lt;h3 id=&quot;인터셉터interceptor&quot;&gt;인터셉터(Interceptor)&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;브라우저요청 시 요청 메서드 호출 전후에 개발자가 원하는 기능을 수행함&lt;/li&gt;
+  &lt;li&gt;필터와 기능이 유사하지만 필터보다 좀 더 자유롭게 위치를 변경해서 기능을 수행함&lt;/li&gt;
+  &lt;li&gt;쿠키(Cookie) 제어, 파일 업로드 등의 작업을 수행함&lt;/li&gt;
 &lt;/ul&gt;</content><author><name>Jinho1</name></author><category term="java" /><summary type="html">JAVA 웹을 다루는 기술 - 4장 JAVA 웹을 다루는 기술 - 5장 JAVA 웹을 다루는 기술 - 6,7장 JAVA 웹을 다루는 기술 - 8장 JAVA 웹을 다루는 기술 - 9장 JAVA 웹을 다루는 기술 - 10장 JAVA 웹을 다루는 기술 - 11,12장 JAVA 웹을 다루는 기술 - 13,14장 JAVA 웹을 다루는 기술 - 17장 JAVA 웹을 다루는 기술 - 18,19장 JAVA 웹을 다루는 기술 - 23장 JAVA 웹을 다루는 기술 - 25,26장 JAVA 웹을 다루는 기술 - 27장 본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.</summary></entry><entry><title type="html">조건문</title><link href="https://jeongjinhooo.github.io/algorithm2" rel="alternate" type="text/html" title="조건문" /><published>2022-05-17T04:00:00+09:00</published><updated>2022-05-17T04:00:00+09:00</updated><id>https://jeongjinhooo.github.io/algorithm2</id><content type="html" xml:base="https://jeongjinhooo.github.io/algorithm2">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;백준 문제 연습&lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./algorithm1&quot;&gt;입출력과 사칙연산&lt;/a&gt;&lt;/li&gt;
@@ -426,7 +438,20 @@ name like &apos;%&apos; || #{name} || &apos;%&apos;	 // 마이바티스에서 �
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;override-어노테이션&quot;&gt;@Override 어노테이션&lt;/h3&gt;
-&lt;p&gt;상속받은 메서드를 재정의할 때 메서드 이름이 틀리지 않게 쓰기 위한 어노테이션이다&lt;/p&gt;</content><author><name>Jinho1</name></author><category term="memo" /><summary type="html">SQL 정리 JAVA 정리</summary></entry><entry><title type="html">JAVA 웹을 다루는 기술 - 18,19장</title><link href="https://jeongjinhooo.github.io/javaweb18" rel="alternate" type="text/html" title="JAVA 웹을 다루는 기술 - 18,19장" /><published>2022-05-07T04:00:00+09:00</published><updated>2022-05-07T04:00:00+09:00</updated><id>https://jeongjinhooo.github.io/javaweb18</id><content type="html" xml:base="https://jeongjinhooo.github.io/javaweb18">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;상속받은 메서드를 재정의할 때 메서드 이름이 틀리지 않게 쓰기 위한 어노테이션이다&lt;/p&gt;
+
+&lt;h3 id=&quot;cset-태그&quot;&gt;&amp;lt;c:set&amp;gt; 태그&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;
+&amp;lt;c:set&amp;gt; 태그는 EL에서 사용되어질 수 있는 Bean, Map등에 값을 설정을 하거나, 일반 변수를 생성해서 값을 할당 할 수 있다&lt;/p&gt;
+
+&lt;h3 id=&quot;cset-태그-속성&quot;&gt;&amp;lt;c:set&amp;gt; 태그 속성&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;value 속성 : 값을 입력.  EL을 사용할 수 있다.&lt;/li&gt;
+  &lt;li&gt;target 속성 : 프로퍼티를 설정할 빈 또는 맵&lt;/li&gt;
+  &lt;li&gt;property 속성 : 설정할 프로퍼티&lt;/li&gt;
+  &lt;li&gt;var 속성 : 값이 저장되는 변수명&lt;/li&gt;
+  &lt;li&gt;scope 속성 : 변수가 저장된  Scope.&lt;br /&gt; page, request, session, application 을 가질 수 있고, 기본값은 page&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Jinho1</name></author><category term="memo" /><summary type="html">SQL 정리 JAVA 정리</summary></entry><entry><title type="html">JAVA 웹을 다루는 기술 - 18,19장</title><link href="https://jeongjinhooo.github.io/javaweb18" rel="alternate" type="text/html" title="JAVA 웹을 다루는 기술 - 18,19장" /><published>2022-05-07T04:00:00+09:00</published><updated>2022-05-07T04:00:00+09:00</updated><id>https://jeongjinhooo.github.io/javaweb18</id><content type="html" xml:base="https://jeongjinhooo.github.io/javaweb18">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb4&quot;&gt;JAVA 웹을 다루는 기술 - 4장&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb5&quot;&gt;JAVA 웹을 다루는 기술 - 5장&lt;/a&gt;&lt;/li&gt;

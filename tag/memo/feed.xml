@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://jeongjinhooo.github.io/tag/memo/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://jeongjinhooo.github.io/" rel="alternate" type="text/html" />
-  <updated>2022-05-19T23:13:59+09:00</updated>
+  <updated>2022-05-21T22:27:55+09:00</updated>
   <id>https://jeongjinhooo.github.io/tag/memo/feed.xml</id>
 
   
@@ -64,7 +64,20 @@
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;override-어노테이션&quot;&gt;@Override 어노테이션&lt;/h3&gt;
-&lt;p&gt;상속받은 메서드를 재정의할 때 메서드 이름이 틀리지 않게 쓰기 위한 어노테이션이다&lt;/p&gt;</content>
+&lt;p&gt;상속받은 메서드를 재정의할 때 메서드 이름이 틀리지 않게 쓰기 위한 어노테이션이다&lt;/p&gt;
+
+&lt;h3 id=&quot;cset-태그&quot;&gt;&amp;lt;c:set&amp;gt; 태그&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;
+&amp;lt;c:set&amp;gt; 태그는 EL에서 사용되어질 수 있는 Bean, Map등에 값을 설정을 하거나, 일반 변수를 생성해서 값을 할당 할 수 있다&lt;/p&gt;
+
+&lt;h3 id=&quot;cset-태그-속성&quot;&gt;&amp;lt;c:set&amp;gt; 태그 속성&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;value 속성 : 값을 입력.  EL을 사용할 수 있다.&lt;/li&gt;
+  &lt;li&gt;target 속성 : 프로퍼티를 설정할 빈 또는 맵&lt;/li&gt;
+  &lt;li&gt;property 속성 : 설정할 프로퍼티&lt;/li&gt;
+  &lt;li&gt;var 속성 : 값이 저장되는 변수명&lt;/li&gt;
+  &lt;li&gt;scope 속성 : 변수가 저장된  Scope.&lt;br /&gt; page, request, session, application 을 가질 수 있고, 기본값은 page&lt;/li&gt;
+&lt;/ul&gt;</content>
 
       
       
