@@ -1,4 +1,85 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://jeongjinhooo.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jeongjinhooo.github.io/" rel="alternate" type="text/html" /><updated>2022-05-21T22:27:55+09:00</updated><id>https://jeongjinhooo.github.io/feed.xml</id><title type="html">Jinhonote</title><subtitle>개발공부블로그</subtitle><entry><title type="html">org.springframework.web.context.ContextLoaderListener의 애플리케이션 리스너를 설정하는 중 오류 발생</title><link href="https://jeongjinhooo.github.io/error2" rel="alternate" type="text/html" title="org.springframework.web.context.ContextLoaderListener의 애플리케이션 리스너를 설정하는 중 오류 발생" /><published>2022-05-19T04:00:00+09:00</published><updated>2022-05-19T04:00:00+09:00</updated><id>https://jeongjinhooo.github.io/error2</id><content type="html" xml:base="https://jeongjinhooo.github.io/error2">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;에러 해결&lt;/span&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://jeongjinhooo.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jeongjinhooo.github.io/" rel="alternate" type="text/html" /><updated>2022-05-22T23:31:45+09:00</updated><id>https://jeongjinhooo.github.io/feed.xml</id><title type="html">Jinhonote</title><subtitle>개발공부블로그</subtitle><entry><title type="html">JAVA 웹을 다루는 기술 - 29장</title><link href="https://jeongjinhooo.github.io/javaweb29" rel="alternate" type="text/html" title="JAVA 웹을 다루는 기술 - 29장" /><published>2022-05-22T04:00:00+09:00</published><updated>2022-05-22T04:00:00+09:00</updated><id>https://jeongjinhooo.github.io/javaweb29</id><content type="html" xml:base="https://jeongjinhooo.github.io/javaweb29">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb4&quot;&gt;JAVA 웹을 다루는 기술 - 4장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb5&quot;&gt;JAVA 웹을 다루는 기술 - 5장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb6&quot;&gt;JAVA 웹을 다루는 기술 - 6,7장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb8&quot;&gt;JAVA 웹을 다루는 기술 - 8장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb9&quot;&gt;JAVA 웹을 다루는 기술 - 9장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb10&quot;&gt;JAVA 웹을 다루는 기술 - 10장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb11&quot;&gt;JAVA 웹을 다루는 기술 - 11,12장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb13&quot;&gt;JAVA 웹을 다루는 기술 - 13,14장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb17&quot;&gt;JAVA 웹을 다루는 기술 - 17장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb18&quot;&gt;JAVA 웹을 다루는 기술 - 18,19장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb23&quot;&gt;JAVA 웹을 다루는 기술 - 23장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb25&quot;&gt;JAVA 웹을 다루는 기술 - 25,26장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb27&quot;&gt;JAVA 웹을 다루는 기술 - 27,28장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb29&quot;&gt;JAVA 웹을 다루는 기술 - 29장&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;p&gt;본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;rest&quot;&gt;REST&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Representational State Transfer의 약자로, 하나의 URI가 고유한 리소스를 처리하는 공통 방식&lt;/li&gt;
+  &lt;li&gt;REST 방식으로 제공되는 API를 REST API(도는 RESTful API)라고 하며, 이는 트위터와 같은 Open API에서 많이 사용&lt;/li&gt;
+  &lt;li&gt;REST 방식은 서버에 데이터 조회뿐만 아니라 추가, 수정, 삭제 작업 요청 시 HTTP 메서드를 이용함&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;http-메서드의-기능&quot;&gt;HTTP 메서드의 기능&lt;/h5&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;메서드&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;설명&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;POST&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;추가(Create)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;GET&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;조회(Select)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;PUT&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;수정(Update)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;DELETE&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;삭제(Delete)&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h6 id=&quot;rest-방식으로-요청하는-uri-형식&quot;&gt;REST 방식으로 요청하는 URI 형식&lt;/h6&gt;
+&lt;p&gt;&lt;br /&gt;
+/작업명/기본키+메서드+데이터&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;작업명 : 요청하는 작업 종류&lt;/li&gt;
+  &lt;li&gt;기본키 : 요청하는 작업에 해당하는 대상의 기본키&lt;/li&gt;
+  &lt;li&gt;메서드 : 요청하는 기능&lt;/li&gt;
+  &lt;li&gt;데이터 : 기능 수행에 필요한 JSON 데이터&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id=&quot;pathvariable&quot;&gt;@PathVariable&lt;/h6&gt;
+&lt;p&gt;브라우저에서 요청 URL로 전달된 매개변수를 가져올 수 있음&lt;/p&gt;
+
+&lt;h6 id=&quot;requestbody&quot;&gt;@RequestBody&lt;/h6&gt;
+&lt;p&gt;브라우저에서 전달되는 JSON 데이터를 객체로 자동 변환해줌&lt;/p&gt;
+
+&lt;h6 id=&quot;responsebody&quot;&gt;@ResponseBody&lt;/h6&gt;
+&lt;p&gt;JSP가 아닌 텍스트나 JSON으로 결과를 전송할 수 있음&lt;/p&gt;
+
+&lt;h6 id=&quot;responseentity&quot;&gt;@ResponseEntity&lt;/h6&gt;
+&lt;ul&gt;
+  &lt;li&gt;@RestController는 별도의 View를 제공하지 않은 채 데이터를 전달하므로 전달 과정에서 예외가 발생할 수 있음&lt;/li&gt;
+  &lt;li&gt;예외에 대해 좀 더 세밀한 제어가 필요한 경우 ResponseEntity 클래스를 사용함&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Jinho1</name></author><category term="java" /><summary type="html">JAVA 웹을 다루는 기술 - 4장 JAVA 웹을 다루는 기술 - 5장 JAVA 웹을 다루는 기술 - 6,7장 JAVA 웹을 다루는 기술 - 8장 JAVA 웹을 다루는 기술 - 9장 JAVA 웹을 다루는 기술 - 10장 JAVA 웹을 다루는 기술 - 11,12장 JAVA 웹을 다루는 기술 - 13,14장 JAVA 웹을 다루는 기술 - 17장 JAVA 웹을 다루는 기술 - 18,19장 JAVA 웹을 다루는 기술 - 23장 JAVA 웹을 다루는 기술 - 25,26장 JAVA 웹을 다루는 기술 - 27,28장 JAVA 웹을 다루는 기술 - 29장 본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.</summary></entry><entry><title type="html">org.springframework.web.context.ContextLoaderListener의 애플리케이션 리스너를 설정하는 중 오류 발생</title><link href="https://jeongjinhooo.github.io/error2" rel="alternate" type="text/html" title="org.springframework.web.context.ContextLoaderListener의 애플리케이션 리스너를 설정하는 중 오류 발생" /><published>2022-05-19T04:00:00+09:00</published><updated>2022-05-19T04:00:00+09:00</updated><id>https://jeongjinhooo.github.io/error2</id><content type="html" xml:base="https://jeongjinhooo.github.io/error2">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;에러 해결&lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./error1&quot;&gt;2022-05-16&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./error2&quot;&gt;2022-05-19&lt;/a&gt;&lt;/li&gt;
@@ -26,7 +107,8 @@ Deployment Assembly - Add 버튼 - Java Build Path Entries - Maven Dependencies 
     &lt;li&gt;&lt;a href=&quot;./javaweb18&quot;&gt;JAVA 웹을 다루는 기술 - 18,19장&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb23&quot;&gt;JAVA 웹을 다루는 기술 - 23장&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb25&quot;&gt;JAVA 웹을 다루는 기술 - 25,26장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb27&quot;&gt;JAVA 웹을 다루는 기술 - 27장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb27&quot;&gt;JAVA 웹을 다루는 기술 - 27,28장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb29&quot;&gt;JAVA 웹을 다루는 기술 - 29장&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
 &lt;p&gt;본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.&lt;/p&gt;
@@ -54,20 +136,23 @@ Deployment Assembly - Add 버튼 - Java Build Path Entries - Maven Dependencies 
 &lt;/ul&gt;
 
 &lt;h6 id=&quot;특징&quot;&gt;특징&lt;/h6&gt;
+
 &lt;ul&gt;
   &lt;li&gt;페이지 레이아웃을 쉽고 단순하게 구현할 수 있음&lt;/li&gt;
   &lt;li&gt;공통된 레이아웃을 사용하므로 유지관리가 용이함&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;commonsmultipartresolver-클래스&quot;&gt;CommonsMultipartResolver 클래스&lt;/h3&gt;
-&lt;p&gt;여러 개의 파일을 한꺼번에 업로드할 수 있음&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;
+여러 개의 파일을 한꺼번에 업로드할 수 있음&lt;/p&gt;
 
 &lt;h3 id=&quot;인터셉터interceptor&quot;&gt;인터셉터(Interceptor)&lt;/h3&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;브라우저요청 시 요청 메서드 호출 전후에 개발자가 원하는 기능을 수행함&lt;/li&gt;
   &lt;li&gt;필터와 기능이 유사하지만 필터보다 좀 더 자유롭게 위치를 변경해서 기능을 수행함&lt;/li&gt;
   &lt;li&gt;쿠키(Cookie) 제어, 파일 업로드 등의 작업을 수행함&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Jinho1</name></author><category term="java" /><summary type="html">JAVA 웹을 다루는 기술 - 4장 JAVA 웹을 다루는 기술 - 5장 JAVA 웹을 다루는 기술 - 6,7장 JAVA 웹을 다루는 기술 - 8장 JAVA 웹을 다루는 기술 - 9장 JAVA 웹을 다루는 기술 - 10장 JAVA 웹을 다루는 기술 - 11,12장 JAVA 웹을 다루는 기술 - 13,14장 JAVA 웹을 다루는 기술 - 17장 JAVA 웹을 다루는 기술 - 18,19장 JAVA 웹을 다루는 기술 - 23장 JAVA 웹을 다루는 기술 - 25,26장 JAVA 웹을 다루는 기술 - 27장 본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.</summary></entry><entry><title type="html">조건문</title><link href="https://jeongjinhooo.github.io/algorithm2" rel="alternate" type="text/html" title="조건문" /><published>2022-05-17T04:00:00+09:00</published><updated>2022-05-17T04:00:00+09:00</updated><id>https://jeongjinhooo.github.io/algorithm2</id><content type="html" xml:base="https://jeongjinhooo.github.io/algorithm2">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;백준 문제 연습&lt;/span&gt;&lt;/p&gt;
+&lt;/ul&gt;</content><author><name>Jinho1</name></author><category term="java" /><summary type="html">JAVA 웹을 다루는 기술 - 4장 JAVA 웹을 다루는 기술 - 5장 JAVA 웹을 다루는 기술 - 6,7장 JAVA 웹을 다루는 기술 - 8장 JAVA 웹을 다루는 기술 - 9장 JAVA 웹을 다루는 기술 - 10장 JAVA 웹을 다루는 기술 - 11,12장 JAVA 웹을 다루는 기술 - 13,14장 JAVA 웹을 다루는 기술 - 17장 JAVA 웹을 다루는 기술 - 18,19장 JAVA 웹을 다루는 기술 - 23장 JAVA 웹을 다루는 기술 - 25,26장 JAVA 웹을 다루는 기술 - 27,28장 JAVA 웹을 다루는 기술 - 29장 본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.</summary></entry><entry><title type="html">조건문</title><link href="https://jeongjinhooo.github.io/algorithm2" rel="alternate" type="text/html" title="조건문" /><published>2022-05-17T04:00:00+09:00</published><updated>2022-05-17T04:00:00+09:00</updated><id>https://jeongjinhooo.github.io/algorithm2</id><content type="html" xml:base="https://jeongjinhooo.github.io/algorithm2">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;백준 문제 연습&lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./algorithm1&quot;&gt;입출력과 사칙연산&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./algorithm2&quot;&gt;조건문&lt;/a&gt;&lt;/li&gt;
@@ -278,7 +363,8 @@ class Main {
     &lt;li&gt;&lt;a href=&quot;./javaweb18&quot;&gt;JAVA 웹을 다루는 기술 - 18,19장&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb23&quot;&gt;JAVA 웹을 다루는 기술 - 23장&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb25&quot;&gt;JAVA 웹을 다루는 기술 - 25,26장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb27&quot;&gt;JAVA 웹을 다루는 기술 - 27장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb27&quot;&gt;JAVA 웹을 다루는 기술 - 27,28장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb29&quot;&gt;JAVA 웹을 다루는 기술 - 29장&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
 &lt;p&gt;본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.&lt;/p&gt;
@@ -349,7 +435,7 @@ class Main {
 &lt;ul&gt;
   &lt;li&gt;기존 XML 파일에서 각각의 빈을 DI로 주입했던 기능을 코드에서 애너테이션으로 자동으로 수행함&lt;/li&gt;
   &lt;li&gt;@Autowired를 사용하면 별도의 setter나 생성자 없이 속성에 빈을 주입할 수 있음&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Jinho1</name></author><category term="java" /><summary type="html">JAVA 웹을 다루는 기술 - 4장 JAVA 웹을 다루는 기술 - 5장 JAVA 웹을 다루는 기술 - 6,7장 JAVA 웹을 다루는 기술 - 8장 JAVA 웹을 다루는 기술 - 9장 JAVA 웹을 다루는 기술 - 10장 JAVA 웹을 다루는 기술 - 11,12장 JAVA 웹을 다루는 기술 - 13,14장 JAVA 웹을 다루는 기술 - 17장 JAVA 웹을 다루는 기술 - 18,19장 JAVA 웹을 다루는 기술 - 23장 JAVA 웹을 다루는 기술 - 25,26장 JAVA 웹을 다루는 기술 - 27장 본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.</summary></entry><entry><title type="html">JAVA 웹을 다루는 기술 - 23장</title><link href="https://jeongjinhooo.github.io/javaweb23" rel="alternate" type="text/html" title="JAVA 웹을 다루는 기술 - 23장" /><published>2022-05-13T04:00:00+09:00</published><updated>2022-05-13T04:00:00+09:00</updated><id>https://jeongjinhooo.github.io/javaweb23</id><content type="html" xml:base="https://jeongjinhooo.github.io/javaweb23">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/ul&gt;</content><author><name>Jinho1</name></author><category term="java" /><summary type="html">JAVA 웹을 다루는 기술 - 4장 JAVA 웹을 다루는 기술 - 5장 JAVA 웹을 다루는 기술 - 6,7장 JAVA 웹을 다루는 기술 - 8장 JAVA 웹을 다루는 기술 - 9장 JAVA 웹을 다루는 기술 - 10장 JAVA 웹을 다루는 기술 - 11,12장 JAVA 웹을 다루는 기술 - 13,14장 JAVA 웹을 다루는 기술 - 17장 JAVA 웹을 다루는 기술 - 18,19장 JAVA 웹을 다루는 기술 - 23장 JAVA 웹을 다루는 기술 - 25,26장 JAVA 웹을 다루는 기술 - 27,28장 JAVA 웹을 다루는 기술 - 29장 본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.</summary></entry><entry><title type="html">JAVA 웹을 다루는 기술 - 23장</title><link href="https://jeongjinhooo.github.io/javaweb23" rel="alternate" type="text/html" title="JAVA 웹을 다루는 기술 - 23장" /><published>2022-05-13T04:00:00+09:00</published><updated>2022-05-13T04:00:00+09:00</updated><id>https://jeongjinhooo.github.io/javaweb23</id><content type="html" xml:base="https://jeongjinhooo.github.io/javaweb23">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb4&quot;&gt;JAVA 웹을 다루는 기술 - 4장&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb5&quot;&gt;JAVA 웹을 다루는 기술 - 5장&lt;/a&gt;&lt;/li&gt;
@@ -363,7 +449,8 @@ class Main {
     &lt;li&gt;&lt;a href=&quot;./javaweb18&quot;&gt;JAVA 웹을 다루는 기술 - 18,19장&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb23&quot;&gt;JAVA 웹을 다루는 기술 - 23장&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb25&quot;&gt;JAVA 웹을 다루는 기술 - 25,26장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb27&quot;&gt;JAVA 웹을 다루는 기술 - 27장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb27&quot;&gt;JAVA 웹을 다루는 기술 - 27,28장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb29&quot;&gt;JAVA 웹을 다루는 기술 - 29장&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
 &lt;p&gt;본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.&lt;/p&gt;
@@ -411,7 +498,7 @@ resultMap : 여러개의 레코드를 반환받을때&lt;/p&gt;
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;name like &apos;%&apos;#{name}&apos;%&apos;          //  오라클에서 사용하는 방법
 
 name like &apos;%&apos; || #{name} || &apos;%&apos;	 // 마이바티스에서 사용하는 방법
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Jinho1</name></author><category term="java" /><summary type="html">JAVA 웹을 다루는 기술 - 4장 JAVA 웹을 다루는 기술 - 5장 JAVA 웹을 다루는 기술 - 6,7장 JAVA 웹을 다루는 기술 - 8장 JAVA 웹을 다루는 기술 - 9장 JAVA 웹을 다루는 기술 - 10장 JAVA 웹을 다루는 기술 - 11,12장 JAVA 웹을 다루는 기술 - 13,14장 JAVA 웹을 다루는 기술 - 17장 JAVA 웹을 다루는 기술 - 18,19장 JAVA 웹을 다루는 기술 - 23장 JAVA 웹을 다루는 기술 - 25,26장 JAVA 웹을 다루는 기술 - 27장 본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.</summary></entry><entry><title type="html">JAVA</title><link href="https://jeongjinhooo.github.io/memo2" rel="alternate" type="text/html" title="JAVA" /><published>2022-05-12T04:00:00+09:00</published><updated>2022-05-12T04:00:00+09:00</updated><id>https://jeongjinhooo.github.io/memo2</id><content type="html" xml:base="https://jeongjinhooo.github.io/memo2">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Jinho1</name></author><category term="java" /><summary type="html">JAVA 웹을 다루는 기술 - 4장 JAVA 웹을 다루는 기술 - 5장 JAVA 웹을 다루는 기술 - 6,7장 JAVA 웹을 다루는 기술 - 8장 JAVA 웹을 다루는 기술 - 9장 JAVA 웹을 다루는 기술 - 10장 JAVA 웹을 다루는 기술 - 11,12장 JAVA 웹을 다루는 기술 - 13,14장 JAVA 웹을 다루는 기술 - 17장 JAVA 웹을 다루는 기술 - 18,19장 JAVA 웹을 다루는 기술 - 23장 JAVA 웹을 다루는 기술 - 25,26장 JAVA 웹을 다루는 기술 - 27,28장 JAVA 웹을 다루는 기술 - 29장 본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.</summary></entry><entry><title type="html">JAVA</title><link href="https://jeongjinhooo.github.io/memo2" rel="alternate" type="text/html" title="JAVA" /><published>2022-05-12T04:00:00+09:00</published><updated>2022-05-12T04:00:00+09:00</updated><id>https://jeongjinhooo.github.io/memo2</id><content type="html" xml:base="https://jeongjinhooo.github.io/memo2">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./memo1&quot;&gt;SQL 정리&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./memo2&quot;&gt;JAVA 정리&lt;/a&gt;&lt;/li&gt;
@@ -451,7 +538,26 @@ name like &apos;%&apos; || #{name} || &apos;%&apos;	 // 마이바티스에서 �
   &lt;li&gt;property 속성 : 설정할 프로퍼티&lt;/li&gt;
   &lt;li&gt;var 속성 : 값이 저장되는 변수명&lt;/li&gt;
   &lt;li&gt;scope 속성 : 변수가 저장된  Scope.&lt;br /&gt; page, request, session, application 을 가질 수 있고, 기본값은 page&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Jinho1</name></author><category term="memo" /><summary type="html">SQL 정리 JAVA 정리</summary></entry><entry><title type="html">JAVA 웹을 다루는 기술 - 18,19장</title><link href="https://jeongjinhooo.github.io/javaweb18" rel="alternate" type="text/html" title="JAVA 웹을 다루는 기술 - 18,19장" /><published>2022-05-07T04:00:00+09:00</published><updated>2022-05-07T04:00:00+09:00</updated><id>https://jeongjinhooo.github.io/javaweb18</id><content type="html" xml:base="https://jeongjinhooo.github.io/javaweb18">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/ul&gt;</content><author><name>Jinho1</name></author><category term="memo" /><summary type="html">SQL 정리 JAVA 정리</summary></entry><entry><title type="html">SQL</title><link href="https://jeongjinhooo.github.io/memo1" rel="alternate" type="text/html" title="SQL" /><published>2022-05-07T04:00:00+09:00</published><updated>2022-05-07T04:00:00+09:00</updated><id>https://jeongjinhooo.github.io/memo1</id><content type="html" xml:base="https://jeongjinhooo.github.io/memo1">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./memo1&quot;&gt;SQL 정리&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./memo2&quot;&gt;JAVA 정리&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+
+&lt;h6 id=&quot;sql-sysdate-함수현재-날짜-시간-구해오기&quot;&gt;SQL SYSDATE 함수(현재 날짜, 시간 구해오기)&lt;/h6&gt;
+&lt;p&gt;사용법 : SELECT SYSDATE FROM DUAL;&lt;br /&gt;
+Dual 이라는 테이블은 오라클이 설치될 때 만들어지는 테이블이며 산술, 날짜처리, 계산 등을하는 기본 임시 테이블&lt;/p&gt;
+
+&lt;h6 id=&quot;sql-round-floor-ceil-함수&quot;&gt;SQL ROUND, FLOOR, CEIL 함수&lt;/h6&gt;
+&lt;p&gt;ROUND - 반올림 &lt;br /&gt;
+CEIL  - 올림 &lt;br /&gt;
+FLOOR - 버림&lt;/p&gt;
+
+&lt;h6 id=&quot;sql-decode-case-함수&quot;&gt;SQL DECODE, CASE 함수&lt;/h6&gt;
+&lt;p&gt;조건에 따라 각각 다른 값을 입력/출력하는 분기함수&lt;br /&gt;
+DECODE : A=B이면 X, A≠B이면 Y를 출력 (A와 B가 같은지에 대한 조건)&lt;br /&gt;
+CASE : DECODE와 달리, A와 B 사이에 부등호 관계(크거나 작은 조건)를 처리할 때 주로 사용&lt;/p&gt;</content><author><name>Jinho1</name></author><category term="memo" /><summary type="html">SQL 정리 JAVA 정리</summary></entry><entry><title type="html">JAVA 웹을 다루는 기술 - 18,19장</title><link href="https://jeongjinhooo.github.io/javaweb18" rel="alternate" type="text/html" title="JAVA 웹을 다루는 기술 - 18,19장" /><published>2022-05-07T04:00:00+09:00</published><updated>2022-05-07T04:00:00+09:00</updated><id>https://jeongjinhooo.github.io/javaweb18</id><content type="html" xml:base="https://jeongjinhooo.github.io/javaweb18">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb4&quot;&gt;JAVA 웹을 다루는 기술 - 4장&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb5&quot;&gt;JAVA 웹을 다루는 기술 - 5장&lt;/a&gt;&lt;/li&gt;
@@ -465,7 +571,8 @@ name like &apos;%&apos; || #{name} || &apos;%&apos;	 // 마이바티스에서 �
     &lt;li&gt;&lt;a href=&quot;./javaweb18&quot;&gt;JAVA 웹을 다루는 기술 - 18,19장&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb23&quot;&gt;JAVA 웹을 다루는 기술 - 23장&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb25&quot;&gt;JAVA 웹을 다루는 기술 - 25,26장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb27&quot;&gt;JAVA 웹을 다루는 기술 - 27장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb27&quot;&gt;JAVA 웹을 다루는 기술 - 27,28장&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./javaweb29&quot;&gt;JAVA 웹을 다루는 기술 - 29장&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
 &lt;p&gt;본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.&lt;/p&gt;
@@ -503,26 +610,7 @@ name like &apos;%&apos; || #{name} || &apos;%&apos;	 // 마이바티스에서 �
 &lt;ul&gt;
   &lt;li&gt;톰캣은 서블릿 컨테이너라고 부르는데, 그 이유는 톰캣을 실행하면 톰캣은 서블릿의 생성, 초기화, 서비스실행, 소멸에 관한 모든 권한을 가지고 서블릿을 관리&lt;/li&gt;
   &lt;li&gt;스프링은 애플리케이션에서 사용되는 여러가지 빈(클래스 객체)을 개발자가 아닌 스프링이 권한을 가지고 직접 관리&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Jinho1</name></author><category term="java" /><summary type="html">JAVA 웹을 다루는 기술 - 4장 JAVA 웹을 다루는 기술 - 5장 JAVA 웹을 다루는 기술 - 6,7장 JAVA 웹을 다루는 기술 - 8장 JAVA 웹을 다루는 기술 - 9장 JAVA 웹을 다루는 기술 - 10장 JAVA 웹을 다루는 기술 - 11,12장 JAVA 웹을 다루는 기술 - 13,14장 JAVA 웹을 다루는 기술 - 17장 JAVA 웹을 다루는 기술 - 18,19장 JAVA 웹을 다루는 기술 - 23장 JAVA 웹을 다루는 기술 - 25,26장 JAVA 웹을 다루는 기술 - 27장 본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.</summary></entry><entry><title type="html">SQL</title><link href="https://jeongjinhooo.github.io/memo1" rel="alternate" type="text/html" title="SQL" /><published>2022-05-07T04:00:00+09:00</published><updated>2022-05-07T04:00:00+09:00</updated><id>https://jeongjinhooo.github.io/memo1</id><content type="html" xml:base="https://jeongjinhooo.github.io/memo1">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./memo1&quot;&gt;SQL 정리&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./memo2&quot;&gt;JAVA 정리&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-
-&lt;h6 id=&quot;sql-sysdate-함수현재-날짜-시간-구해오기&quot;&gt;SQL SYSDATE 함수(현재 날짜, 시간 구해오기)&lt;/h6&gt;
-&lt;p&gt;사용법 : SELECT SYSDATE FROM DUAL;&lt;br /&gt;
-Dual 이라는 테이블은 오라클이 설치될 때 만들어지는 테이블이며 산술, 날짜처리, 계산 등을하는 기본 임시 테이블&lt;/p&gt;
-
-&lt;h6 id=&quot;sql-round-floor-ceil-함수&quot;&gt;SQL ROUND, FLOOR, CEIL 함수&lt;/h6&gt;
-&lt;p&gt;ROUND - 반올림 &lt;br /&gt;
-CEIL  - 올림 &lt;br /&gt;
-FLOOR - 버림&lt;/p&gt;
-
-&lt;h6 id=&quot;sql-decode-case-함수&quot;&gt;SQL DECODE, CASE 함수&lt;/h6&gt;
-&lt;p&gt;조건에 따라 각각 다른 값을 입력/출력하는 분기함수&lt;br /&gt;
-DECODE : A=B이면 X, A≠B이면 Y를 출력 (A와 B가 같은지에 대한 조건)&lt;br /&gt;
-CASE : DECODE와 달리, A와 B 사이에 부등호 관계(크거나 작은 조건)를 처리할 때 주로 사용&lt;/p&gt;</content><author><name>Jinho1</name></author><category term="memo" /><summary type="html">SQL 정리 JAVA 정리</summary></entry><entry><title type="html">web.xml에서 발생한 에러</title><link href="https://jeongjinhooo.github.io/error1" rel="alternate" type="text/html" title="web.xml에서 발생한 에러" /><published>2022-05-07T04:00:00+09:00</published><updated>2022-05-07T04:00:00+09:00</updated><id>https://jeongjinhooo.github.io/error1</id><content type="html" xml:base="https://jeongjinhooo.github.io/error1">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;에러 해결&lt;/span&gt;&lt;/p&gt;
+&lt;/ul&gt;</content><author><name>Jinho1</name></author><category term="java" /><summary type="html">JAVA 웹을 다루는 기술 - 4장 JAVA 웹을 다루는 기술 - 5장 JAVA 웹을 다루는 기술 - 6,7장 JAVA 웹을 다루는 기술 - 8장 JAVA 웹을 다루는 기술 - 9장 JAVA 웹을 다루는 기술 - 10장 JAVA 웹을 다루는 기술 - 11,12장 JAVA 웹을 다루는 기술 - 13,14장 JAVA 웹을 다루는 기술 - 17장 JAVA 웹을 다루는 기술 - 18,19장 JAVA 웹을 다루는 기술 - 23장 JAVA 웹을 다루는 기술 - 25,26장 JAVA 웹을 다루는 기술 - 27,28장 JAVA 웹을 다루는 기술 - 29장 본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.</summary></entry><entry><title type="html">web.xml에서 발생한 에러</title><link href="https://jeongjinhooo.github.io/error1" rel="alternate" type="text/html" title="web.xml에서 발생한 에러" /><published>2022-05-07T04:00:00+09:00</published><updated>2022-05-07T04:00:00+09:00</updated><id>https://jeongjinhooo.github.io/error1</id><content type="html" xml:base="https://jeongjinhooo.github.io/error1">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;에러 해결&lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./error1&quot;&gt;2022-05-16&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./error2&quot;&gt;2022-05-19&lt;/a&gt;&lt;/li&gt;
@@ -538,272 +626,4 @@ cvc-id.3: A field of identity constraint ‘web-common-servlet-name-uniqueness�
 	xsi:schemaLocation=&quot;http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd&quot;
 	id=&quot;WebApp_ID&quot; version=&quot;3.0&quot;&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;xsi:schemaLocation=”http://java.sun.com/xml/ns/javaee에 있는 java를 대문자 JAVA로 바꾸어주면 된다.&lt;/p&gt;</content><author><name>Jinho1</name></author><category term="error" /><summary type="html">에러 해결 2022-05-16 2022-05-19</summary></entry><entry><title type="html">입출력과 사칙연산</title><link href="https://jeongjinhooo.github.io/algorithm1" rel="alternate" type="text/html" title="입출력과 사칙연산" /><published>2022-05-07T04:00:00+09:00</published><updated>2022-05-07T04:00:00+09:00</updated><id>https://jeongjinhooo.github.io/algorithm1</id><content type="html" xml:base="https://jeongjinhooo.github.io/algorithm1">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;백준 문제 연습&lt;/span&gt;&lt;/p&gt;
-&lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./algorithm1&quot;&gt;입출력과 사칙연산&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./algorithm2&quot;&gt;조건문&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h6 id=&quot;문제-2557&quot;&gt;문제 2557&lt;/h6&gt;
-&lt;p&gt;&lt;br /&gt;
-Hello World!를 출력하시오.&lt;/p&gt;
-
-&lt;h6 id=&quot;풀이&quot;&gt;풀이&lt;/h6&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;public class Main {
-	public static void main(String[] args) {
-		System.out.print(&quot;Hello World!&quot;);    
-	}
-}
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;백준 알고리즘에서는 클래스명을 Main으로 해주어야 한다&lt;/p&gt;
-
-&lt;h6 id=&quot;문제-10718&quot;&gt;문제 10718&lt;/h6&gt;
-&lt;p&gt;&lt;br /&gt;
-두 줄에 걸쳐 “강한친구 대한육군”을 한 줄에 한 번씩 출력한다.&lt;/p&gt;
-
-&lt;h6 id=&quot;풀이-1&quot;&gt;풀이&lt;/h6&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;public class Main {
-	
-	public static void main(String[] args) {
-		System.out.println(&quot;강한친구 대한육군&quot;);
-		System.out.println(&quot;강한친구 대한육군&quot;);
-	}
-}
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;public class Main {
-	
-	public static void main(String[] args) {
-		System.out.println(&quot;강한친구 대한육군\n강한친구 대한육군&quot;);	
-	}
-}
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;\n 으로 줄바꿈 할수있다&lt;/p&gt;
-&lt;h6 id=&quot;문제-10171&quot;&gt;문제 10171&lt;/h6&gt;
-&lt;p&gt;&lt;br /&gt;
-고양이를 출력한다.&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;\    /\
- )  ( &apos;)
-(  /  )
- \(__)|
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h6 id=&quot;풀이-2&quot;&gt;풀이&lt;/h6&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;public class Main {
-	public static void main(String[] args) {
-    
-		System.out.println(&quot;\\    /\\&quot;);
-		System.out.println(&quot; )  ( &apos;)&quot;);
-		System.out.println(&quot;(  /  )&quot;);
-		System.out.println(&quot; \\(__)|&quot;);    
- 
-	}
-}
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;public class Main {
-	public static void main(String[] args) {
-    
-	System.out.println(  &quot;\\    /\\\n&quot; + 
-		                 &quot; )  ( &apos;)\n&quot; + 
-		            	 &quot;(  /  )\n&quot; + 
-		            	 &quot; \\(__)|&quot;);
-	}
-}
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;\는 이스케이프 시퀀시로 사용되는 문자이기 때문에 출력하려면 \\와같이 앞에 \를 하나 붙여야 정상적으로 출력된다&lt;/p&gt;
-
-&lt;h6 id=&quot;문제-25083&quot;&gt;문제 25083&lt;/h6&gt;
-&lt;p&gt;&lt;br /&gt;
-새싹을 출력한다.&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;         ,r&apos;&quot;7
-r`-_   ,&apos;  ,/
- \. &quot;. L_r&apos;
-   `~\/
-      |
-      |
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h6 id=&quot;풀이-3&quot;&gt;풀이&lt;/h6&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;public class Main { 
-    public static void main(String[] args) {
-  System.out.printf(&quot;         ,r&apos;\&quot;7\n&quot;);
-  System.out.printf(&quot;r`-_   ,&apos;  ,/\n&quot;);
-  System.out.printf(&quot; \\. \&quot;. L_r&apos;\n&quot;);
-  System.out.printf(&quot;   `~\\/\n&quot;);
-  System.out.printf(&quot;      |\n&quot;);
-  System.out.printf(&quot;      |\n&quot;);       
-    }
-}
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;’\‘나 &quot;는 앞에 \를 붙여주면 출력이 가능하다&lt;/p&gt;
-
-&lt;h6 id=&quot;문제-1000-1001-10998&quot;&gt;문제 1000, 1001, 10998&lt;/h6&gt;
-&lt;p&gt;&lt;br /&gt;
-두 정수 A와 B를 입력받은 다음, A+B, A-B, A*B를 출력하는 프로그램을 작성하시오.&lt;/p&gt;
-
-&lt;h6 id=&quot;풀이-4&quot;&gt;풀이&lt;/h6&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;import java.util.Scanner;
-
-public class Main {
-
-	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		int a = sc.nextInt();
-		int b = sc.nextInt();
-		
-
-		System.out.println(a + b); // A+B
-        System.out.println(a - b); // A-B
-        System.out.println(a * b); // A*B
-
-	}
-}
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h6 id=&quot;문제-1008&quot;&gt;문제 1008&lt;/h6&gt;
-&lt;p&gt;&lt;br /&gt;
-첫째 줄에 A/B를 출력한다. 실제 정답과 출력값의 절대오차 또는 상대오차가 10-9 이하이면 정답&lt;/p&gt;
-
-&lt;h6 id=&quot;풀이-5&quot;&gt;풀이&lt;/h6&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;import java.util.Scanner;
-
-public class Main {
-
-	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		Double a = sc.nextDouble();
-		Double b = sc.nextDouble();
-		
-
-		System.out.println(a/b);
-	}
-}
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h6 id=&quot;문제-10869&quot;&gt;문제 10869&lt;/h6&gt;
-&lt;p&gt;&lt;br /&gt;
-첫째 줄에 A+B, 둘째 줄에 A-B, 셋째 줄에 A*B, 넷째 줄에 A/B, 다섯째 줄에 A%B를 출력한다.&lt;/p&gt;
-
-&lt;h6 id=&quot;풀이-6&quot;&gt;풀이&lt;/h6&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;import java.util.Scanner;
-
-public class Main {
-
-	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		int a = sc.nextInt();
-		int b = sc.nextInt();
-		
-
-		System.out.println(a+b);
-        System.out.println(a-b);
-        System.out.println(a*b);
-        System.out.println(a/b);
-        System.out.println(a%b);
-	}
-}
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h6 id=&quot;문제-10926&quot;&gt;문제 10926&lt;/h6&gt;
-&lt;p&gt;&lt;br /&gt;
-첫째 줄에 준하의 놀람을 출력한다. 놀람은 아이디 뒤에 ??!를 붙여서 나타낸다.&lt;/p&gt;
-
-&lt;h6 id=&quot;풀이-7&quot;&gt;풀이&lt;/h6&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;import java.util.Scanner;
-
-public class Main {
-
-	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		String id = sc.next();
-		System.out.println(id + &quot;??!&quot;);
-		}
-
-	}
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h6 id=&quot;문제-18108&quot;&gt;문제 18108&lt;/h6&gt;
-&lt;p&gt;&lt;br /&gt;
-불기 연도가 주어질 때 이를 서기 연도로 바꿔 주는 프로그램을 작성하시오.
-예제) 2541 -&amp;gt; 1998&lt;/p&gt;
-
-&lt;h6 id=&quot;풀이-8&quot;&gt;풀이&lt;/h6&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;import java.util.Scanner;
-
-public class Main {
-        
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.println(sc.nextInt()-543);
-        }
-    }
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h6 id=&quot;문제-10430&quot;&gt;문제 10430&lt;/h6&gt;
-&lt;p&gt;&lt;br /&gt;
-첫째 줄에 (A+B)%C, 둘째 줄에 ((A%C) + (B%C))%C, 셋째 줄에 (A×B)%C, 넷째 줄에 ((A%C) × (B%C))%C를 출력한다.&lt;/p&gt;
-
-&lt;h6 id=&quot;풀이-9&quot;&gt;풀이&lt;/h6&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;import java.util.Scanner;
-
-public class Main {
-
-	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		int a = sc.nextInt();
-		int b = sc.nextInt();
-        int c = sc.nextInt();
-		
-		System.out.println((a+b)%c);
-        System.out.println(((a%c)+(b%c))%c);
-        System.out.println((a*b)%c);
-        System.out.println(((a%c)*(b%c))%c);     
-	}
-}
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h6 id=&quot;문제-2588&quot;&gt;문제 2588&lt;/h6&gt;
-&lt;p&gt;&lt;br /&gt;
-(세 자리 수) × (세 자리 수)는 다음과 같은 과정을 통하여 이루어진다.&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    472  ----&amp;gt; (1)
-   *385  ----&amp;gt; (2)
-_______   
-   2360  ----&amp;gt; (3)
-  3776   ----&amp;gt; (4)
- 1416    ----&amp;gt; (5)
-_______
- 181720  ----&amp;gt; (6)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;(1)과 (2)위치에 들어갈 세 자리 자연수가 주어질 때 (3), (4), (5), (6)위치에 들어갈 값을 구하는 프로그램을 작성하시오.&lt;/p&gt;
-
-&lt;h6 id=&quot;풀이-10&quot;&gt;풀이&lt;/h6&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;import java.util.Scanner;
- 
-public class Main {
- 
-	public static void main(String[] args) {
-		Scanner in = new Scanner(System.in);
- 
-		int A = in.nextInt();   // Scanner을 이용하여 A는 int로
-		String B = in.next();   // B는 String 으로 입력받는다
-        
-		in.close();
- 
-		System.out.println(A * (B.charAt(2) - &apos;0&apos;));
-		System.out.println(A * (B.charAt(1) - &apos;0&apos;));
-		System.out.println(A * (B.charAt(0) - &apos;0&apos;));
-		//charAt() : 문자열의 인덱스 위치에 있는 문자(Character) 값을 반환한다
-		// -&apos;0&apos; 을 해주는 이유 : 우리가 보는 숫자 그대로의 값을 쓰기 위한 것
-		System.out.println(A * Integer.parseInt(B));
-		//Integer.parseInt()을 통해 문자열을 int형으로 바꿔준다
- 
-	}
-}
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Jinho1</name></author><category term="algorithm" /><summary type="html">백준 문제 연습 입출력과 사칙연산 조건문 문제 2557 Hello World!를 출력하시오.</summary></entry></feed>
+&lt;p&gt;xsi:schemaLocation=”http://java.sun.com/xml/ns/javaee에 있는 java를 대문자 JAVA로 바꾸어주면 된다.&lt;/p&gt;</content><author><name>Jinho1</name></author><category term="error" /><summary type="html">에러 해결 2022-05-16 2022-05-19</summary></entry></feed>
