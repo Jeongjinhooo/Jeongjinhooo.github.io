@@ -389,7 +389,36 @@ class Main {
 <p>3개 주사위의 나온 눈이 주어질 때, 상금을 계산하는 프로그램을 작성 하시오.</p>
 <h6 id="풀이-6">풀이</h6>
 
-<p>~~~</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>import java.util.*;
+
+public class Main {
+
+public static void main(String[] args) {
+	Scanner sc = new Scanner(System.in);
+	int a = sc.nextInt();
+	int b = sc.nextInt();
+	int c = sc.nextInt();
+	if(a == b &amp;&amp; a == c &amp;&amp; b == c)         // a,b,c가 같을 때
+	{
+		System.out.print(10000+(a*1000));    
+	}
+	else if(a == b || a == c)             // a b,a c가 같을 때
+	{
+		System.out.print(1000+(a*100)); 
+	}
+	else if(b == c)
+	{
+		System.out.print(1000+(b*100));  // b c 가 같을 때
+	}
+	else
+	{
+		System.out.print((Math.max(a, Math.max(b, c))*100));   // Math.max()를 사용해 a b c 중 큰 값 구하기
+	}
+	}
+}
+</code></pre></div></div>
+
+<p>두 인자 값 중 큰 값을 리턴하는 함수인 Math.max()를 사용했다</p>
 
 
                 </div>

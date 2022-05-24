@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://jeongjinhooo.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jeongjinhooo.github.io/" rel="alternate" type="text/html" /><updated>2022-05-22T23:31:45+09:00</updated><id>https://jeongjinhooo.github.io/feed.xml</id><title type="html">Jinhonote</title><subtitle>개발공부블로그</subtitle><entry><title type="html">JAVA 웹을 다루는 기술 - 29장</title><link href="https://jeongjinhooo.github.io/javaweb29" rel="alternate" type="text/html" title="JAVA 웹을 다루는 기술 - 29장" /><published>2022-05-22T04:00:00+09:00</published><updated>2022-05-22T04:00:00+09:00</updated><id>https://jeongjinhooo.github.io/javaweb29</id><content type="html" xml:base="https://jeongjinhooo.github.io/javaweb29">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://jeongjinhooo.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jeongjinhooo.github.io/" rel="alternate" type="text/html" /><updated>2022-05-24T23:15:24+09:00</updated><id>https://jeongjinhooo.github.io/feed.xml</id><title type="html">Jinhonote</title><subtitle>개발공부블로그</subtitle><entry><title type="html">JAVA 웹을 다루는 기술 - 29장</title><link href="https://jeongjinhooo.github.io/javaweb29" rel="alternate" type="text/html" title="JAVA 웹을 다루는 기술 - 29장" /><published>2022-05-22T04:00:00+09:00</published><updated>2022-05-22T04:00:00+09:00</updated><id>https://jeongjinhooo.github.io/javaweb29</id><content type="html" xml:base="https://jeongjinhooo.github.io/javaweb29">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb4&quot;&gt;JAVA 웹을 다루는 기술 - 4장&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb5&quot;&gt;JAVA 웹을 다루는 기술 - 5장&lt;/a&gt;&lt;/li&gt;
@@ -349,7 +349,36 @@ class Main {
 &lt;p&gt;3개 주사위의 나온 눈이 주어질 때, 상금을 계산하는 프로그램을 작성 하시오.&lt;/p&gt;
 &lt;h6 id=&quot;풀이-6&quot;&gt;풀이&lt;/h6&gt;
 
-&lt;p&gt;~~~&lt;/p&gt;</content><author><name>Jinho1</name></author><category term="algorithm" /><summary type="html">백준 문제 연습 입출력과 사칙연산 조건문</summary></entry><entry><title type="html">JAVA 웹을 다루는 기술 - 25, 26장</title><link href="https://jeongjinhooo.github.io/javaweb25" rel="alternate" type="text/html" title="JAVA 웹을 다루는 기술 - 25, 26장" /><published>2022-05-17T04:00:00+09:00</published><updated>2022-05-17T04:00:00+09:00</updated><id>https://jeongjinhooo.github.io/javaweb25</id><content type="html" xml:base="https://jeongjinhooo.github.io/javaweb25">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;import java.util.*;
+
+public class Main {
+
+public static void main(String[] args) {
+	Scanner sc = new Scanner(System.in);
+	int a = sc.nextInt();
+	int b = sc.nextInt();
+	int c = sc.nextInt();
+	if(a == b &amp;amp;&amp;amp; a == c &amp;amp;&amp;amp; b == c)         // a,b,c가 같을 때
+	{
+		System.out.print(10000+(a*1000));    
+	}
+	else if(a == b || a == c)             // a b,a c가 같을 때
+	{
+		System.out.print(1000+(a*100)); 
+	}
+	else if(b == c)
+	{
+		System.out.print(1000+(b*100));  // b c 가 같을 때
+	}
+	else
+	{
+		System.out.print((Math.max(a, Math.max(b, c))*100));   // Math.max()를 사용해 a b c 중 큰 값 구하기
+	}
+	}
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;두 인자 값 중 큰 값을 리턴하는 함수인 Math.max()를 사용했다&lt;/p&gt;</content><author><name>Jinho1</name></author><category term="algorithm" /><summary type="html">백준 문제 연습 입출력과 사칙연산 조건문</summary></entry><entry><title type="html">JAVA 웹을 다루는 기술 - 25, 26장</title><link href="https://jeongjinhooo.github.io/javaweb25" rel="alternate" type="text/html" title="JAVA 웹을 다루는 기술 - 25, 26장" /><published>2022-05-17T04:00:00+09:00</published><updated>2022-05-17T04:00:00+09:00</updated><id>https://jeongjinhooo.github.io/javaweb25</id><content type="html" xml:base="https://jeongjinhooo.github.io/javaweb25">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb4&quot;&gt;JAVA 웹을 다루는 기술 - 4장&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb5&quot;&gt;JAVA 웹을 다루는 기술 - 5장&lt;/a&gt;&lt;/li&gt;
