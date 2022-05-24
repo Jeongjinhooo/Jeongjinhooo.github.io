@@ -1,4 +1,69 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://jeongjinhooo.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jeongjinhooo.github.io/" rel="alternate" type="text/html" /><updated>2022-05-24T23:15:24+09:00</updated><id>https://jeongjinhooo.github.io/feed.xml</id><title type="html">Jinhonote</title><subtitle>개발공부블로그</subtitle><entry><title type="html">JAVA 웹을 다루는 기술 - 29장</title><link href="https://jeongjinhooo.github.io/javaweb29" rel="alternate" type="text/html" title="JAVA 웹을 다루는 기술 - 29장" /><published>2022-05-22T04:00:00+09:00</published><updated>2022-05-22T04:00:00+09:00</updated><id>https://jeongjinhooo.github.io/javaweb29</id><content type="html" xml:base="https://jeongjinhooo.github.io/javaweb29">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://jeongjinhooo.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jeongjinhooo.github.io/" rel="alternate" type="text/html" /><updated>2022-05-24T23:31:13+09:00</updated><id>https://jeongjinhooo.github.io/feed.xml</id><title type="html">Jinhonote</title><subtitle>개발공부블로그</subtitle><entry><title type="html">반복문</title><link href="https://jeongjinhooo.github.io/algorithm3" rel="alternate" type="text/html" title="반복문" /><published>2022-05-24T04:00:00+09:00</published><updated>2022-05-24T04:00:00+09:00</updated><id>https://jeongjinhooo.github.io/algorithm3</id><content type="html" xml:base="https://jeongjinhooo.github.io/algorithm3">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;백준 문제 연습&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./algorithm1&quot;&gt;입출력과 사칙연산&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./algorithm2&quot;&gt;조건문&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./algorithm3&quot;&gt;반복문&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+
+&lt;h6 id=&quot;문제-2739&quot;&gt;문제 2739&lt;/h6&gt;
+&lt;p&gt;&lt;br /&gt;
+N을 입력받은 뒤, 구구단 N단을 출력하는 프로그램을 작성하시오. 출력 형식에 맞춰서 출력하면 된다.&lt;/p&gt;
+
+&lt;h6 id=&quot;풀이&quot;&gt;풀이&lt;/h6&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;import java.util.Scanner;
+public class Main {
+	public static void main(String[] args) {
+ 
+		Scanner in = new Scanner(System.in);	
+		int a = in.nextInt();
+		
+		in.close();		
+		
+		for(int i = 1; i&amp;lt;10;i++) {
+			System.out.println(a+&quot; * &quot;+i+&quot; = &quot;+(a*i));
+		}
+	}
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h6 id=&quot;문제-10950&quot;&gt;문제 10950&lt;/h6&gt;
+&lt;p&gt;&lt;br /&gt;
+두 정수 A와 B를 입력받은 다음, A+B를 출력하는 프로그램을 작성하시오.&lt;/p&gt;
+
+&lt;p&gt;첫째 줄에 테스트 케이스의 개수 T가 주어진다.&lt;/p&gt;
+
+&lt;p&gt;각 테스트 케이스는 한 줄로 이루어져 있으며, 각 줄에 A와 B가 주어진다. (0 &amp;lt; A, B &amp;lt; 10)&lt;/p&gt;
+
+&lt;p&gt;각 테스트 케이스마다 A+B를 출력한다.&lt;/p&gt;
+
+&lt;h6 id=&quot;풀이-1&quot;&gt;풀이&lt;/h6&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;import java.util.Scanner;
+ 
+public class Main {
+	public static void main(String args[]) {
+ 
+		Scanner in = new Scanner(System.in);  
+ 
+		int c = in.nextInt();            //테스트 케이스의 개수
+		int arr[] = new int[c];
+ 
+		for (int i = 0; i &amp;lt; c; i++) {   // 테스트 케이스 개수만큼 반복
+			int a = in.nextInt();
+			int b = in.nextInt();
+			arr[i] = a + b;           
+		}
+		in.close();
+ 
+		for (int k : arr) {      // arr의 객체를 꺼내서 k에 넣는다
+			System.out.println(k); 
+		}
+	}
+ 
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Jinho1</name></author><category term="algorithm" /><summary type="html">백준 문제 연습 입출력과 사칙연산 조건문 반복문</summary></entry><entry><title type="html">JAVA 웹을 다루는 기술 - 29장</title><link href="https://jeongjinhooo.github.io/javaweb29" rel="alternate" type="text/html" title="JAVA 웹을 다루는 기술 - 29장" /><published>2022-05-22T04:00:00+09:00</published><updated>2022-05-22T04:00:00+09:00</updated><id>https://jeongjinhooo.github.io/javaweb29</id><content type="html" xml:base="https://jeongjinhooo.github.io/javaweb29">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb4&quot;&gt;JAVA 웹을 다루는 기술 - 4장&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb5&quot;&gt;JAVA 웹을 다루는 기술 - 5장&lt;/a&gt;&lt;/li&gt;
@@ -156,6 +221,7 @@ Deployment Assembly - Add 버튼 - Java Build Path Entries - Maven Dependencies 
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./algorithm1&quot;&gt;입출력과 사칙연산&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./algorithm2&quot;&gt;조건문&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./algorithm3&quot;&gt;반복문&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
 
@@ -378,7 +444,7 @@ public static void main(String[] args) {
 }
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;두 인자 값 중 큰 값을 리턴하는 함수인 Math.max()를 사용했다&lt;/p&gt;</content><author><name>Jinho1</name></author><category term="algorithm" /><summary type="html">백준 문제 연습 입출력과 사칙연산 조건문</summary></entry><entry><title type="html">JAVA 웹을 다루는 기술 - 25, 26장</title><link href="https://jeongjinhooo.github.io/javaweb25" rel="alternate" type="text/html" title="JAVA 웹을 다루는 기술 - 25, 26장" /><published>2022-05-17T04:00:00+09:00</published><updated>2022-05-17T04:00:00+09:00</updated><id>https://jeongjinhooo.github.io/javaweb25</id><content type="html" xml:base="https://jeongjinhooo.github.io/javaweb25">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;두 인자 값 중 큰 값을 리턴하는 함수인 Math.max()를 사용했다&lt;/p&gt;</content><author><name>Jinho1</name></author><category term="algorithm" /><summary type="html">백준 문제 연습 입출력과 사칙연산 조건문 반복문</summary></entry><entry><title type="html">JAVA 웹을 다루는 기술 - 25, 26장</title><link href="https://jeongjinhooo.github.io/javaweb25" rel="alternate" type="text/html" title="JAVA 웹을 다루는 기술 - 25, 26장" /><published>2022-05-17T04:00:00+09:00</published><updated>2022-05-17T04:00:00+09:00</updated><id>https://jeongjinhooo.github.io/javaweb25</id><content type="html" xml:base="https://jeongjinhooo.github.io/javaweb25">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb4&quot;&gt;JAVA 웹을 다루는 기술 - 4장&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb5&quot;&gt;JAVA 웹을 다루는 기술 - 5장&lt;/a&gt;&lt;/li&gt;
@@ -639,20 +705,4 @@ CASE : DECODE와 달리, A와 B 사이에 부등호 관계(크거나 작은 조�
 &lt;ul&gt;
   &lt;li&gt;톰캣은 서블릿 컨테이너라고 부르는데, 그 이유는 톰캣을 실행하면 톰캣은 서블릿의 생성, 초기화, 서비스실행, 소멸에 관한 모든 권한을 가지고 서블릿을 관리&lt;/li&gt;
   &lt;li&gt;스프링은 애플리케이션에서 사용되는 여러가지 빈(클래스 객체)을 개발자가 아닌 스프링이 권한을 가지고 직접 관리&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Jinho1</name></author><category term="java" /><summary type="html">JAVA 웹을 다루는 기술 - 4장 JAVA 웹을 다루는 기술 - 5장 JAVA 웹을 다루는 기술 - 6,7장 JAVA 웹을 다루는 기술 - 8장 JAVA 웹을 다루는 기술 - 9장 JAVA 웹을 다루는 기술 - 10장 JAVA 웹을 다루는 기술 - 11,12장 JAVA 웹을 다루는 기술 - 13,14장 JAVA 웹을 다루는 기술 - 17장 JAVA 웹을 다루는 기술 - 18,19장 JAVA 웹을 다루는 기술 - 23장 JAVA 웹을 다루는 기술 - 25,26장 JAVA 웹을 다루는 기술 - 27,28장 JAVA 웹을 다루는 기술 - 29장 본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.</summary></entry><entry><title type="html">web.xml에서 발생한 에러</title><link href="https://jeongjinhooo.github.io/error1" rel="alternate" type="text/html" title="web.xml에서 발생한 에러" /><published>2022-05-07T04:00:00+09:00</published><updated>2022-05-07T04:00:00+09:00</updated><id>https://jeongjinhooo.github.io/error1</id><content type="html" xml:base="https://jeongjinhooo.github.io/error1">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;에러 해결&lt;/span&gt;&lt;/p&gt;
-&lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./error1&quot;&gt;2022-05-16&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./error2&quot;&gt;2022-05-19&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;web.xml에서 발생한 에러
-cvc-id.3: A field of identity constraint ‘web-common-servlet-name-uniqueness’ matched element ‘web-app’, but this element does not have a simple type.&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&amp;gt;
-&amp;lt;web-app xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;
-	xmlns=&quot;http://java.sun.com/xml/ns/javaee&quot;
-	xsi:schemaLocation=&quot;http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd&quot;
-	id=&quot;WebApp_ID&quot; version=&quot;3.0&quot;&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;xsi:schemaLocation=”http://java.sun.com/xml/ns/javaee에 있는 java를 대문자 JAVA로 바꾸어주면 된다.&lt;/p&gt;</content><author><name>Jinho1</name></author><category term="error" /><summary type="html">에러 해결 2022-05-16 2022-05-19</summary></entry></feed>
+&lt;/ul&gt;</content><author><name>Jinho1</name></author><category term="java" /><summary type="html">JAVA 웹을 다루는 기술 - 4장 JAVA 웹을 다루는 기술 - 5장 JAVA 웹을 다루는 기술 - 6,7장 JAVA 웹을 다루는 기술 - 8장 JAVA 웹을 다루는 기술 - 9장 JAVA 웹을 다루는 기술 - 10장 JAVA 웹을 다루는 기술 - 11,12장 JAVA 웹을 다루는 기술 - 13,14장 JAVA 웹을 다루는 기술 - 17장 JAVA 웹을 다루는 기술 - 18,19장 JAVA 웹을 다루는 기술 - 23장 JAVA 웹을 다루는 기술 - 25,26장 JAVA 웹을 다루는 기술 - 27,28장 JAVA 웹을 다루는 기술 - 29장 본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.</summary></entry></feed>

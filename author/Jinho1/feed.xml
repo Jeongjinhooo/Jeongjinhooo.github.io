@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://jeongjinhooo.github.io/author/Jinho1/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://jeongjinhooo.github.io/" rel="alternate" type="text/html" />
-  <updated>2022-05-24T23:15:24+09:00</updated>
+  <updated>2022-05-24T23:31:13+09:00</updated>
   <id>https://jeongjinhooo.github.io/author/Jinho1/feed.xml</id>
 
   
@@ -30,6 +30,105 @@
   
   
 
+  
+    <entry>
+      <title type="html">반복문</title>
+      <link href="https://jeongjinhooo.github.io/algorithm3" rel="alternate" type="text/html" title="반복문" />
+      <published>2022-05-24T04:00:00+09:00</published>
+      <updated>2022-05-24T04:00:00+09:00</updated>
+      <id>https://jeongjinhooo.github.io/algorithm3</id>
+      <content type="html" xml:base="https://jeongjinhooo.github.io/algorithm3">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;백준 문제 연습&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./algorithm1&quot;&gt;입출력과 사칙연산&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./algorithm2&quot;&gt;조건문&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./algorithm3&quot;&gt;반복문&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+
+&lt;h6 id=&quot;문제-2739&quot;&gt;문제 2739&lt;/h6&gt;
+&lt;p&gt;&lt;br /&gt;
+N을 입력받은 뒤, 구구단 N단을 출력하는 프로그램을 작성하시오. 출력 형식에 맞춰서 출력하면 된다.&lt;/p&gt;
+
+&lt;h6 id=&quot;풀이&quot;&gt;풀이&lt;/h6&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;import java.util.Scanner;
+public class Main {
+	public static void main(String[] args) {
+ 
+		Scanner in = new Scanner(System.in);	
+		int a = in.nextInt();
+		
+		in.close();		
+		
+		for(int i = 1; i&amp;lt;10;i++) {
+			System.out.println(a+&quot; * &quot;+i+&quot; = &quot;+(a*i));
+		}
+	}
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h6 id=&quot;문제-10950&quot;&gt;문제 10950&lt;/h6&gt;
+&lt;p&gt;&lt;br /&gt;
+두 정수 A와 B를 입력받은 다음, A+B를 출력하는 프로그램을 작성하시오.&lt;/p&gt;
+
+&lt;p&gt;첫째 줄에 테스트 케이스의 개수 T가 주어진다.&lt;/p&gt;
+
+&lt;p&gt;각 테스트 케이스는 한 줄로 이루어져 있으며, 각 줄에 A와 B가 주어진다. (0 &amp;lt; A, B &amp;lt; 10)&lt;/p&gt;
+
+&lt;p&gt;각 테스트 케이스마다 A+B를 출력한다.&lt;/p&gt;
+
+&lt;h6 id=&quot;풀이-1&quot;&gt;풀이&lt;/h6&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;import java.util.Scanner;
+ 
+public class Main {
+	public static void main(String args[]) {
+ 
+		Scanner in = new Scanner(System.in);  
+ 
+		int c = in.nextInt();            //테스트 케이스의 개수
+		int arr[] = new int[c];
+ 
+		for (int i = 0; i &amp;lt; c; i++) {   // 테스트 케이스 개수만큼 반복
+			int a = in.nextInt();
+			int b = in.nextInt();
+			arr[i] = a + b;           
+		}
+		in.close();
+ 
+		for (int k : arr) {      // arr의 객체를 꺼내서 k에 넣는다
+			System.out.println(k); 
+		}
+	}
+ 
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Jinho1</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="algorithm" />
+      
+
+      
+        <summary type="html">백준 문제 연습 입출력과 사칙연산 조건문 반복문</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">JAVA 웹을 다루는 기술 - 29장</title>
@@ -297,6 +396,7 @@ Deployment Assembly - Add 버튼 - Java Build Path Entries - Maven Dependencies 
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./algorithm1&quot;&gt;입출력과 사칙연산&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./algorithm2&quot;&gt;조건문&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./algorithm3&quot;&gt;반복문&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
 
@@ -540,7 +640,7 @@ public static void main(String[] args) {
       
 
       
-        <summary type="html">백준 문제 연습 입출력과 사칙연산 조건문</summary>
+        <summary type="html">백준 문제 연습 입출력과 사칙연산 조건문 반복문</summary>
       
 
       
@@ -892,93 +992,6 @@ CASE : DECODE와 달리, A와 B 사이에 부등호 관계(크거나 작은 조�
     </entry>
   
     <entry>
-      <title type="html">JAVA 웹을 다루는 기술 - 18,19장</title>
-      <link href="https://jeongjinhooo.github.io/javaweb18" rel="alternate" type="text/html" title="JAVA 웹을 다루는 기술 - 18,19장" />
-      <published>2022-05-07T04:00:00+09:00</published>
-      <updated>2022-05-07T04:00:00+09:00</updated>
-      <id>https://jeongjinhooo.github.io/javaweb18</id>
-      <content type="html" xml:base="https://jeongjinhooo.github.io/javaweb18">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb4&quot;&gt;JAVA 웹을 다루는 기술 - 4장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb5&quot;&gt;JAVA 웹을 다루는 기술 - 5장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb6&quot;&gt;JAVA 웹을 다루는 기술 - 6,7장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb8&quot;&gt;JAVA 웹을 다루는 기술 - 8장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb9&quot;&gt;JAVA 웹을 다루는 기술 - 9장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb10&quot;&gt;JAVA 웹을 다루는 기술 - 10장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb11&quot;&gt;JAVA 웹을 다루는 기술 - 11,12장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb13&quot;&gt;JAVA 웹을 다루는 기술 - 13,14장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb17&quot;&gt;JAVA 웹을 다루는 기술 - 17장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb18&quot;&gt;JAVA 웹을 다루는 기술 - 18,19장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb23&quot;&gt;JAVA 웹을 다루는 기술 - 23장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb25&quot;&gt;JAVA 웹을 다루는 기술 - 25,26장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb27&quot;&gt;JAVA 웹을 다루는 기술 - 27,28장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb29&quot;&gt;JAVA 웹을 다루는 기술 - 29장&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;p&gt;본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.&lt;/p&gt;
-&lt;hr /&gt;
-
-&lt;h4 id=&quot;프레임워크framework&quot;&gt;프레임워크(Framework)&lt;/h4&gt;
-&lt;ul&gt;
-  &lt;li&gt;사전적의미는 ‘어떤 것을 구성하는 구조 또는 뼈대’&lt;/li&gt;
-  &lt;li&gt;소프트웨어적 의미로는 ‘기능을 미리 클래스나 인터페이스 등으로 만들어 제공하는 반제품’&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h6 id=&quot;프레임워크-장점&quot;&gt;프레임워크 장점&lt;/h6&gt;
-&lt;ul&gt;
-  &lt;li&gt;일정한 기준에 따라 개발이 이루어지므로 개발 생산성과 품질이 보장된 애플리케이션을 개발할 수 있음&lt;/li&gt;
-  &lt;li&gt;개발 후 유지보수 및 기능의 확장성에서도 고품질 보장&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h6 id=&quot;스프링-프레임워크&quot;&gt;스프링 프레임워크&lt;/h6&gt;
-&lt;ul&gt;
-  &lt;li&gt;스프링 프레임워크(스프링)는 자바 웹 애플리케이션 개발을 위한 오픈 소스 프레임워크&lt;/li&gt;
-  &lt;li&gt;EJB(Enterprise Java Bean)보다 가벼운 경량 프레임워크&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h6 id=&quot;특징&quot;&gt;특징&lt;/h6&gt;
-&lt;ul&gt;
-  &lt;li&gt;EJB보다 가볍고 배우기도 쉬우며 경량 컨테이너의 기능을 수행&lt;/li&gt;
-  &lt;li&gt;제어 역행(ioC, Inversion of Control) 기술을 이용해 애플리케이션 간의 느슨한 결합을 제어함&lt;/li&gt;
-  &lt;li&gt;의존성 주입(DI, Dependency injection) 기능을 지원함&lt;/li&gt;
-  &lt;li&gt;관점지향 (AOP, Aspect-Oriented Programming) 기능을 이용해 자원 관리함&lt;/li&gt;
-  &lt;li&gt;영속성과 관련된 다양한 서비스를 지원함&lt;/li&gt;
-  &lt;li&gt;수많은 라이브러리와의 연동 기능을 지원함&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h6 id=&quot;컨테이너란&quot;&gt;컨테이너란?&lt;/h6&gt;
-&lt;ul&gt;
-  &lt;li&gt;톰캣은 서블릿 컨테이너라고 부르는데, 그 이유는 톰캣을 실행하면 톰캣은 서블릿의 생성, 초기화, 서비스실행, 소멸에 관한 모든 권한을 가지고 서블릿을 관리&lt;/li&gt;
-  &lt;li&gt;스프링은 애플리케이션에서 사용되는 여러가지 빈(클래스 객체)을 개발자가 아닌 스프링이 권한을 가지고 직접 관리&lt;/li&gt;
-&lt;/ul&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Jinho1</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="java" />
-      
-
-      
-        <summary type="html">JAVA 웹을 다루는 기술 - 4장 JAVA 웹을 다루는 기술 - 5장 JAVA 웹을 다루는 기술 - 6,7장 JAVA 웹을 다루는 기술 - 8장 JAVA 웹을 다루는 기술 - 9장 JAVA 웹을 다루는 기술 - 10장 JAVA 웹을 다루는 기술 - 11,12장 JAVA 웹을 다루는 기술 - 13,14장 JAVA 웹을 다루는 기술 - 17장 JAVA 웹을 다루는 기술 - 18,19장 JAVA 웹을 다루는 기술 - 23장 JAVA 웹을 다루는 기술 - 25,26장 JAVA 웹을 다루는 기술 - 27,28장 JAVA 웹을 다루는 기술 - 29장 본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
       <title type="html">입출력과 사칙연산</title>
       <link href="https://jeongjinhooo.github.io/algorithm1" rel="alternate" type="text/html" title="입출력과 사칙연산" />
       <published>2022-05-07T04:00:00+09:00</published>
@@ -988,6 +1001,7 @@ CASE : DECODE와 달리, A와 B 사이에 부등호 관계(크거나 작은 조�
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./algorithm1&quot;&gt;입출력과 사칙연산&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./algorithm2&quot;&gt;조건문&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./algorithm3&quot;&gt;반복문&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
 &lt;h6 id=&quot;문제-2557&quot;&gt;문제 2557&lt;/h6&gt;
@@ -1273,7 +1287,7 @@ public class Main {
       
 
       
-        <summary type="html">백준 문제 연습 입출력과 사칙연산 조건문 문제 2557 Hello World!를 출력하시오.</summary>
+        <summary type="html">백준 문제 연습 입출력과 사칙연산 조건문 반복문 문제 2557 Hello World!를 출력하시오.</summary>
       
 
       

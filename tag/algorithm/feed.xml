@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://jeongjinhooo.github.io/tag/algorithm/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://jeongjinhooo.github.io/" rel="alternate" type="text/html" />
-  <updated>2022-05-24T23:15:24+09:00</updated>
+  <updated>2022-05-24T23:31:13+09:00</updated>
   <id>https://jeongjinhooo.github.io/tag/algorithm/feed.xml</id>
 
   
@@ -32,6 +32,105 @@
 
   
     <entry>
+      <title type="html">반복문</title>
+      <link href="https://jeongjinhooo.github.io/algorithm3" rel="alternate" type="text/html" title="반복문" />
+      <published>2022-05-24T04:00:00+09:00</published>
+      <updated>2022-05-24T04:00:00+09:00</updated>
+      <id>https://jeongjinhooo.github.io/algorithm3</id>
+      <content type="html" xml:base="https://jeongjinhooo.github.io/algorithm3">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;백준 문제 연습&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./algorithm1&quot;&gt;입출력과 사칙연산&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./algorithm2&quot;&gt;조건문&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./algorithm3&quot;&gt;반복문&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+
+&lt;h6 id=&quot;문제-2739&quot;&gt;문제 2739&lt;/h6&gt;
+&lt;p&gt;&lt;br /&gt;
+N을 입력받은 뒤, 구구단 N단을 출력하는 프로그램을 작성하시오. 출력 형식에 맞춰서 출력하면 된다.&lt;/p&gt;
+
+&lt;h6 id=&quot;풀이&quot;&gt;풀이&lt;/h6&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;import java.util.Scanner;
+public class Main {
+	public static void main(String[] args) {
+ 
+		Scanner in = new Scanner(System.in);	
+		int a = in.nextInt();
+		
+		in.close();		
+		
+		for(int i = 1; i&amp;lt;10;i++) {
+			System.out.println(a+&quot; * &quot;+i+&quot; = &quot;+(a*i));
+		}
+	}
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h6 id=&quot;문제-10950&quot;&gt;문제 10950&lt;/h6&gt;
+&lt;p&gt;&lt;br /&gt;
+두 정수 A와 B를 입력받은 다음, A+B를 출력하는 프로그램을 작성하시오.&lt;/p&gt;
+
+&lt;p&gt;첫째 줄에 테스트 케이스의 개수 T가 주어진다.&lt;/p&gt;
+
+&lt;p&gt;각 테스트 케이스는 한 줄로 이루어져 있으며, 각 줄에 A와 B가 주어진다. (0 &amp;lt; A, B &amp;lt; 10)&lt;/p&gt;
+
+&lt;p&gt;각 테스트 케이스마다 A+B를 출력한다.&lt;/p&gt;
+
+&lt;h6 id=&quot;풀이-1&quot;&gt;풀이&lt;/h6&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;import java.util.Scanner;
+ 
+public class Main {
+	public static void main(String args[]) {
+ 
+		Scanner in = new Scanner(System.in);  
+ 
+		int c = in.nextInt();            //테스트 케이스의 개수
+		int arr[] = new int[c];
+ 
+		for (int i = 0; i &amp;lt; c; i++) {   // 테스트 케이스 개수만큼 반복
+			int a = in.nextInt();
+			int b = in.nextInt();
+			arr[i] = a + b;           
+		}
+		in.close();
+ 
+		for (int k : arr) {      // arr의 객체를 꺼내서 k에 넣는다
+			System.out.println(k); 
+		}
+	}
+ 
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Jinho1</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="algorithm" />
+      
+
+      
+        <summary type="html">백준 문제 연습 입출력과 사칙연산 조건문 반복문</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
       <title type="html">조건문</title>
       <link href="https://jeongjinhooo.github.io/algorithm2" rel="alternate" type="text/html" title="조건문" />
       <published>2022-05-17T04:00:00+09:00</published>
@@ -41,6 +140,7 @@
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./algorithm1&quot;&gt;입출력과 사칙연산&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./algorithm2&quot;&gt;조건문&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./algorithm3&quot;&gt;반복문&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
 
@@ -284,7 +384,7 @@ public static void main(String[] args) {
       
 
       
-        <summary type="html">백준 문제 연습 입출력과 사칙연산 조건문</summary>
+        <summary type="html">백준 문제 연습 입출력과 사칙연산 조건문 반복문</summary>
       
 
       
@@ -301,6 +401,7 @@ public static void main(String[] args) {
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./algorithm1&quot;&gt;입출력과 사칙연산&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./algorithm2&quot;&gt;조건문&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./algorithm3&quot;&gt;반복문&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
 &lt;h6 id=&quot;문제-2557&quot;&gt;문제 2557&lt;/h6&gt;
@@ -586,7 +687,7 @@ public class Main {
       
 
       
-        <summary type="html">백준 문제 연습 입출력과 사칙연산 조건문 문제 2557 Hello World!를 출력하시오.</summary>
+        <summary type="html">백준 문제 연습 입출력과 사칙연산 조건문 반복문 문제 2557 Hello World!를 출력하시오.</summary>
       
 
       
