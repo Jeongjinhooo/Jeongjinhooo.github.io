@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://jeongjinhooo.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jeongjinhooo.github.io/" rel="alternate" type="text/html" /><updated>2022-05-24T23:31:13+09:00</updated><id>https://jeongjinhooo.github.io/feed.xml</id><title type="html">Jinhonote</title><subtitle>개발공부블로그</subtitle><entry><title type="html">반복문</title><link href="https://jeongjinhooo.github.io/algorithm3" rel="alternate" type="text/html" title="반복문" /><published>2022-05-24T04:00:00+09:00</published><updated>2022-05-24T04:00:00+09:00</updated><id>https://jeongjinhooo.github.io/algorithm3</id><content type="html" xml:base="https://jeongjinhooo.github.io/algorithm3">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;백준 문제 연습&lt;/span&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://jeongjinhooo.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jeongjinhooo.github.io/" rel="alternate" type="text/html" /><updated>2022-05-25T23:20:23+09:00</updated><id>https://jeongjinhooo.github.io/feed.xml</id><title type="html">Jinhonote</title><subtitle>개발공부블로그</subtitle><entry><title type="html">반복문</title><link href="https://jeongjinhooo.github.io/algorithm3" rel="alternate" type="text/html" title="반복문" /><published>2022-05-24T04:00:00+09:00</published><updated>2022-05-24T04:00:00+09:00</updated><id>https://jeongjinhooo.github.io/algorithm3</id><content type="html" xml:base="https://jeongjinhooo.github.io/algorithm3">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;백준 문제 연습&lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./algorithm1&quot;&gt;입출력과 사칙연산&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./algorithm2&quot;&gt;조건문&lt;/a&gt;&lt;/li&gt;
@@ -62,6 +62,31 @@ public class Main {
 		}
 	}
  
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h6 id=&quot;문제-8393&quot;&gt;문제 8393&lt;/h6&gt;
+&lt;p&gt;&lt;br /&gt;
+n이 주어졌을 때, 1부터 n까지 합을 구하는 프로그램을 작성하시오.&lt;/p&gt;
+
+&lt;h6 id=&quot;풀이-2&quot;&gt;풀이&lt;/h6&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;import java.util.Scanner;
+ 
+public class Main {
+ 
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+ 
+		int a = in.nextInt();
+		in.close();
+		int sum = 0;
+        
+		for (int i = 1; i &amp;lt;= a; i++) {
+			sum += i;
+		}
+		System.out.println(sum);
+	}
 }
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Jinho1</name></author><category term="algorithm" /><summary type="html">백준 문제 연습 입출력과 사칙연산 조건문 반복문</summary></entry><entry><title type="html">JAVA 웹을 다루는 기술 - 29장</title><link href="https://jeongjinhooo.github.io/javaweb29" rel="alternate" type="text/html" title="JAVA 웹을 다루는 기술 - 29장" /><published>2022-05-22T04:00:00+09:00</published><updated>2022-05-22T04:00:00+09:00</updated><id>https://jeongjinhooo.github.io/javaweb29</id><content type="html" xml:base="https://jeongjinhooo.github.io/javaweb29">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
