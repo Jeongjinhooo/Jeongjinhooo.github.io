@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://jeongjinhooo.github.io/author/Jinho1/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://jeongjinhooo.github.io/" rel="alternate" type="text/html" />
-  <updated>2022-05-25T23:20:23+09:00</updated>
+  <updated>2022-05-28T23:39:45+09:00</updated>
   <id>https://jeongjinhooo.github.io/author/Jinho1/feed.xml</id>
 
   
@@ -30,6 +30,110 @@
   
   
 
+  
+    <entry>
+      <title type="html">데이터타입</title>
+      <link href="https://jeongjinhooo.github.io/memo3" rel="alternate" type="text/html" title="데이터타입" />
+      <published>2022-05-28T04:00:00+09:00</published>
+      <updated>2022-05-28T04:00:00+09:00</updated>
+      <id>https://jeongjinhooo.github.io/memo3</id>
+      <content type="html" xml:base="https://jeongjinhooo.github.io/memo3">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./memo1&quot;&gt;SQL 정리&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./memo2&quot;&gt;JAVA 정리&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./memo3&quot;&gt;데이터 타입&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h6 id=&quot;char-타입&quot;&gt;CHAR 타입&lt;/h6&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;고정길이 문자 데이터(Alphanumeric)&lt;/li&gt;
+  &lt;li&gt;최대 길이 : 255 byte (default = 1byte)&lt;/li&gt;
+  &lt;li&gt;다른 타입에 비해 제한이 적다&lt;/li&gt;
+  &lt;li&gt;일부 입력시 BLANK 가 자동으로 채워짐&lt;/li&gt;
+  &lt;li&gt;지정된 길이보다 길면 입력시 에러가 발생&lt;/li&gt;
+  &lt;li&gt;전혀 값을 주지 않으면 NULL 상태로 입력&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id=&quot;varchar2-타입&quot;&gt;VARCHAR2 타입&lt;/h6&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;가변길이 문자 데이터(Alphanumeric)&lt;/li&gt;
+  &lt;li&gt;최대 길이 : 2000 (반드시 길이 지정)&lt;/li&gt;
+  &lt;li&gt;다른 타입에 비해 제한이 적다&lt;/li&gt;
+  &lt;li&gt;일부만 입력시 뒷부분은 NULL&lt;/li&gt;
+  &lt;li&gt;입력한 값의 뒷부분에 있는 BLANK도 같이 입력&lt;/li&gt;
+  &lt;li&gt;지정된 길이보다 길면 입력시 에러 발생&lt;/li&gt;
+  &lt;li&gt;전혀 값을 주지 않으면 NULL 상태 입력&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id=&quot;number-타입&quot;&gt;NUMBER 타입&lt;/h6&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;음수, ZERO, 양수 저장&lt;/li&gt;
+  &lt;li&gt;범위 : 1.0 x 10 ~ 9.9…9 x 10&lt;/li&gt;
+  &lt;li&gt;전체 자리수는 38자리를 넘을 수 없다&lt;/li&gt;
+  &lt;li&gt;소수점은 -84 ~ 127&lt;/li&gt;
+  &lt;li&gt;소수점이 지정되지 않았을 때 소수점이 입력되거나, 지정된 소수점자리 이상 입력되면 반올림되어 저장&lt;/li&gt;
+  &lt;li&gt;지정한 정수 자리수 이상 입력시 에러&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id=&quot;date-타입&quot;&gt;DATE 타입&lt;/h6&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;일자와 시간을 저장&lt;/li&gt;
+  &lt;li&gt;포함정보 : 세기, 년도, 월, 일, 시간, 분, 초&lt;/li&gt;
+  &lt;li&gt;NLS_DATE_FORMAT을 이용하여 국가별 특수성을 해결&lt;/li&gt;
+  &lt;li&gt;특별히 시간을 지정하지 않으면 00:00:00&lt;/li&gt;
+  &lt;li&gt;특별히 일자를 지정하지 않았다면 현재월의 1일로 지정됨&lt;/li&gt;
+  &lt;li&gt;SYSDATE는 현재일과 시간을 제공&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id=&quot;long-타입&quot;&gt;LONG 타입&lt;/h6&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;2 GIGA 바이트(2 -1)의 가변길이 문자 저장&lt;/li&gt;
+  &lt;li&gt;VARCHAR2와 유사한 특징을 가진다&lt;/li&gt;
+  &lt;li&gt;아주 긴 문자열 (편지, 처방전, 각종 서술문)에 사용&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id=&quot;raw-long-raw-rowid-타입&quot;&gt;RAW, LONG RAW, ROWID 타입&lt;/h6&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;그래픽 IMAGE 나 디지탈 SOUND를 저장&lt;/li&gt;
+  &lt;li&gt;HEXA-DECIMAL 형태로 RETURN&lt;/li&gt;
+  &lt;li&gt;RAW는 VARCHAR2와 유사&lt;/li&gt;
+  &lt;li&gt;LONG RAW는 LONG과 유사&lt;/li&gt;
+  &lt;li&gt;사진등의 IMAGE, SOUND 저장&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;출처 : http://wiki.gurubee.net/pages/viewpage.action?pageId=1507641&amp;amp;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Jinho1</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="memo" />
+      
+
+      
+        <summary type="html">SQL 정리 JAVA 정리 데이터 타입 CHAR 타입</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">반복문</title>
@@ -899,6 +1003,7 @@ name like &apos;%&apos; || #{name} || &apos;%&apos;	 // 마이바티스에서 �
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./memo1&quot;&gt;SQL 정리&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./memo2&quot;&gt;JAVA 정리&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./memo3&quot;&gt;데이터 타입&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
 
@@ -956,60 +1061,7 @@ name like &apos;%&apos; || #{name} || &apos;%&apos;	 // 마이바티스에서 �
       
 
       
-        <summary type="html">SQL 정리 JAVA 정리</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">SQL</title>
-      <link href="https://jeongjinhooo.github.io/memo1" rel="alternate" type="text/html" title="SQL" />
-      <published>2022-05-07T04:00:00+09:00</published>
-      <updated>2022-05-07T04:00:00+09:00</updated>
-      <id>https://jeongjinhooo.github.io/memo1</id>
-      <content type="html" xml:base="https://jeongjinhooo.github.io/memo1">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./memo1&quot;&gt;SQL 정리&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./memo2&quot;&gt;JAVA 정리&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-
-&lt;h6 id=&quot;sql-sysdate-함수현재-날짜-시간-구해오기&quot;&gt;SQL SYSDATE 함수(현재 날짜, 시간 구해오기)&lt;/h6&gt;
-&lt;p&gt;사용법 : SELECT SYSDATE FROM DUAL;&lt;br /&gt;
-Dual 이라는 테이블은 오라클이 설치될 때 만들어지는 테이블이며 산술, 날짜처리, 계산 등을하는 기본 임시 테이블&lt;/p&gt;
-
-&lt;h6 id=&quot;sql-round-floor-ceil-함수&quot;&gt;SQL ROUND, FLOOR, CEIL 함수&lt;/h6&gt;
-&lt;p&gt;ROUND - 반올림 &lt;br /&gt;
-CEIL  - 올림 &lt;br /&gt;
-FLOOR - 버림&lt;/p&gt;
-
-&lt;h6 id=&quot;sql-decode-case-함수&quot;&gt;SQL DECODE, CASE 함수&lt;/h6&gt;
-&lt;p&gt;조건에 따라 각각 다른 값을 입력/출력하는 분기함수&lt;br /&gt;
-DECODE : A=B이면 X, A≠B이면 Y를 출력 (A와 B가 같은지에 대한 조건)&lt;br /&gt;
-CASE : DECODE와 달리, A와 B 사이에 부등호 관계(크거나 작은 조건)를 처리할 때 주로 사용&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Jinho1</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="memo" />
-      
-
-      
-        <summary type="html">SQL 정리 JAVA 정리</summary>
+        <summary type="html">SQL 정리 JAVA 정리 데이터 타입</summary>
       
 
       

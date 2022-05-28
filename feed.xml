@@ -1,4 +1,74 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://jeongjinhooo.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jeongjinhooo.github.io/" rel="alternate" type="text/html" /><updated>2022-05-25T23:20:23+09:00</updated><id>https://jeongjinhooo.github.io/feed.xml</id><title type="html">Jinhonote</title><subtitle>개발공부블로그</subtitle><entry><title type="html">반복문</title><link href="https://jeongjinhooo.github.io/algorithm3" rel="alternate" type="text/html" title="반복문" /><published>2022-05-24T04:00:00+09:00</published><updated>2022-05-24T04:00:00+09:00</updated><id>https://jeongjinhooo.github.io/algorithm3</id><content type="html" xml:base="https://jeongjinhooo.github.io/algorithm3">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;백준 문제 연습&lt;/span&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://jeongjinhooo.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jeongjinhooo.github.io/" rel="alternate" type="text/html" /><updated>2022-05-28T23:39:45+09:00</updated><id>https://jeongjinhooo.github.io/feed.xml</id><title type="html">Jinhonote</title><subtitle>개발공부블로그</subtitle><entry><title type="html">데이터타입</title><link href="https://jeongjinhooo.github.io/memo3" rel="alternate" type="text/html" title="데이터타입" /><published>2022-05-28T04:00:00+09:00</published><updated>2022-05-28T04:00:00+09:00</updated><id>https://jeongjinhooo.github.io/memo3</id><content type="html" xml:base="https://jeongjinhooo.github.io/memo3">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./memo1&quot;&gt;SQL 정리&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./memo2&quot;&gt;JAVA 정리&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./memo3&quot;&gt;데이터 타입&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h6 id=&quot;char-타입&quot;&gt;CHAR 타입&lt;/h6&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;고정길이 문자 데이터(Alphanumeric)&lt;/li&gt;
+  &lt;li&gt;최대 길이 : 255 byte (default = 1byte)&lt;/li&gt;
+  &lt;li&gt;다른 타입에 비해 제한이 적다&lt;/li&gt;
+  &lt;li&gt;일부 입력시 BLANK 가 자동으로 채워짐&lt;/li&gt;
+  &lt;li&gt;지정된 길이보다 길면 입력시 에러가 발생&lt;/li&gt;
+  &lt;li&gt;전혀 값을 주지 않으면 NULL 상태로 입력&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id=&quot;varchar2-타입&quot;&gt;VARCHAR2 타입&lt;/h6&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;가변길이 문자 데이터(Alphanumeric)&lt;/li&gt;
+  &lt;li&gt;최대 길이 : 2000 (반드시 길이 지정)&lt;/li&gt;
+  &lt;li&gt;다른 타입에 비해 제한이 적다&lt;/li&gt;
+  &lt;li&gt;일부만 입력시 뒷부분은 NULL&lt;/li&gt;
+  &lt;li&gt;입력한 값의 뒷부분에 있는 BLANK도 같이 입력&lt;/li&gt;
+  &lt;li&gt;지정된 길이보다 길면 입력시 에러 발생&lt;/li&gt;
+  &lt;li&gt;전혀 값을 주지 않으면 NULL 상태 입력&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id=&quot;number-타입&quot;&gt;NUMBER 타입&lt;/h6&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;음수, ZERO, 양수 저장&lt;/li&gt;
+  &lt;li&gt;범위 : 1.0 x 10 ~ 9.9…9 x 10&lt;/li&gt;
+  &lt;li&gt;전체 자리수는 38자리를 넘을 수 없다&lt;/li&gt;
+  &lt;li&gt;소수점은 -84 ~ 127&lt;/li&gt;
+  &lt;li&gt;소수점이 지정되지 않았을 때 소수점이 입력되거나, 지정된 소수점자리 이상 입력되면 반올림되어 저장&lt;/li&gt;
+  &lt;li&gt;지정한 정수 자리수 이상 입력시 에러&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id=&quot;date-타입&quot;&gt;DATE 타입&lt;/h6&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;일자와 시간을 저장&lt;/li&gt;
+  &lt;li&gt;포함정보 : 세기, 년도, 월, 일, 시간, 분, 초&lt;/li&gt;
+  &lt;li&gt;NLS_DATE_FORMAT을 이용하여 국가별 특수성을 해결&lt;/li&gt;
+  &lt;li&gt;특별히 시간을 지정하지 않으면 00:00:00&lt;/li&gt;
+  &lt;li&gt;특별히 일자를 지정하지 않았다면 현재월의 1일로 지정됨&lt;/li&gt;
+  &lt;li&gt;SYSDATE는 현재일과 시간을 제공&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id=&quot;long-타입&quot;&gt;LONG 타입&lt;/h6&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;2 GIGA 바이트(2 -1)의 가변길이 문자 저장&lt;/li&gt;
+  &lt;li&gt;VARCHAR2와 유사한 특징을 가진다&lt;/li&gt;
+  &lt;li&gt;아주 긴 문자열 (편지, 처방전, 각종 서술문)에 사용&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id=&quot;raw-long-raw-rowid-타입&quot;&gt;RAW, LONG RAW, ROWID 타입&lt;/h6&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;그래픽 IMAGE 나 디지탈 SOUND를 저장&lt;/li&gt;
+  &lt;li&gt;HEXA-DECIMAL 형태로 RETURN&lt;/li&gt;
+  &lt;li&gt;RAW는 VARCHAR2와 유사&lt;/li&gt;
+  &lt;li&gt;LONG RAW는 LONG과 유사&lt;/li&gt;
+  &lt;li&gt;사진등의 IMAGE, SOUND 저장&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;출처 : http://wiki.gurubee.net/pages/viewpage.action?pageId=1507641&amp;amp;&lt;/p&gt;</content><author><name>Jinho1</name></author><category term="memo" /><summary type="html">SQL 정리 JAVA 정리 데이터 타입 CHAR 타입</summary></entry><entry><title type="html">반복문</title><link href="https://jeongjinhooo.github.io/algorithm3" rel="alternate" type="text/html" title="반복문" /><published>2022-05-24T04:00:00+09:00</published><updated>2022-05-24T04:00:00+09:00</updated><id>https://jeongjinhooo.github.io/algorithm3</id><content type="html" xml:base="https://jeongjinhooo.github.io/algorithm3">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;백준 문제 연습&lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./algorithm1&quot;&gt;입출력과 사칙연산&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./algorithm2&quot;&gt;조건문&lt;/a&gt;&lt;/li&gt;
@@ -622,6 +692,7 @@ name like &apos;%&apos; || #{name} || &apos;%&apos;	 // 마이바티스에서 �
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./memo1&quot;&gt;SQL 정리&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./memo2&quot;&gt;JAVA 정리&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./memo3&quot;&gt;데이터 타입&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
 
@@ -658,76 +729,273 @@ name like &apos;%&apos; || #{name} || &apos;%&apos;	 // 마이바티스에서 �
   &lt;li&gt;property 속성 : 설정할 프로퍼티&lt;/li&gt;
   &lt;li&gt;var 속성 : 값이 저장되는 변수명&lt;/li&gt;
   &lt;li&gt;scope 속성 : 변수가 저장된  Scope.&lt;br /&gt; page, request, session, application 을 가질 수 있고, 기본값은 page&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Jinho1</name></author><category term="memo" /><summary type="html">SQL 정리 JAVA 정리</summary></entry><entry><title type="html">SQL</title><link href="https://jeongjinhooo.github.io/memo1" rel="alternate" type="text/html" title="SQL" /><published>2022-05-07T04:00:00+09:00</published><updated>2022-05-07T04:00:00+09:00</updated><id>https://jeongjinhooo.github.io/memo1</id><content type="html" xml:base="https://jeongjinhooo.github.io/memo1">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/ul&gt;</content><author><name>Jinho1</name></author><category term="memo" /><summary type="html">SQL 정리 JAVA 정리 데이터 타입</summary></entry><entry><title type="html">입출력과 사칙연산</title><link href="https://jeongjinhooo.github.io/algorithm1" rel="alternate" type="text/html" title="입출력과 사칙연산" /><published>2022-05-07T04:00:00+09:00</published><updated>2022-05-07T04:00:00+09:00</updated><id>https://jeongjinhooo.github.io/algorithm1</id><content type="html" xml:base="https://jeongjinhooo.github.io/algorithm1">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;백준 문제 연습&lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./memo1&quot;&gt;SQL 정리&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./memo2&quot;&gt;JAVA 정리&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./algorithm1&quot;&gt;입출력과 사칙연산&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./algorithm2&quot;&gt;조건문&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./algorithm3&quot;&gt;반복문&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr /&gt;
+&lt;h6 id=&quot;문제-2557&quot;&gt;문제 2557&lt;/h6&gt;
+&lt;p&gt;&lt;br /&gt;
+Hello World!를 출력하시오.&lt;/p&gt;
 
-&lt;h6 id=&quot;sql-sysdate-함수현재-날짜-시간-구해오기&quot;&gt;SQL SYSDATE 함수(현재 날짜, 시간 구해오기)&lt;/h6&gt;
-&lt;p&gt;사용법 : SELECT SYSDATE FROM DUAL;&lt;br /&gt;
-Dual 이라는 테이블은 오라클이 설치될 때 만들어지는 테이블이며 산술, 날짜처리, 계산 등을하는 기본 임시 테이블&lt;/p&gt;
+&lt;h6 id=&quot;풀이&quot;&gt;풀이&lt;/h6&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;public class Main {
+	public static void main(String[] args) {
+		System.out.print(&quot;Hello World!&quot;);    
+	}
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;h6 id=&quot;sql-round-floor-ceil-함수&quot;&gt;SQL ROUND, FLOOR, CEIL 함수&lt;/h6&gt;
-&lt;p&gt;ROUND - 반올림 &lt;br /&gt;
-CEIL  - 올림 &lt;br /&gt;
-FLOOR - 버림&lt;/p&gt;
+&lt;p&gt;백준 알고리즘에서는 클래스명을 Main으로 해주어야 한다&lt;/p&gt;
 
-&lt;h6 id=&quot;sql-decode-case-함수&quot;&gt;SQL DECODE, CASE 함수&lt;/h6&gt;
-&lt;p&gt;조건에 따라 각각 다른 값을 입력/출력하는 분기함수&lt;br /&gt;
-DECODE : A=B이면 X, A≠B이면 Y를 출력 (A와 B가 같은지에 대한 조건)&lt;br /&gt;
-CASE : DECODE와 달리, A와 B 사이에 부등호 관계(크거나 작은 조건)를 처리할 때 주로 사용&lt;/p&gt;</content><author><name>Jinho1</name></author><category term="memo" /><summary type="html">SQL 정리 JAVA 정리</summary></entry><entry><title type="html">JAVA 웹을 다루는 기술 - 18,19장</title><link href="https://jeongjinhooo.github.io/javaweb18" rel="alternate" type="text/html" title="JAVA 웹을 다루는 기술 - 18,19장" /><published>2022-05-07T04:00:00+09:00</published><updated>2022-05-07T04:00:00+09:00</updated><id>https://jeongjinhooo.github.io/javaweb18</id><content type="html" xml:base="https://jeongjinhooo.github.io/javaweb18">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb4&quot;&gt;JAVA 웹을 다루는 기술 - 4장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb5&quot;&gt;JAVA 웹을 다루는 기술 - 5장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb6&quot;&gt;JAVA 웹을 다루는 기술 - 6,7장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb8&quot;&gt;JAVA 웹을 다루는 기술 - 8장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb9&quot;&gt;JAVA 웹을 다루는 기술 - 9장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb10&quot;&gt;JAVA 웹을 다루는 기술 - 10장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb11&quot;&gt;JAVA 웹을 다루는 기술 - 11,12장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb13&quot;&gt;JAVA 웹을 다루는 기술 - 13,14장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb17&quot;&gt;JAVA 웹을 다루는 기술 - 17장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb18&quot;&gt;JAVA 웹을 다루는 기술 - 18,19장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb23&quot;&gt;JAVA 웹을 다루는 기술 - 23장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb25&quot;&gt;JAVA 웹을 다루는 기술 - 25,26장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb27&quot;&gt;JAVA 웹을 다루는 기술 - 27,28장&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./javaweb29&quot;&gt;JAVA 웹을 다루는 기술 - 29장&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;p&gt;본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.&lt;/p&gt;
-&lt;hr /&gt;
+&lt;h6 id=&quot;문제-10718&quot;&gt;문제 10718&lt;/h6&gt;
+&lt;p&gt;&lt;br /&gt;
+두 줄에 걸쳐 “강한친구 대한육군”을 한 줄에 한 번씩 출력한다.&lt;/p&gt;
 
-&lt;h4 id=&quot;프레임워크framework&quot;&gt;프레임워크(Framework)&lt;/h4&gt;
-&lt;ul&gt;
-  &lt;li&gt;사전적의미는 ‘어떤 것을 구성하는 구조 또는 뼈대’&lt;/li&gt;
-  &lt;li&gt;소프트웨어적 의미로는 ‘기능을 미리 클래스나 인터페이스 등으로 만들어 제공하는 반제품’&lt;/li&gt;
-&lt;/ul&gt;
+&lt;h6 id=&quot;풀이-1&quot;&gt;풀이&lt;/h6&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;public class Main {
+	
+	public static void main(String[] args) {
+		System.out.println(&quot;강한친구 대한육군&quot;);
+		System.out.println(&quot;강한친구 대한육군&quot;);
+	}
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;h6 id=&quot;프레임워크-장점&quot;&gt;프레임워크 장점&lt;/h6&gt;
-&lt;ul&gt;
-  &lt;li&gt;일정한 기준에 따라 개발이 이루어지므로 개발 생산성과 품질이 보장된 애플리케이션을 개발할 수 있음&lt;/li&gt;
-  &lt;li&gt;개발 후 유지보수 및 기능의 확장성에서도 고품질 보장&lt;/li&gt;
-&lt;/ul&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;public class Main {
+	
+	public static void main(String[] args) {
+		System.out.println(&quot;강한친구 대한육군\n강한친구 대한육군&quot;);	
+	}
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;\n 으로 줄바꿈 할수있다&lt;/p&gt;
+&lt;h6 id=&quot;문제-10171&quot;&gt;문제 10171&lt;/h6&gt;
+&lt;p&gt;&lt;br /&gt;
+고양이를 출력한다.&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;\    /\
+ )  ( &apos;)
+(  /  )
+ \(__)|
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;h6 id=&quot;스프링-프레임워크&quot;&gt;스프링 프레임워크&lt;/h6&gt;
-&lt;ul&gt;
-  &lt;li&gt;스프링 프레임워크(스프링)는 자바 웹 애플리케이션 개발을 위한 오픈 소스 프레임워크&lt;/li&gt;
-  &lt;li&gt;EJB(Enterprise Java Bean)보다 가벼운 경량 프레임워크&lt;/li&gt;
-&lt;/ul&gt;
+&lt;h6 id=&quot;풀이-2&quot;&gt;풀이&lt;/h6&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;public class Main {
+	public static void main(String[] args) {
+    
+		System.out.println(&quot;\\    /\\&quot;);
+		System.out.println(&quot; )  ( &apos;)&quot;);
+		System.out.println(&quot;(  /  )&quot;);
+		System.out.println(&quot; \\(__)|&quot;);    
+ 
+	}
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;public class Main {
+	public static void main(String[] args) {
+    
+	System.out.println(  &quot;\\    /\\\n&quot; + 
+		                 &quot; )  ( &apos;)\n&quot; + 
+		            	 &quot;(  /  )\n&quot; + 
+		            	 &quot; \\(__)|&quot;);
+	}
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;\는 이스케이프 시퀀시로 사용되는 문자이기 때문에 출력하려면 \\와같이 앞에 \를 하나 붙여야 정상적으로 출력된다&lt;/p&gt;
 
-&lt;h6 id=&quot;특징&quot;&gt;특징&lt;/h6&gt;
-&lt;ul&gt;
-  &lt;li&gt;EJB보다 가볍고 배우기도 쉬우며 경량 컨테이너의 기능을 수행&lt;/li&gt;
-  &lt;li&gt;제어 역행(ioC, Inversion of Control) 기술을 이용해 애플리케이션 간의 느슨한 결합을 제어함&lt;/li&gt;
-  &lt;li&gt;의존성 주입(DI, Dependency injection) 기능을 지원함&lt;/li&gt;
-  &lt;li&gt;관점지향 (AOP, Aspect-Oriented Programming) 기능을 이용해 자원 관리함&lt;/li&gt;
-  &lt;li&gt;영속성과 관련된 다양한 서비스를 지원함&lt;/li&gt;
-  &lt;li&gt;수많은 라이브러리와의 연동 기능을 지원함&lt;/li&gt;
-&lt;/ul&gt;
+&lt;h6 id=&quot;문제-25083&quot;&gt;문제 25083&lt;/h6&gt;
+&lt;p&gt;&lt;br /&gt;
+새싹을 출력한다.&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;         ,r&apos;&quot;7
+r`-_   ,&apos;  ,/
+ \. &quot;. L_r&apos;
+   `~\/
+      |
+      |
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;h6 id=&quot;컨테이너란&quot;&gt;컨테이너란?&lt;/h6&gt;
-&lt;ul&gt;
-  &lt;li&gt;톰캣은 서블릿 컨테이너라고 부르는데, 그 이유는 톰캣을 실행하면 톰캣은 서블릿의 생성, 초기화, 서비스실행, 소멸에 관한 모든 권한을 가지고 서블릿을 관리&lt;/li&gt;
-  &lt;li&gt;스프링은 애플리케이션에서 사용되는 여러가지 빈(클래스 객체)을 개발자가 아닌 스프링이 권한을 가지고 직접 관리&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Jinho1</name></author><category term="java" /><summary type="html">JAVA 웹을 다루는 기술 - 4장 JAVA 웹을 다루는 기술 - 5장 JAVA 웹을 다루는 기술 - 6,7장 JAVA 웹을 다루는 기술 - 8장 JAVA 웹을 다루는 기술 - 9장 JAVA 웹을 다루는 기술 - 10장 JAVA 웹을 다루는 기술 - 11,12장 JAVA 웹을 다루는 기술 - 13,14장 JAVA 웹을 다루는 기술 - 17장 JAVA 웹을 다루는 기술 - 18,19장 JAVA 웹을 다루는 기술 - 23장 JAVA 웹을 다루는 기술 - 25,26장 JAVA 웹을 다루는 기술 - 27,28장 JAVA 웹을 다루는 기술 - 29장 본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.</summary></entry></feed>
+&lt;h6 id=&quot;풀이-3&quot;&gt;풀이&lt;/h6&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;public class Main { 
+    public static void main(String[] args) {
+  System.out.printf(&quot;         ,r&apos;\&quot;7\n&quot;);
+  System.out.printf(&quot;r`-_   ,&apos;  ,/\n&quot;);
+  System.out.printf(&quot; \\. \&quot;. L_r&apos;\n&quot;);
+  System.out.printf(&quot;   `~\\/\n&quot;);
+  System.out.printf(&quot;      |\n&quot;);
+  System.out.printf(&quot;      |\n&quot;);       
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;’\‘나 &quot;는 앞에 \를 붙여주면 출력이 가능하다&lt;/p&gt;
+
+&lt;h6 id=&quot;문제-1000-1001-10998&quot;&gt;문제 1000, 1001, 10998&lt;/h6&gt;
+&lt;p&gt;&lt;br /&gt;
+두 정수 A와 B를 입력받은 다음, A+B, A-B, A*B를 출력하는 프로그램을 작성하시오.&lt;/p&gt;
+
+&lt;h6 id=&quot;풀이-4&quot;&gt;풀이&lt;/h6&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int a = sc.nextInt();
+		int b = sc.nextInt();
+		
+
+		System.out.println(a + b); // A+B
+        System.out.println(a - b); // A-B
+        System.out.println(a * b); // A*B
+
+	}
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h6 id=&quot;문제-1008&quot;&gt;문제 1008&lt;/h6&gt;
+&lt;p&gt;&lt;br /&gt;
+첫째 줄에 A/B를 출력한다. 실제 정답과 출력값의 절대오차 또는 상대오차가 10-9 이하이면 정답&lt;/p&gt;
+
+&lt;h6 id=&quot;풀이-5&quot;&gt;풀이&lt;/h6&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		Double a = sc.nextDouble();
+		Double b = sc.nextDouble();
+		
+
+		System.out.println(a/b);
+	}
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h6 id=&quot;문제-10869&quot;&gt;문제 10869&lt;/h6&gt;
+&lt;p&gt;&lt;br /&gt;
+첫째 줄에 A+B, 둘째 줄에 A-B, 셋째 줄에 A*B, 넷째 줄에 A/B, 다섯째 줄에 A%B를 출력한다.&lt;/p&gt;
+
+&lt;h6 id=&quot;풀이-6&quot;&gt;풀이&lt;/h6&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int a = sc.nextInt();
+		int b = sc.nextInt();
+		
+
+		System.out.println(a+b);
+        System.out.println(a-b);
+        System.out.println(a*b);
+        System.out.println(a/b);
+        System.out.println(a%b);
+	}
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h6 id=&quot;문제-10926&quot;&gt;문제 10926&lt;/h6&gt;
+&lt;p&gt;&lt;br /&gt;
+첫째 줄에 준하의 놀람을 출력한다. 놀람은 아이디 뒤에 ??!를 붙여서 나타낸다.&lt;/p&gt;
+
+&lt;h6 id=&quot;풀이-7&quot;&gt;풀이&lt;/h6&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		String id = sc.next();
+		System.out.println(id + &quot;??!&quot;);
+		}
+
+	}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h6 id=&quot;문제-18108&quot;&gt;문제 18108&lt;/h6&gt;
+&lt;p&gt;&lt;br /&gt;
+불기 연도가 주어질 때 이를 서기 연도로 바꿔 주는 프로그램을 작성하시오.
+예제) 2541 -&amp;gt; 1998&lt;/p&gt;
+
+&lt;h6 id=&quot;풀이-8&quot;&gt;풀이&lt;/h6&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;import java.util.Scanner;
+
+public class Main {
+        
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println(sc.nextInt()-543);
+        }
+    }
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h6 id=&quot;문제-10430&quot;&gt;문제 10430&lt;/h6&gt;
+&lt;p&gt;&lt;br /&gt;
+첫째 줄에 (A+B)%C, 둘째 줄에 ((A%C) + (B%C))%C, 셋째 줄에 (A×B)%C, 넷째 줄에 ((A%C) × (B%C))%C를 출력한다.&lt;/p&gt;
+
+&lt;h6 id=&quot;풀이-9&quot;&gt;풀이&lt;/h6&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int a = sc.nextInt();
+		int b = sc.nextInt();
+        int c = sc.nextInt();
+		
+		System.out.println((a+b)%c);
+        System.out.println(((a%c)+(b%c))%c);
+        System.out.println((a*b)%c);
+        System.out.println(((a%c)*(b%c))%c);     
+	}
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h6 id=&quot;문제-2588&quot;&gt;문제 2588&lt;/h6&gt;
+&lt;p&gt;&lt;br /&gt;
+(세 자리 수) × (세 자리 수)는 다음과 같은 과정을 통하여 이루어진다.&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    472  ----&amp;gt; (1)
+   *385  ----&amp;gt; (2)
+_______   
+   2360  ----&amp;gt; (3)
+  3776   ----&amp;gt; (4)
+ 1416    ----&amp;gt; (5)
+_______
+ 181720  ----&amp;gt; (6)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;(1)과 (2)위치에 들어갈 세 자리 자연수가 주어질 때 (3), (4), (5), (6)위치에 들어갈 값을 구하는 프로그램을 작성하시오.&lt;/p&gt;
+
+&lt;h6 id=&quot;풀이-10&quot;&gt;풀이&lt;/h6&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;import java.util.Scanner;
+ 
+public class Main {
+ 
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+ 
+		int A = in.nextInt();   // Scanner을 이용하여 A는 int로
+		String B = in.next();   // B는 String 으로 입력받는다
+        
+		in.close();
+ 
+		System.out.println(A * (B.charAt(2) - &apos;0&apos;));
+		System.out.println(A * (B.charAt(1) - &apos;0&apos;));
+		System.out.println(A * (B.charAt(0) - &apos;0&apos;));
+		//charAt() : 문자열의 인덱스 위치에 있는 문자(Character) 값을 반환한다
+		// -&apos;0&apos; 을 해주는 이유 : 우리가 보는 숫자 그대로의 값을 쓰기 위한 것
+		System.out.println(A * Integer.parseInt(B));
+		//Integer.parseInt()을 통해 문자열을 int형으로 바꿔준다
+ 
+	}
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Jinho1</name></author><category term="algorithm" /><summary type="html">백준 문제 연습 입출력과 사칙연산 조건문 반복문 문제 2557 Hello World!를 출력하시오.</summary></entry></feed>

@@ -54,7 +54,7 @@
     <meta property="og:site_name" content="Jinhonote" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="SQL" />
-    <meta property="og:description" content="SQL 정리 JAVA 정리 SQL SYSDATE 함수(현재 날짜, 시간 구해오기) 사용법 : SELECT SYSDATE FROM DUAL; Dual 이라는 테이블은 오라클이 설치될 때 만들어지는 테이블이며 산술, 날짜처리, 계산 등을하는 기본 임시 테이블 SQL ROUND, FLOOR, CEIL 함수 ROUND - 반올림 CEIL - 올림 FLOOR - 버림 SQL DECODE, CASE 함수 조건에" />
+    <meta property="og:description" content="SQL 정리 JAVA 정리 데이터 타입 SQL SYSDATE 함수(현재 날짜, 시간 구해오기) 사용법 : SELECT SYSDATE FROM DUAL; Dual 이라는 테이블은 오라클이 설치될 때 만들어지는 테이블이며 산술, 날짜처리, 계산 등을하는 기본 임시 테이블 SQL ROUND, FLOOR, CEIL 함수 ROUND - 반올림 CEIL - 올림 FLOOR - 버림 SQL DECODE, CASE" />
     <meta property="og:url" content="https://Jeongjinhooo.github.io/memo1" />
     <meta property="og:image" content="https://Jeongjinhooo.github.io/assets/built/images/java-logo.jpg" />
     <meta property="article:publisher" content="https://www.facebook.com/" />
@@ -64,7 +64,7 @@
     <meta property="article:tag" content="Memo" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="SQL" />
-    <meta name="twitter:description" content="SQL 정리 JAVA 정리 SQL SYSDATE 함수(현재 날짜, 시간 구해오기) 사용법 : SELECT SYSDATE FROM DUAL; Dual 이라는 테이블은 오라클이 설치될 때 만들어지는 테이블이며 산술, 날짜처리, 계산 등을하는 기본 임시 테이블 SQL ROUND, FLOOR, CEIL 함수 ROUND - 반올림 CEIL - 올림 FLOOR - 버림 SQL DECODE, CASE 함수 조건에" />
+    <meta name="twitter:description" content="SQL 정리 JAVA 정리 데이터 타입 SQL SYSDATE 함수(현재 날짜, 시간 구해오기) 사용법 : SELECT SYSDATE FROM DUAL; Dual 이라는 테이블은 오라클이 설치될 때 만들어지는 테이블이며 산술, 날짜처리, 계산 등을하는 기본 임시 테이블 SQL ROUND, FLOOR, CEIL 함수 ROUND - 반올림 CEIL - 올림 FLOOR - 버림 SQL DECODE, CASE" />
     <meta name="twitter:url" content="https://Jeongjinhooo.github.io/" />
     <meta name="twitter:image" content="https://Jeongjinhooo.github.io/assets/built/images/java-logo.jpg" />
     <meta name="twitter:label1" content="Written by" />
@@ -96,7 +96,7 @@
         "@type": "WebPage",
         "@id": "https://Jeongjinhooo.github.io/memo1"
     },
-    "description": "SQL 정리 JAVA 정리 SQL SYSDATE 함수(현재 날짜, 시간 구해오기) 사용법 : SELECT SYSDATE FROM DUAL; Dual 이라는 테이블은 오라클이 설치될 때 만들어지는 테이블이며 산술, 날짜처리, 계산 등을하는 기본 임시 테이블 SQL ROUND, FLOOR, CEIL 함수 ROUND - 반올림 CEIL - 올림 FLOOR - 버림 SQL DECODE, CASE 함수 조건에"
+    "description": "SQL 정리 JAVA 정리 데이터 타입 SQL SYSDATE 함수(현재 날짜, 시간 구해오기) 사용법 : SELECT SYSDATE FROM DUAL; Dual 이라는 테이블은 오라클이 설치될 때 만들어지는 테이블이며 산술, 날짜처리, 계산 등을하는 기본 임시 테이블 SQL ROUND, FLOOR, CEIL 함수 ROUND - 반올림 CEIL - 올림 FLOOR - 버림 SQL DECODE, CASE"
 }
     </script>
 
@@ -196,6 +196,7 @@ into the {body} of the default.hbs template -->
 <ul class="table-of-contents-list">
     <li><a href="./memo1">SQL 정리</a></li>
     <li><a href="./memo2">JAVA 정리</a></li>
+    <li><a href="./memo3">데이터 타입</a></li>
 </ul>
 <hr />
 
@@ -212,6 +213,13 @@ FLOOR - 버림</p>
 <p>조건에 따라 각각 다른 값을 입력/출력하는 분기함수<br />
 DECODE : A=B이면 X, A≠B이면 Y를 출력 (A와 B가 같은지에 대한 조건)<br />
 CASE : DECODE와 달리, A와 B 사이에 부등호 관계(크거나 작은 조건)를 처리할 때 주로 사용</p>
+
+<h6 id="테이블-전부-삭제">테이블 전부 삭제</h6>
+
+<p>SELECT ‘DROP TABLE “’ || TABLE_NAME || ‘” CASCADE CONSTRAINTS;’ FROM user_tables;
+SQL문을 실행 하고 결과를 복사에서 다시 SQL문으로 실행
+유저 테이블을 모두 검색해서 드롭문으로 완성시키는 값을 셀렉하는 문장</p>
+
 
                 </div>
             </section>
@@ -321,6 +329,15 @@ CASE : DECODE와 달리, A와 B 사이에 부등호 관계(크거나 작은 조�
                                 
                                 
                                   
+                                    
+                                        
+                                        
+                                            <li><a href="/memo3">데이터타입</a></li>
+                                        
+                                    
+                                  
+                                
+                                  
                                 
                                   
                                 
@@ -376,7 +393,7 @@ CASE : DECODE와 달리, A와 B 사이에 부등호 관계(크거나 작은 조�
                         <footer class="read-next-card-footer">
                             <a href="/tag/memo/">
                                 
-                                    See all 1 posts  →
+                                    See all 2 posts  →
                                 
                             </a>
                         </footer>
@@ -413,6 +430,7 @@ CASE : DECODE와 달리, A와 B 사이에 부등호 관계(크거나 작은 조�
 
     SQL 정리
     JAVA 정리
+    데이터 타입
 
 
 
