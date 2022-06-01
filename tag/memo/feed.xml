@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://jeongjinhooo.github.io/tag/memo/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://jeongjinhooo.github.io/" rel="alternate" type="text/html" />
-  <updated>2022-05-28T23:39:45+09:00</updated>
+  <updated>2022-06-01T22:36:10+09:00</updated>
   <id>https://jeongjinhooo.github.io/tag/memo/feed.xml</id>
 
   
@@ -39,10 +39,12 @@
       <id>https://jeongjinhooo.github.io/memo3</id>
       <content type="html" xml:base="https://jeongjinhooo.github.io/memo3">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./memo1&quot;&gt;SQL 정리&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./memo2&quot;&gt;JAVA 정리&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./memo3&quot;&gt;데이터 타입&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;./memo1&quot;&gt;SQL 정리&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;./memo2&quot;&gt;JAVA 정리&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;./memo3&quot;&gt;데이터 타입&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;./memo4&quot;&gt;JAVA final&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
 &lt;hr /&gt;
 &lt;h6 id=&quot;char-타입&quot;&gt;CHAR 타입&lt;/h6&gt;
 
@@ -128,7 +130,7 @@
       
 
       
-        <summary type="html">SQL 정리 JAVA 정리 데이터 타입 CHAR 타입</summary>
+        <summary type="html">SQL 정리 JAVA 정리 데이터 타입 JAVA final CHAR 타입</summary>
       
 
       
@@ -136,52 +138,47 @@
     </entry>
   
     <entry>
-      <title type="html">JAVA</title>
-      <link href="https://jeongjinhooo.github.io/memo2" rel="alternate" type="text/html" title="JAVA" />
-      <published>2022-05-12T04:00:00+09:00</published>
-      <updated>2022-05-12T04:00:00+09:00</updated>
-      <id>https://jeongjinhooo.github.io/memo2</id>
-      <content type="html" xml:base="https://jeongjinhooo.github.io/memo2">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+      <title type="html">JAVA final 이란</title>
+      <link href="https://jeongjinhooo.github.io/memo4" rel="alternate" type="text/html" title="JAVA final 이란" />
+      <published>2022-05-28T04:00:00+09:00</published>
+      <updated>2022-05-28T04:00:00+09:00</updated>
+      <id>https://jeongjinhooo.github.io/memo4</id>
+      <content type="html" xml:base="https://jeongjinhooo.github.io/memo4">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./memo1&quot;&gt;SQL 정리&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./memo2&quot;&gt;JAVA 정리&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./memo3&quot;&gt;데이터 타입&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;./memo1&quot;&gt;SQL 정리&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;./memo2&quot;&gt;JAVA 정리&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;./memo3&quot;&gt;데이터 타입&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;./memo4&quot;&gt;JAVA final&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
 &lt;hr /&gt;
 
-&lt;h3 id=&quot;게터와-세터getter-and-setter&quot;&gt;게터와 세터(getter and setter)&lt;/h3&gt;
+&lt;h3 id=&quot;final&quot;&gt;final&lt;/h3&gt;
 
-&lt;p&gt;getter와 setter는 말 그대로 어떤 오브젝트 혹은 변수의 값을 가져오거나, 설정해주는 역할을 하는 메소드를 말한다.&lt;/p&gt;
-
-&lt;h6 id=&quot;getter&quot;&gt;getter&lt;/h6&gt;
 &lt;ul&gt;
-  &lt;li&gt;return type은 참조할 맴버변수의 자료형과 일치해야 한다.&lt;/li&gt;
-  &lt;li&gt;이름 앞에 get 을 붙이고 뒤에는 리턴할 맴버변수의 이름 혹은 해당 변수를 직관적으로 표현하는 단어가 와야한다.&lt;/li&gt;
-  &lt;li&gt;ex) int getLength();&lt;/li&gt;
+  &lt;li&gt;변수(variable), 메서드(method), 클래스(class)에 사용&lt;/li&gt;
+  &lt;li&gt;어떤 곳에 사용되냐에 따라 다른 의미를 가진다&lt;/li&gt;
+  &lt;li&gt;무언가를 제한한다는 의미를 가지는 것은 공통적이 성격이다&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h6 id=&quot;setter&quot;&gt;setter&lt;/h6&gt;
+&lt;h6 id=&quot;변수variable&quot;&gt;변수(variable)&lt;/h6&gt;
+
 &lt;ul&gt;
-  &lt;li&gt;return type은 void 혹은 값의 설정 결과를 알려줄 수 있는 type이어야 한다.&lt;/li&gt;
-  &lt;li&gt;argument는 수정할 맴버변수와 같은 type이어야 한다.&lt;/li&gt;
-  &lt;li&gt;이름 앞에 set을 붙이고 뒤에는 수정할 맴버변수의 이름 혹은 해당 변수를 직관적으로 표현하는 단어이어야 한다.&lt;/li&gt;
-  &lt;li&gt;ex) void setLength(int length);&lt;/li&gt;
+  &lt;li&gt;변수에 final을 붙이면 이 변수는 수정할 수 없다는 의미&lt;/li&gt;
+  &lt;li&gt;수정 할 수 없다는 범위는 그 변수의 값에 한정&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;override-어노테이션&quot;&gt;@Override 어노테이션&lt;/h3&gt;
-&lt;p&gt;상속받은 메서드를 재정의할 때 메서드 이름이 틀리지 않게 쓰기 위한 어노테이션이다&lt;/p&gt;
+&lt;h6 id=&quot;메서드method&quot;&gt;메서드(method)&lt;/h6&gt;
 
-&lt;h3 id=&quot;cset-태그&quot;&gt;&amp;lt;c:set&amp;gt; 태그&lt;/h3&gt;
-&lt;p&gt;&lt;br /&gt;
-&amp;lt;c:set&amp;gt; 태그는 EL에서 사용되어질 수 있는 Bean, Map등에 값을 설정을 하거나, 일반 변수를 생성해서 값을 할당 할 수 있다&lt;/p&gt;
-
-&lt;h3 id=&quot;cset-태그-속성&quot;&gt;&amp;lt;c:set&amp;gt; 태그 속성&lt;/h3&gt;
 &lt;ul&gt;
-  &lt;li&gt;value 속성 : 값을 입력.  EL을 사용할 수 있다.&lt;/li&gt;
-  &lt;li&gt;target 속성 : 프로퍼티를 설정할 빈 또는 맵&lt;/li&gt;
-  &lt;li&gt;property 속성 : 설정할 프로퍼티&lt;/li&gt;
-  &lt;li&gt;var 속성 : 값이 저장되는 변수명&lt;/li&gt;
-  &lt;li&gt;scope 속성 : 변수가 저장된  Scope.&lt;br /&gt; page, request, session, application 을 가질 수 있고, 기본값은 page&lt;/li&gt;
+  &lt;li&gt;메서드에 final을 붙이면 override를 제한&lt;/li&gt;
+  &lt;li&gt;상속 받은 클래스에서 해당 메서드를 수정해서 사용하지 못하도록 할 수 있는 것&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id=&quot;클래스class&quot;&gt;클래스(Class)&lt;/h6&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;final 키워드를 클래스에 붙이면 상속 불가능 클래스&lt;/li&gt;
 &lt;/ul&gt;</content>
 
       
@@ -203,7 +200,89 @@
       
 
       
-        <summary type="html">SQL 정리 JAVA 정리 데이터 타입</summary>
+        <summary type="html">SQL 정리 JAVA 정리 데이터 타입 JAVA final</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">JAVA</title>
+      <link href="https://jeongjinhooo.github.io/memo2" rel="alternate" type="text/html" title="JAVA" />
+      <published>2022-05-12T04:00:00+09:00</published>
+      <updated>2022-05-12T04:00:00+09:00</updated>
+      <id>https://jeongjinhooo.github.io/memo2</id>
+      <content type="html" xml:base="https://jeongjinhooo.github.io/memo2">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;./memo1&quot;&gt;SQL 정리&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;./memo2&quot;&gt;JAVA 정리&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;./memo3&quot;&gt;데이터 타입&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;./memo4&quot;&gt;JAVA final&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;게터와-세터getter-and-setter&quot;&gt;게터와 세터(getter and setter)&lt;/h3&gt;
+
+&lt;p&gt;getter와 setter는 말 그대로 어떤 오브젝트 혹은 변수의 값을 가져오거나, 설정해주는 역할을 하는 메소드를 말한다.&lt;/p&gt;
+
+&lt;h6 id=&quot;getter&quot;&gt;getter&lt;/h6&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;return type은 참조할 맴버변수의 자료형과 일치해야 한다.&lt;/li&gt;
+  &lt;li&gt;이름 앞에 get 을 붙이고 뒤에는 리턴할 맴버변수의 이름 혹은 해당 변수를 직관적으로 표현하는 단어가 와야한다.&lt;/li&gt;
+  &lt;li&gt;ex) int getLength();&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id=&quot;setter&quot;&gt;setter&lt;/h6&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;return type은 void 혹은 값의 설정 결과를 알려줄 수 있는 type이어야 한다.&lt;/li&gt;
+  &lt;li&gt;argument는 수정할 맴버변수와 같은 type이어야 한다.&lt;/li&gt;
+  &lt;li&gt;이름 앞에 set을 붙이고 뒤에는 수정할 맴버변수의 이름 혹은 해당 변수를 직관적으로 표현하는 단어이어야 한다.&lt;/li&gt;
+  &lt;li&gt;ex) void setLength(int length);&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;override-어노테이션&quot;&gt;@Override 어노테이션&lt;/h3&gt;
+
+&lt;p&gt;상속받은 메서드를 재정의할 때 메서드 이름이 틀리지 않게 쓰기 위한 어노테이션이다&lt;/p&gt;
+
+&lt;h3 id=&quot;cset-태그&quot;&gt;&amp;lt;c:set&amp;gt; 태그&lt;/h3&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&amp;lt;c:set&amp;gt; 태그는 EL에서 사용되어질 수 있는 Bean, Map등에 값을 설정을 하거나, 일반 변수를 생성해서 값을 할당 할 수 있다&lt;/p&gt;
+
+&lt;h3 id=&quot;cset-태그-속성&quot;&gt;&amp;lt;c:set&amp;gt; 태그 속성&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;value 속성 : 값을 입력. EL을 사용할 수 있다.&lt;/li&gt;
+  &lt;li&gt;target 속성 : 프로퍼티를 설정할 빈 또는 맵&lt;/li&gt;
+  &lt;li&gt;property 속성 : 설정할 프로퍼티&lt;/li&gt;
+  &lt;li&gt;var 속성 : 값이 저장되는 변수명&lt;/li&gt;
+  &lt;li&gt;scope 속성 : 변수가 저장된 Scope.&lt;br /&gt; page, request, session, application 을 가질 수 있고, 기본값은 page&lt;/li&gt;
+&lt;/ul&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Jinho1</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="memo" />
+      
+
+      
+        <summary type="html">SQL 정리 JAVA 정리 데이터 타입 JAVA final</summary>
       
 
       
@@ -218,22 +297,27 @@
       <id>https://jeongjinhooo.github.io/memo1</id>
       <content type="html" xml:base="https://jeongjinhooo.github.io/memo1">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./memo1&quot;&gt;SQL 정리&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./memo2&quot;&gt;JAVA 정리&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./memo3&quot;&gt;데이터 타입&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;./memo1&quot;&gt;SQL 정리&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;./memo2&quot;&gt;JAVA 정리&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;./memo3&quot;&gt;데이터 타입&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;./memo4&quot;&gt;JAVA final&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
 &lt;hr /&gt;
 
 &lt;h6 id=&quot;sql-sysdate-함수현재-날짜-시간-구해오기&quot;&gt;SQL SYSDATE 함수(현재 날짜, 시간 구해오기)&lt;/h6&gt;
+
 &lt;p&gt;사용법 : SELECT SYSDATE FROM DUAL;&lt;br /&gt;
 Dual 이라는 테이블은 오라클이 설치될 때 만들어지는 테이블이며 산술, 날짜처리, 계산 등을하는 기본 임시 테이블&lt;/p&gt;
 
 &lt;h6 id=&quot;sql-round-floor-ceil-함수&quot;&gt;SQL ROUND, FLOOR, CEIL 함수&lt;/h6&gt;
+
 &lt;p&gt;ROUND - 반올림 &lt;br /&gt;
-CEIL  - 올림 &lt;br /&gt;
+CEIL - 올림 &lt;br /&gt;
 FLOOR - 버림&lt;/p&gt;
 
 &lt;h6 id=&quot;sql-decode-case-함수&quot;&gt;SQL DECODE, CASE 함수&lt;/h6&gt;
+
 &lt;p&gt;조건에 따라 각각 다른 값을 입력/출력하는 분기함수&lt;br /&gt;
 DECODE : A=B이면 X, A≠B이면 Y를 출력 (A와 B가 같은지에 대한 조건)&lt;br /&gt;
 CASE : DECODE와 달리, A와 B 사이에 부등호 관계(크거나 작은 조건)를 처리할 때 주로 사용&lt;/p&gt;
@@ -263,7 +347,7 @@ SQL문을 실행 하고 결과를 복사에서 다시 SQL문으로 실행
       
 
       
-        <summary type="html">SQL 정리 JAVA 정리 데이터 타입</summary>
+        <summary type="html">SQL 정리 JAVA 정리 데이터 타입 JAVA final</summary>
       
 
       

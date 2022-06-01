@@ -8,14 +8,57 @@
     
       
       <item>
+        <title>org.springframework.web.context.&lt;br&gt;ContextLoader - Context initialization failed 컨텍스트 초기화 실패 오류</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;에러 해결&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;./error1&quot;&gt;2022-05-16&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;./error2&quot;&gt;2022-05-19&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;./error3&quot;&gt;2022-06-01&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Wed, 01 Jun 2022 04:00:00 +0900</pubDate>
+        <link>
+        https://Jeongjinhooo.github.io/error3</link>
+        <guid isPermaLink="true">https://Jeongjinhooo.github.io/error3</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>JAVA final 이란</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;./memo1&quot;&gt;SQL 정리&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;./memo2&quot;&gt;JAVA 정리&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;./memo3&quot;&gt;데이터 타입&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;./memo4&quot;&gt;JAVA final&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Sat, 28 May 2022 04:00:00 +0900</pubDate>
+        <link>
+        https://Jeongjinhooo.github.io/memo4</link>
+        <guid isPermaLink="true">https://Jeongjinhooo.github.io/memo4</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>데이터타입</title>
         
           <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./memo1&quot;&gt;SQL 정리&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./memo2&quot;&gt;JAVA 정리&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./memo3&quot;&gt;데이터 타입&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;./memo1&quot;&gt;SQL 정리&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;./memo2&quot;&gt;JAVA 정리&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;./memo3&quot;&gt;데이터 타입&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;./memo4&quot;&gt;JAVA final&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
 &lt;hr /&gt;
 &lt;h6 id=&quot;char-타입&quot;&gt;CHAR 타입&lt;/h6&gt;
 
@@ -88,9 +131,11 @@
         
           <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;에러 해결&lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./error1&quot;&gt;2022-05-16&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./error2&quot;&gt;2022-05-19&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;./error1&quot;&gt;2022-05-16&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;./error2&quot;&gt;2022-05-19&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;./error3&quot;&gt;2022-06-01&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
 &lt;hr /&gt;
 
 </description>
@@ -228,11 +273,11 @@
         
           <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./memo1&quot;&gt;SQL 정리&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./memo2&quot;&gt;JAVA 정리&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./memo3&quot;&gt;데이터 타입&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;./memo1&quot;&gt;SQL 정리&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;./memo2&quot;&gt;JAVA 정리&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;./memo3&quot;&gt;데이터 타입&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;./memo4&quot;&gt;JAVA final&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;hr /&gt;
 
 </description>
         
@@ -249,11 +294,11 @@
         
           <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./memo1&quot;&gt;SQL 정리&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./memo2&quot;&gt;JAVA 정리&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./memo3&quot;&gt;데이터 타입&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;./memo1&quot;&gt;SQL 정리&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;./memo2&quot;&gt;JAVA 정리&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;./memo3&quot;&gt;데이터 타입&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;./memo4&quot;&gt;JAVA final&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;hr /&gt;
 
 </description>
         
@@ -304,10 +349,10 @@
         
           <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;에러 해결&lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./error1&quot;&gt;2022-05-16&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./error2&quot;&gt;2022-05-19&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;./error1&quot;&gt;2022-05-16&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;./error2&quot;&gt;2022-05-19&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;./error3&quot;&gt;2022-06-01&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;hr /&gt;
 
 </description>
         

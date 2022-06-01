@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://jeongjinhooo.github.io/tag/error/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://jeongjinhooo.github.io/" rel="alternate" type="text/html" />
-  <updated>2022-05-28T23:39:45+09:00</updated>
+  <updated>2022-06-01T22:36:10+09:00</updated>
   <id>https://jeongjinhooo.github.io/tag/error/feed.xml</id>
 
   
@@ -32,6 +32,53 @@
 
   
     <entry>
+      <title type="html">org.springframework.web.context.ContextLoader - Context initialization failed 컨텍스트 초기화 실패 오류</title>
+      <link href="https://jeongjinhooo.github.io/error3" rel="alternate" type="text/html" title="org.springframework.web.context.&lt;br&gt;ContextLoader - Context initialization failed 컨텍스트 초기화 실패 오류" />
+      <published>2022-06-01T04:00:00+09:00</published>
+      <updated>2022-06-01T04:00:00+09:00</updated>
+      <id>https://jeongjinhooo.github.io/error3</id>
+      <content type="html" xml:base="https://jeongjinhooo.github.io/error3">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;에러 해결&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;./error1&quot;&gt;2022-05-16&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;./error2&quot;&gt;2022-05-19&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;./error3&quot;&gt;2022-06-01&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ERROR: org.springframework.web.context.ContextLoader - Context initialization failed
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;이렇게 자꾸 에러가 떠서 5시간동안 구글링하면서 찾아보고있는데 알고보니까 memberVO를 memverVO로 오타나서 그런거였다
+오타 잘봐야겠다&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Jinho1</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="error" />
+      
+
+      
+        <summary type="html">에러 해결 2022-05-16 2022-05-19 2022-06-01</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
       <title type="html">org.springframework.web.context.ContextLoaderListener의 애플리케이션 리스너를 설정하는 중 오류 발생</title>
       <link href="https://jeongjinhooo.github.io/error2" rel="alternate" type="text/html" title="org.springframework.web.&lt;br&gt;context.ContextLoaderListener의 &lt;br&gt;애플리케이션 리스너를 설정하는 중 오류 발생" />
       <published>2022-05-19T04:00:00+09:00</published>
@@ -39,9 +86,11 @@
       <id>https://jeongjinhooo.github.io/error2</id>
       <content type="html" xml:base="https://jeongjinhooo.github.io/error2">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;에러 해결&lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./error1&quot;&gt;2022-05-16&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./error2&quot;&gt;2022-05-19&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;./error1&quot;&gt;2022-05-16&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;./error2&quot;&gt;2022-05-19&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;./error3&quot;&gt;2022-06-01&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
 &lt;hr /&gt;
 
 &lt;p&gt;전에 하던 예제를 복사해서 Maven 사용 실습하고 있었는데 실행이 안되서 찾아보니&lt;br /&gt;
@@ -72,7 +121,7 @@ Deployment Assembly - Add 버튼 - Java Build Path Entries - Maven Dependencies 
       
 
       
-        <summary type="html">에러 해결 2022-05-16 2022-05-19</summary>
+        <summary type="html">에러 해결 2022-05-16 2022-05-19 2022-06-01</summary>
       
 
       
@@ -87,9 +136,11 @@ Deployment Assembly - Add 버튼 - Java Build Path Entries - Maven Dependencies 
       <id>https://jeongjinhooo.github.io/error1</id>
       <content type="html" xml:base="https://jeongjinhooo.github.io/error1">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;에러 해결&lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./error1&quot;&gt;2022-05-16&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./error2&quot;&gt;2022-05-19&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;./error1&quot;&gt;2022-05-16&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;./error2&quot;&gt;2022-05-19&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;./error3&quot;&gt;2022-06-01&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
 &lt;hr /&gt;
 
 &lt;p&gt;web.xml에서 발생한 에러
@@ -101,7 +152,12 @@ cvc-id.3: A field of identity constraint ‘web-common-servlet-name-uniqueness�
 	xsi:schemaLocation=&quot;http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd&quot;
 	id=&quot;WebApp_ID&quot; version=&quot;3.0&quot;&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;xsi:schemaLocation=”http://java.sun.com/xml/ns/javaee에 있는 java를 대문자 JAVA로 바꾸어주면 된다.&lt;/p&gt;</content>
+
+&lt;p&gt;xsi:schemaLocation=”http://java.sun.com/xml/ns/javaee에 있는 java를 대문자 JAVA로 바꾸어주면 된다.&lt;/p&gt;
+
+&lt;h3 id=&quot;한글깨질때&quot;&gt;한글깨질때&lt;/h3&gt;
+
+&lt;p&gt;&amp;lt;%@page contentType=”text/html; charset=UTF-8”%&amp;gt; 상단에 이거 넣어주면 됨&lt;/p&gt;</content>
 
       
       
@@ -122,7 +178,7 @@ cvc-id.3: A field of identity constraint ‘web-common-servlet-name-uniqueness�
       
 
       
-        <summary type="html">에러 해결 2022-05-16 2022-05-19</summary>
+        <summary type="html">에러 해결 2022-05-16 2022-05-19 2022-06-01</summary>
       
 
       

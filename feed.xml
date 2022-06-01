@@ -1,9 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://jeongjinhooo.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jeongjinhooo.github.io/" rel="alternate" type="text/html" /><updated>2022-05-28T23:39:45+09:00</updated><id>https://jeongjinhooo.github.io/feed.xml</id><title type="html">Jinhonote</title><subtitle>개발공부블로그</subtitle><entry><title type="html">데이터타입</title><link href="https://jeongjinhooo.github.io/memo3" rel="alternate" type="text/html" title="데이터타입" /><published>2022-05-28T04:00:00+09:00</published><updated>2022-05-28T04:00:00+09:00</updated><id>https://jeongjinhooo.github.io/memo3</id><content type="html" xml:base="https://jeongjinhooo.github.io/memo3">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://jeongjinhooo.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jeongjinhooo.github.io/" rel="alternate" type="text/html" /><updated>2022-06-01T22:36:10+09:00</updated><id>https://jeongjinhooo.github.io/feed.xml</id><title type="html">Jinhonote</title><subtitle>개발공부블로그</subtitle><entry><title type="html">org.springframework.web.context.ContextLoader - Context initialization failed 컨텍스트 초기화 실패 오류</title><link href="https://jeongjinhooo.github.io/error3" rel="alternate" type="text/html" title="org.springframework.web.context.ContextLoader - Context initialization failed 컨텍스트 초기화 실패 오류" /><published>2022-06-01T04:00:00+09:00</published><updated>2022-06-01T04:00:00+09:00</updated><id>https://jeongjinhooo.github.io/error3</id><content type="html" xml:base="https://jeongjinhooo.github.io/error3">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;에러 해결&lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./memo1&quot;&gt;SQL 정리&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./memo2&quot;&gt;JAVA 정리&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./memo3&quot;&gt;데이터 타입&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;./error1&quot;&gt;2022-05-16&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;./error2&quot;&gt;2022-05-19&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;./error3&quot;&gt;2022-06-01&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ERROR: org.springframework.web.context.ContextLoader - Context initialization failed
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;이렇게 자꾸 에러가 떠서 5시간동안 구글링하면서 찾아보고있는데 알고보니까 memberVO를 memverVO로 오타나서 그런거였다
+오타 잘봐야겠다&lt;/p&gt;</content><author><name>Jinho1</name></author><category term="error" /><summary type="html">에러 해결 2022-05-16 2022-05-19 2022-06-01</summary></entry><entry><title type="html">데이터타입</title><link href="https://jeongjinhooo.github.io/memo3" rel="alternate" type="text/html" title="데이터타입" /><published>2022-05-28T04:00:00+09:00</published><updated>2022-05-28T04:00:00+09:00</updated><id>https://jeongjinhooo.github.io/memo3</id><content type="html" xml:base="https://jeongjinhooo.github.io/memo3">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;./memo1&quot;&gt;SQL 정리&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;./memo2&quot;&gt;JAVA 정리&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;./memo3&quot;&gt;데이터 타입&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;./memo4&quot;&gt;JAVA final&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;hr /&gt;
 &lt;h6 id=&quot;char-타입&quot;&gt;CHAR 타입&lt;/h6&gt;
 
@@ -68,7 +83,43 @@
   &lt;li&gt;사진등의 IMAGE, SOUND 저장&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;출처 : http://wiki.gurubee.net/pages/viewpage.action?pageId=1507641&amp;amp;&lt;/p&gt;</content><author><name>Jinho1</name></author><category term="memo" /><summary type="html">SQL 정리 JAVA 정리 데이터 타입 CHAR 타입</summary></entry><entry><title type="html">반복문</title><link href="https://jeongjinhooo.github.io/algorithm3" rel="alternate" type="text/html" title="반복문" /><published>2022-05-24T04:00:00+09:00</published><updated>2022-05-24T04:00:00+09:00</updated><id>https://jeongjinhooo.github.io/algorithm3</id><content type="html" xml:base="https://jeongjinhooo.github.io/algorithm3">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;백준 문제 연습&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;출처 : http://wiki.gurubee.net/pages/viewpage.action?pageId=1507641&amp;amp;&lt;/p&gt;</content><author><name>Jinho1</name></author><category term="memo" /><summary type="html">SQL 정리 JAVA 정리 데이터 타입 JAVA final CHAR 타입</summary></entry><entry><title type="html">JAVA final 이란</title><link href="https://jeongjinhooo.github.io/memo4" rel="alternate" type="text/html" title="JAVA final 이란" /><published>2022-05-28T04:00:00+09:00</published><updated>2022-05-28T04:00:00+09:00</updated><id>https://jeongjinhooo.github.io/memo4</id><content type="html" xml:base="https://jeongjinhooo.github.io/memo4">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;./memo1&quot;&gt;SQL 정리&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;./memo2&quot;&gt;JAVA 정리&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;./memo3&quot;&gt;데이터 타입&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;./memo4&quot;&gt;JAVA final&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;final&quot;&gt;final&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;변수(variable), 메서드(method), 클래스(class)에 사용&lt;/li&gt;
+  &lt;li&gt;어떤 곳에 사용되냐에 따라 다른 의미를 가진다&lt;/li&gt;
+  &lt;li&gt;무언가를 제한한다는 의미를 가지는 것은 공통적이 성격이다&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id=&quot;변수variable&quot;&gt;변수(variable)&lt;/h6&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;변수에 final을 붙이면 이 변수는 수정할 수 없다는 의미&lt;/li&gt;
+  &lt;li&gt;수정 할 수 없다는 범위는 그 변수의 값에 한정&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id=&quot;메서드method&quot;&gt;메서드(method)&lt;/h6&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;메서드에 final을 붙이면 override를 제한&lt;/li&gt;
+  &lt;li&gt;상속 받은 클래스에서 해당 메서드를 수정해서 사용하지 못하도록 할 수 있는 것&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id=&quot;클래스class&quot;&gt;클래스(Class)&lt;/h6&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;final 키워드를 클래스에 붙이면 상속 불가능 클래스&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Jinho1</name></author><category term="memo" /><summary type="html">SQL 정리 JAVA 정리 데이터 타입 JAVA final</summary></entry><entry><title type="html">반복문</title><link href="https://jeongjinhooo.github.io/algorithm3" rel="alternate" type="text/html" title="반복문" /><published>2022-05-24T04:00:00+09:00</published><updated>2022-05-24T04:00:00+09:00</updated><id>https://jeongjinhooo.github.io/algorithm3</id><content type="html" xml:base="https://jeongjinhooo.github.io/algorithm3">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;백준 문제 연습&lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./algorithm1&quot;&gt;입출력과 사칙연산&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./algorithm2&quot;&gt;조건문&lt;/a&gt;&lt;/li&gt;
@@ -241,9 +292,11 @@ public class Main {
   &lt;li&gt;예외에 대해 좀 더 세밀한 제어가 필요한 경우 ResponseEntity 클래스를 사용함&lt;/li&gt;
 &lt;/ul&gt;</content><author><name>Jinho1</name></author><category term="java" /><summary type="html">JAVA 웹을 다루는 기술 - 4장 JAVA 웹을 다루는 기술 - 5장 JAVA 웹을 다루는 기술 - 6,7장 JAVA 웹을 다루는 기술 - 8장 JAVA 웹을 다루는 기술 - 9장 JAVA 웹을 다루는 기술 - 10장 JAVA 웹을 다루는 기술 - 11,12장 JAVA 웹을 다루는 기술 - 13,14장 JAVA 웹을 다루는 기술 - 17장 JAVA 웹을 다루는 기술 - 18,19장 JAVA 웹을 다루는 기술 - 23장 JAVA 웹을 다루는 기술 - 25,26장 JAVA 웹을 다루는 기술 - 27,28장 JAVA 웹을 다루는 기술 - 29장 본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.</summary></entry><entry><title type="html">org.springframework.web.context.ContextLoaderListener의 애플리케이션 리스너를 설정하는 중 오류 발생</title><link href="https://jeongjinhooo.github.io/error2" rel="alternate" type="text/html" title="org.springframework.web.context.ContextLoaderListener의 애플리케이션 리스너를 설정하는 중 오류 발생" /><published>2022-05-19T04:00:00+09:00</published><updated>2022-05-19T04:00:00+09:00</updated><id>https://jeongjinhooo.github.io/error2</id><content type="html" xml:base="https://jeongjinhooo.github.io/error2">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;에러 해결&lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./error1&quot;&gt;2022-05-16&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./error2&quot;&gt;2022-05-19&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;./error1&quot;&gt;2022-05-16&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;./error2&quot;&gt;2022-05-19&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;./error3&quot;&gt;2022-06-01&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
 &lt;hr /&gt;
 
 &lt;p&gt;전에 하던 예제를 복사해서 Maven 사용 실습하고 있었는데 실행이 안되서 찾아보니&lt;br /&gt;
@@ -253,7 +306,7 @@ Maven - Update Project 실행시 maven 라이브러리 경로가 삭제되는 �
 &lt;p&gt;프로젝트 우클릭 - properties
 Deployment Assembly - Add 버튼 - Java Build Path Entries - Maven Dependencies 선택 - Apply버튼&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/image00/error2.PNG&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;</content><author><name>Jinho1</name></author><category term="error" /><summary type="html">에러 해결 2022-05-16 2022-05-19</summary></entry><entry><title type="html">JAVA 웹을 다루는 기술 - 27, 28장</title><link href="https://jeongjinhooo.github.io/javaweb27" rel="alternate" type="text/html" title="JAVA 웹을 다루는 기술 - 27, 28장" /><published>2022-05-18T04:00:00+09:00</published><updated>2022-05-18T04:00:00+09:00</updated><id>https://jeongjinhooo.github.io/javaweb27</id><content type="html" xml:base="https://jeongjinhooo.github.io/javaweb27">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/image00/error2.PNG&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;</content><author><name>Jinho1</name></author><category term="error" /><summary type="html">에러 해결 2022-05-16 2022-05-19 2022-06-01</summary></entry><entry><title type="html">JAVA 웹을 다루는 기술 - 27, 28장</title><link href="https://jeongjinhooo.github.io/javaweb27" rel="alternate" type="text/html" title="JAVA 웹을 다루는 기술 - 27, 28장" /><published>2022-05-18T04:00:00+09:00</published><updated>2022-05-18T04:00:00+09:00</updated><id>https://jeongjinhooo.github.io/javaweb27</id><content type="html" xml:base="https://jeongjinhooo.github.io/javaweb27">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb4&quot;&gt;JAVA 웹을 다루는 기술 - 4장&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./javaweb5&quot;&gt;JAVA 웹을 다루는 기술 - 5장&lt;/a&gt;&lt;/li&gt;
@@ -688,314 +741,4 @@ resultMap : 여러개의 레코드를 반환받을때&lt;/p&gt;
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;name like &apos;%&apos;#{name}&apos;%&apos;          //  오라클에서 사용하는 방법
 
 name like &apos;%&apos; || #{name} || &apos;%&apos;	 // 마이바티스에서 사용하는 방법
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Jinho1</name></author><category term="java" /><summary type="html">JAVA 웹을 다루는 기술 - 4장 JAVA 웹을 다루는 기술 - 5장 JAVA 웹을 다루는 기술 - 6,7장 JAVA 웹을 다루는 기술 - 8장 JAVA 웹을 다루는 기술 - 9장 JAVA 웹을 다루는 기술 - 10장 JAVA 웹을 다루는 기술 - 11,12장 JAVA 웹을 다루는 기술 - 13,14장 JAVA 웹을 다루는 기술 - 17장 JAVA 웹을 다루는 기술 - 18,19장 JAVA 웹을 다루는 기술 - 23장 JAVA 웹을 다루는 기술 - 25,26장 JAVA 웹을 다루는 기술 - 27,28장 JAVA 웹을 다루는 기술 - 29장 본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.</summary></entry><entry><title type="html">JAVA</title><link href="https://jeongjinhooo.github.io/memo2" rel="alternate" type="text/html" title="JAVA" /><published>2022-05-12T04:00:00+09:00</published><updated>2022-05-12T04:00:00+09:00</updated><id>https://jeongjinhooo.github.io/memo2</id><content type="html" xml:base="https://jeongjinhooo.github.io/memo2">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./memo1&quot;&gt;SQL 정리&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./memo2&quot;&gt;JAVA 정리&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./memo3&quot;&gt;데이터 타입&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;게터와-세터getter-and-setter&quot;&gt;게터와 세터(getter and setter)&lt;/h3&gt;
-
-&lt;p&gt;getter와 setter는 말 그대로 어떤 오브젝트 혹은 변수의 값을 가져오거나, 설정해주는 역할을 하는 메소드를 말한다.&lt;/p&gt;
-
-&lt;h6 id=&quot;getter&quot;&gt;getter&lt;/h6&gt;
-&lt;ul&gt;
-  &lt;li&gt;return type은 참조할 맴버변수의 자료형과 일치해야 한다.&lt;/li&gt;
-  &lt;li&gt;이름 앞에 get 을 붙이고 뒤에는 리턴할 맴버변수의 이름 혹은 해당 변수를 직관적으로 표현하는 단어가 와야한다.&lt;/li&gt;
-  &lt;li&gt;ex) int getLength();&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h6 id=&quot;setter&quot;&gt;setter&lt;/h6&gt;
-&lt;ul&gt;
-  &lt;li&gt;return type은 void 혹은 값의 설정 결과를 알려줄 수 있는 type이어야 한다.&lt;/li&gt;
-  &lt;li&gt;argument는 수정할 맴버변수와 같은 type이어야 한다.&lt;/li&gt;
-  &lt;li&gt;이름 앞에 set을 붙이고 뒤에는 수정할 맴버변수의 이름 혹은 해당 변수를 직관적으로 표현하는 단어이어야 한다.&lt;/li&gt;
-  &lt;li&gt;ex) void setLength(int length);&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;override-어노테이션&quot;&gt;@Override 어노테이션&lt;/h3&gt;
-&lt;p&gt;상속받은 메서드를 재정의할 때 메서드 이름이 틀리지 않게 쓰기 위한 어노테이션이다&lt;/p&gt;
-
-&lt;h3 id=&quot;cset-태그&quot;&gt;&amp;lt;c:set&amp;gt; 태그&lt;/h3&gt;
-&lt;p&gt;&lt;br /&gt;
-&amp;lt;c:set&amp;gt; 태그는 EL에서 사용되어질 수 있는 Bean, Map등에 값을 설정을 하거나, 일반 변수를 생성해서 값을 할당 할 수 있다&lt;/p&gt;
-
-&lt;h3 id=&quot;cset-태그-속성&quot;&gt;&amp;lt;c:set&amp;gt; 태그 속성&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;value 속성 : 값을 입력.  EL을 사용할 수 있다.&lt;/li&gt;
-  &lt;li&gt;target 속성 : 프로퍼티를 설정할 빈 또는 맵&lt;/li&gt;
-  &lt;li&gt;property 속성 : 설정할 프로퍼티&lt;/li&gt;
-  &lt;li&gt;var 속성 : 값이 저장되는 변수명&lt;/li&gt;
-  &lt;li&gt;scope 속성 : 변수가 저장된  Scope.&lt;br /&gt; page, request, session, application 을 가질 수 있고, 기본값은 page&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Jinho1</name></author><category term="memo" /><summary type="html">SQL 정리 JAVA 정리 데이터 타입</summary></entry><entry><title type="html">입출력과 사칙연산</title><link href="https://jeongjinhooo.github.io/algorithm1" rel="alternate" type="text/html" title="입출력과 사칙연산" /><published>2022-05-07T04:00:00+09:00</published><updated>2022-05-07T04:00:00+09:00</updated><id>https://jeongjinhooo.github.io/algorithm1</id><content type="html" xml:base="https://jeongjinhooo.github.io/algorithm1">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;백준 문제 연습&lt;/span&gt;&lt;/p&gt;
-&lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./algorithm1&quot;&gt;입출력과 사칙연산&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./algorithm2&quot;&gt;조건문&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./algorithm3&quot;&gt;반복문&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;h6 id=&quot;문제-2557&quot;&gt;문제 2557&lt;/h6&gt;
-&lt;p&gt;&lt;br /&gt;
-Hello World!를 출력하시오.&lt;/p&gt;
-
-&lt;h6 id=&quot;풀이&quot;&gt;풀이&lt;/h6&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;public class Main {
-	public static void main(String[] args) {
-		System.out.print(&quot;Hello World!&quot;);    
-	}
-}
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;백준 알고리즘에서는 클래스명을 Main으로 해주어야 한다&lt;/p&gt;
-
-&lt;h6 id=&quot;문제-10718&quot;&gt;문제 10718&lt;/h6&gt;
-&lt;p&gt;&lt;br /&gt;
-두 줄에 걸쳐 “강한친구 대한육군”을 한 줄에 한 번씩 출력한다.&lt;/p&gt;
-
-&lt;h6 id=&quot;풀이-1&quot;&gt;풀이&lt;/h6&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;public class Main {
-	
-	public static void main(String[] args) {
-		System.out.println(&quot;강한친구 대한육군&quot;);
-		System.out.println(&quot;강한친구 대한육군&quot;);
-	}
-}
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;public class Main {
-	
-	public static void main(String[] args) {
-		System.out.println(&quot;강한친구 대한육군\n강한친구 대한육군&quot;);	
-	}
-}
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;\n 으로 줄바꿈 할수있다&lt;/p&gt;
-&lt;h6 id=&quot;문제-10171&quot;&gt;문제 10171&lt;/h6&gt;
-&lt;p&gt;&lt;br /&gt;
-고양이를 출력한다.&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;\    /\
- )  ( &apos;)
-(  /  )
- \(__)|
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h6 id=&quot;풀이-2&quot;&gt;풀이&lt;/h6&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;public class Main {
-	public static void main(String[] args) {
-    
-		System.out.println(&quot;\\    /\\&quot;);
-		System.out.println(&quot; )  ( &apos;)&quot;);
-		System.out.println(&quot;(  /  )&quot;);
-		System.out.println(&quot; \\(__)|&quot;);    
- 
-	}
-}
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;public class Main {
-	public static void main(String[] args) {
-    
-	System.out.println(  &quot;\\    /\\\n&quot; + 
-		                 &quot; )  ( &apos;)\n&quot; + 
-		            	 &quot;(  /  )\n&quot; + 
-		            	 &quot; \\(__)|&quot;);
-	}
-}
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;\는 이스케이프 시퀀시로 사용되는 문자이기 때문에 출력하려면 \\와같이 앞에 \를 하나 붙여야 정상적으로 출력된다&lt;/p&gt;
-
-&lt;h6 id=&quot;문제-25083&quot;&gt;문제 25083&lt;/h6&gt;
-&lt;p&gt;&lt;br /&gt;
-새싹을 출력한다.&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;         ,r&apos;&quot;7
-r`-_   ,&apos;  ,/
- \. &quot;. L_r&apos;
-   `~\/
-      |
-      |
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h6 id=&quot;풀이-3&quot;&gt;풀이&lt;/h6&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;public class Main { 
-    public static void main(String[] args) {
-  System.out.printf(&quot;         ,r&apos;\&quot;7\n&quot;);
-  System.out.printf(&quot;r`-_   ,&apos;  ,/\n&quot;);
-  System.out.printf(&quot; \\. \&quot;. L_r&apos;\n&quot;);
-  System.out.printf(&quot;   `~\\/\n&quot;);
-  System.out.printf(&quot;      |\n&quot;);
-  System.out.printf(&quot;      |\n&quot;);       
-    }
-}
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;’\‘나 &quot;는 앞에 \를 붙여주면 출력이 가능하다&lt;/p&gt;
-
-&lt;h6 id=&quot;문제-1000-1001-10998&quot;&gt;문제 1000, 1001, 10998&lt;/h6&gt;
-&lt;p&gt;&lt;br /&gt;
-두 정수 A와 B를 입력받은 다음, A+B, A-B, A*B를 출력하는 프로그램을 작성하시오.&lt;/p&gt;
-
-&lt;h6 id=&quot;풀이-4&quot;&gt;풀이&lt;/h6&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;import java.util.Scanner;
-
-public class Main {
-
-	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		int a = sc.nextInt();
-		int b = sc.nextInt();
-		
-
-		System.out.println(a + b); // A+B
-        System.out.println(a - b); // A-B
-        System.out.println(a * b); // A*B
-
-	}
-}
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h6 id=&quot;문제-1008&quot;&gt;문제 1008&lt;/h6&gt;
-&lt;p&gt;&lt;br /&gt;
-첫째 줄에 A/B를 출력한다. 실제 정답과 출력값의 절대오차 또는 상대오차가 10-9 이하이면 정답&lt;/p&gt;
-
-&lt;h6 id=&quot;풀이-5&quot;&gt;풀이&lt;/h6&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;import java.util.Scanner;
-
-public class Main {
-
-	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		Double a = sc.nextDouble();
-		Double b = sc.nextDouble();
-		
-
-		System.out.println(a/b);
-	}
-}
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h6 id=&quot;문제-10869&quot;&gt;문제 10869&lt;/h6&gt;
-&lt;p&gt;&lt;br /&gt;
-첫째 줄에 A+B, 둘째 줄에 A-B, 셋째 줄에 A*B, 넷째 줄에 A/B, 다섯째 줄에 A%B를 출력한다.&lt;/p&gt;
-
-&lt;h6 id=&quot;풀이-6&quot;&gt;풀이&lt;/h6&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;import java.util.Scanner;
-
-public class Main {
-
-	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		int a = sc.nextInt();
-		int b = sc.nextInt();
-		
-
-		System.out.println(a+b);
-        System.out.println(a-b);
-        System.out.println(a*b);
-        System.out.println(a/b);
-        System.out.println(a%b);
-	}
-}
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h6 id=&quot;문제-10926&quot;&gt;문제 10926&lt;/h6&gt;
-&lt;p&gt;&lt;br /&gt;
-첫째 줄에 준하의 놀람을 출력한다. 놀람은 아이디 뒤에 ??!를 붙여서 나타낸다.&lt;/p&gt;
-
-&lt;h6 id=&quot;풀이-7&quot;&gt;풀이&lt;/h6&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;import java.util.Scanner;
-
-public class Main {
-
-	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		String id = sc.next();
-		System.out.println(id + &quot;??!&quot;);
-		}
-
-	}
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h6 id=&quot;문제-18108&quot;&gt;문제 18108&lt;/h6&gt;
-&lt;p&gt;&lt;br /&gt;
-불기 연도가 주어질 때 이를 서기 연도로 바꿔 주는 프로그램을 작성하시오.
-예제) 2541 -&amp;gt; 1998&lt;/p&gt;
-
-&lt;h6 id=&quot;풀이-8&quot;&gt;풀이&lt;/h6&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;import java.util.Scanner;
-
-public class Main {
-        
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.println(sc.nextInt()-543);
-        }
-    }
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h6 id=&quot;문제-10430&quot;&gt;문제 10430&lt;/h6&gt;
-&lt;p&gt;&lt;br /&gt;
-첫째 줄에 (A+B)%C, 둘째 줄에 ((A%C) + (B%C))%C, 셋째 줄에 (A×B)%C, 넷째 줄에 ((A%C) × (B%C))%C를 출력한다.&lt;/p&gt;
-
-&lt;h6 id=&quot;풀이-9&quot;&gt;풀이&lt;/h6&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;import java.util.Scanner;
-
-public class Main {
-
-	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		int a = sc.nextInt();
-		int b = sc.nextInt();
-        int c = sc.nextInt();
-		
-		System.out.println((a+b)%c);
-        System.out.println(((a%c)+(b%c))%c);
-        System.out.println((a*b)%c);
-        System.out.println(((a%c)*(b%c))%c);     
-	}
-}
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h6 id=&quot;문제-2588&quot;&gt;문제 2588&lt;/h6&gt;
-&lt;p&gt;&lt;br /&gt;
-(세 자리 수) × (세 자리 수)는 다음과 같은 과정을 통하여 이루어진다.&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    472  ----&amp;gt; (1)
-   *385  ----&amp;gt; (2)
-_______   
-   2360  ----&amp;gt; (3)
-  3776   ----&amp;gt; (4)
- 1416    ----&amp;gt; (5)
-_______
- 181720  ----&amp;gt; (6)
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;(1)과 (2)위치에 들어갈 세 자리 자연수가 주어질 때 (3), (4), (5), (6)위치에 들어갈 값을 구하는 프로그램을 작성하시오.&lt;/p&gt;
-
-&lt;h6 id=&quot;풀이-10&quot;&gt;풀이&lt;/h6&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;import java.util.Scanner;
- 
-public class Main {
- 
-	public static void main(String[] args) {
-		Scanner in = new Scanner(System.in);
- 
-		int A = in.nextInt();   // Scanner을 이용하여 A는 int로
-		String B = in.next();   // B는 String 으로 입력받는다
-        
-		in.close();
- 
-		System.out.println(A * (B.charAt(2) - &apos;0&apos;));
-		System.out.println(A * (B.charAt(1) - &apos;0&apos;));
-		System.out.println(A * (B.charAt(0) - &apos;0&apos;));
-		//charAt() : 문자열의 인덱스 위치에 있는 문자(Character) 값을 반환한다
-		// -&apos;0&apos; 을 해주는 이유 : 우리가 보는 숫자 그대로의 값을 쓰기 위한 것
-		System.out.println(A * Integer.parseInt(B));
-		//Integer.parseInt()을 통해 문자열을 int형으로 바꿔준다
- 
-	}
-}
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Jinho1</name></author><category term="algorithm" /><summary type="html">백준 문제 연습 입출력과 사칙연산 조건문 반복문 문제 2557 Hello World!를 출력하시오.</summary></entry></feed>
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Jinho1</name></author><category term="java" /><summary type="html">JAVA 웹을 다루는 기술 - 4장 JAVA 웹을 다루는 기술 - 5장 JAVA 웹을 다루는 기술 - 6,7장 JAVA 웹을 다루는 기술 - 8장 JAVA 웹을 다루는 기술 - 9장 JAVA 웹을 다루는 기술 - 10장 JAVA 웹을 다루는 기술 - 11,12장 JAVA 웹을 다루는 기술 - 13,14장 JAVA 웹을 다루는 기술 - 17장 JAVA 웹을 다루는 기술 - 18,19장 JAVA 웹을 다루는 기술 - 23장 JAVA 웹을 다루는 기술 - 25,26장 JAVA 웹을 다루는 기술 - 27,28장 JAVA 웹을 다루는 기술 - 29장 본 포스팅은 “자바 웹을 다루는 기술/이병승 저” 를 읽고 학습한 내용을 정리한 것입니다.</summary></entry></feed>
